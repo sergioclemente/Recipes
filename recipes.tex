@@ -3,6 +3,7 @@
 \usepackage{listings}
 
 \usepackage[a4paper, margin=0.8in]{geometry}
+\usepackage{hyperref}
 
 \title{Recipes}
 \author{Sergio Clemente Filho}
@@ -27,7 +28,7 @@
 	\item Bitter
 \end{itemize}
 
-\section{Ratios}
+	\section{Ratios}
 \begin{itemize}
 	\item Ratio of oil to vinegar: 4/1 or 2/1 to more sour resistants.
 \end{itemize}
@@ -38,7 +39,7 @@
 \end{itemize}
 
 \newcommand{\chick}[3]{
-\subsection{#1}
+\subsection{[templated] #1}
 
 \paragraph{Ingredients:}
 
@@ -55,50 +56,37 @@
 \item (Optional) If you can put all ingredients in a ziplock bag and let it rest for couple of hours or overnight.
 \item On a sautee pan, add some oil and sear one side of the chicken in high heat.
 \item Throw in the remaining ingredients. Lower the heat, flip the side of the chicken, add a lid and let it simmer for 10-15min.
+\item If you have a temperature probe, make sure its 165F
 \end{itemize}
 
 \paragraph{Notes:} #3
 }
 
+\newcommand{\placeholder}[2]{
+	\subsection{[TODO] #1}
+	
+	Fill it
+	
+	\url{#2}
+}
+
 \section{Fast everyday recipes}
 
-\chick{Cumin / Garlic}{5 cloves of minced garlic, 1 tsp cumin}{}
-
 \chick{Curry Chicken}{1 tsp knoor, 2 tbl spoon curry powder, 1 tbl spoon Coconut oil}{}
+
+\chick{Galinha Baiana}{Tempero baiano, 3-4 colheres de molho ingles, 6-7 dentes de alho amassado, 2 colheres de molho shoyu, 3 colheres de molho de tomate, 1 colher de cha de knoor}{}
+
+\chick{Galinha italiana}{Cuminho, Oregano, Alho e sal}
+
+\chick{Cilantro chicken}{Cilantro, Chopped onion and Salt}
+
+\chick{Chicken on Tomato Sauce}{1 can of diced tomato (fire roasted), cummin, cilantro, 1 knoor, chopped garlid}
 
 \chick{Onion chicken}{2 onions, 2 tsp of chopped garlic, 2 tablespoons of olive oil, 1 knoor}{User a blender to blend onion and garlic. Use just enough water so you can get a pasty texture}
 
 \chick{Curried Tomato}{2 onions, 5 chopped tomatoes, 1 tablespoon of garlic, 1 tsp cumin, 2/3 tsp paprika, 2/3 tsp curry, 1 knoor}{User a blender to blend onion and garlic.}
 
-\chick{Galinha Baiana}{Tempero baiano, 3-4 colheres de molho ingles, 6-7 dentes de alho amassado, 2 colheres de molho shoyo, 3 colheres de molho de tomate, 1 colher de cha de knoor}{}
-
-\subsection{Carne Assada}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-	\item 1 cut of flank steak
-	\item 1 lemon
-	\item 4 garlic cloves
-	\item 1/2 cup of soy sauce
-	\item 1 teaspoon chilli powder
-	\item 1 teaspoon paprika
-	\item 1 teaspoon ground cumin
-	\item 1 teaspoon oregano
-	\item black pepper
-	\item olive oil
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-	\item Mix all ingredients
-	\item Let it sit in the fridge overnight
-	\item On a high heat, put meat first
-	\item Then add the juices and sauce
-	\item Simmer for 10-15'
-\end{itemize}
-
-\subsection{Soy Meat}
+\subsection{Meat w/ Soy sauce}
 
 \paragraph{Ingredients:}
 
@@ -108,7 +96,7 @@
 	\item 2-3 garlic cloves (1 table spoon of chopped garlic)
 	\item 1/4 red pepper (Optional)
 	\item 1/4 tea spoon ginger powder (Optional)
-	\item 1 cup soysauce (low sodium)
+	\item 1 cup soy sauce (low sodium)
 \end{itemize}
 
 \paragraph{Directions:}
@@ -118,6 +106,8 @@
 	\item On the same pan add the beef, sear the beef all sides
 	\item When beef is seared (4-5min) add the soy sauce, optionally the ginger and let it cook for 10-15min.
 \end{itemize}
+
+\paragraph{Notes:}You can add some sesame oil on the pan, just when it gets done.
 
 \subsection{Chicken (Receita Casa Vovo)}
 
@@ -130,16 +120,16 @@
 	\item cebolinha (o verde e branco tudo junto) 
 	\item 2-3 dentes de alho 
 	\item Coentro 
-	\item 2 caldos quinor (pra 2 peito de frango) 
-	\item Molho de tomate 
-	\item Vinagre branco
+	\item 1:1 caldo knoor pra peito de frango. E.g. 2 caldos knoors para 2 peitos de frango
+	\item Molho de tomate a gosto (1/2 xicara)
+	\item Vinagre branco a gosto (1-2 colheres)
 \end{itemize}
 
 \paragraph{Directions:}
 \begin{itemize}
 	\item Refoga com azeite os ingredients.
 	\item Corta a galinha em pedacos e coloca na agua e limao. Depois de lavar a galinha,
-	\item Joga a galinha no refogado (Nao refoga mto nao, so ate o knor derreter). 
+	\item Joga a galinha no refogado
 	\item Joga o cuminho com sal.
 	\item Bota molho de tomate e vinagre (1 colher)
 	\item Deixa por uns 30-40min em fogo baixo tampado.
@@ -181,6 +171,62 @@
 \begin{itemize}
 	\item Heat 2 tablespoons of butter and add 2 tablespoons of flour
 	\item Add chicken juices from cooked chicken (Separate butter)
+\end{itemize}
+
+\subsection{Pork on Mustard and Vinegar}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 1/2 onion
+	\item 1 clove of garlic
+	\item 1 table spoon mustard
+	\item 3 table spoons of apple cider vinegar
+	\item 3 tablespoons oil or olive oil
+	\item 1 tablespoon margarine
+	\item salt
+	\item pepper
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Chop onion
+	\item Mince garlic
+	\item Mix onion, garlic, mustard, apple cider vinegar and put into a bowl
+	\item Put pork into bowl and let it sit for 30'
+	\item On a skillet put margarine and a bit of oil
+	\item Add pork
+	\item Season both sides, then pour the onion mixture
+	\item Let it cook a bit and done
+\end{itemize}
+
+\placeholder{Carne Molho Ingles / Shoyu}{none}
+
+
+\subsection{Carne Assada}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 1 cut of flank steak
+	\item 1 lemon
+	\item 4 garlic cloves
+	\item 1/2 cup of soy sauce
+	\item 1 teaspoon chilli powder
+	\item 1 teaspoon paprika
+	\item 1 teaspoon ground cumin
+	\item 1 teaspoon oregano
+	\item black pepper
+	\item olive oil
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Mix all ingredients
+	\item Let it sit in the fridge overnight
+	\item On a high heat, put meat first
+	\item Then add the juices and sauce
+	\item Simmer for 10-15'
 \end{itemize}
 
 \section{Jane Loures}
@@ -226,7 +272,7 @@
 
 \section{Starches / Beans}
 
-\subsection{Rice}
+\subsection{Simple Rice}
 
 \paragraph{Ingredients:}
 
@@ -317,7 +363,7 @@ steps in the Directions.
 	\item 1 tsp sweet paprika
 	\item 1 tsp cumin
 	\item 1-2 Bay leaves 
-	\item 3oz Tomato paste (Hunts Tomato Paste 6oz)
+	\item 3oz Tomato paste (Hunts Tomato Paste 6oz). UPDATE: I've recently updated to use a table spoon only.  I think it tastes much better.
 	\item 1/3 of bunch of cilantro (without the stems)
 	\item 1 onion 
 	\item 1 tomato 
@@ -352,7 +398,7 @@ Easy mode of this dish is put everything in the slow cooker (high mode) for 5hrs
 \paragraph{Ingredients:}
 
 \begin{itemize}
-	\item 1 cup Polenta
+	\item 1 cup Polenta. The finer grain the better. Been relatively successful with Delallo Instant Polenta.
 	\item 1 tbl spoons butter
 	\item 2 tbl spoons powdered milk
 	\item 2 tbl spoons of parmesan cheese
@@ -400,6 +446,24 @@ more of the sauce to cover the potatoes. Top with a third of the cheddar cheese 
 \item Garnish with remaining \textbf{chives} and serve warm.
 \end{itemize}
 
+\subsection{Beans on tomato sauce (Luzinete Style)}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 2 cups of soybeans/white beans
+	\item olive oil
+	\item 1 onion
+	\item 1 tomato
+	\item 1 cup of Tomato sauce (The brazilian one Tarantella is the best)
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item On a sautee pan cook chopped onions and tomato
+	\item Cook the soybeans on the pressure cooker (w/ onion an tomato) with just water and salt for 20/40' (Depending whether is white beans/soy).
+\end{itemize}
+
 \subsection{Truffle Sauce for Pasta}
 
 \paragraph{Truffle butter}
@@ -425,47 +489,113 @@ more of the sauce to cover the potatoes. Top with a third of the cheddar cheese 
 	\item Add milk slowly, taste, you might need more or less milk if truffle is too strong.
 \end{itemize}
 
-\section{Indian food}
+\section{Bacalhau}
 
-\subsection{Sag Paneer (With tofu)}
+\subsection{Bacalhau Gomes Sa (Tia Ana)}
 
-\paragraph{Ingredients (For gravy):}
+\paragraph{Ingredients:}
+
 \begin{itemize}
-\item 2 bunches of spinach (500g)
-\item 1 pinch of kasuri methi
-\item 1 tablespoon of tomato paste
-\end{itemize}
-
-\paragraph{Ingredients (Base):}
-\begin{itemize}
-\item 1 pinch of cumin seeds
-\item 1 onion thiny sliced
-\item 1 teaspoon of grated fresh ginger
-\item 3 cloves garlic, minced
-\item 1 tomatoe diced
-\end{itemize}
-
-\paragraph{Ingredients (Seasonings):}
-\begin{itemize}
-\item 2 tsp of garam masala
-\item 1/8 tsp of cardamom
-\item 1/2 tsp ground turmeric
-\item 1/2 tsp red pepper
-\item 1 tsp cumin
-\end{itemize}
-
-\paragraph{Ingredients (Protein):}
-\begin{itemize}
-\item Tofu
+	\item Bacalhau (1.5kg)
+	\item Batata (6 batatas)
+	\item Cebola (6 cebolas)
+	\item Alho (1 cabeca de alho)
+	\item Azeite (2 latas de azeite galo)
+	\item Tomate (4 tomates)
+	\item Ovo (8 ovos)
+	\item Salsa (1 bocadinho)
 \end{itemize}
 
 \paragraph{Directions:}
 \begin{itemize}
-\item Dry tofu with paper towels. Fry them and set aside.
-\item In a pan add oil and fry cumin seeds (Around 1 minute). \item Add onion for 2-3 minutes. Then add ginger and garlic until fragrant. Add seasonings (garam masala, turmeric, cumin, red pepper and cumin). Add the tomato and sear for 10'.
+	\item Doura cebola e alho no azeite (Bastante azeite). Nao colocar no oleo quente. Deixar a cebola e o alho cozinhar no azeite.
+	\item Cozinha o bacalhau na agua e sal por pouco tempo, separa e desfia (Se o bacalhau ja for salgado não precisa colocar mais sal
+	\item Cozinha batata cortada em cubinhos. Nao deixar cozinhar muito pra não virar um "pure" quando misturar no bacalhau depois
+	\item Quando a cebola comecar a dourar, joga o peixe e deixa uns 10min
+	\item Coloca salsa picada
+	\item Coloca a batata e espera ver se vai precisar botar mais azeite
+	\item Coloca ovo cozido amassado no bacalhau (so coloca 4) os outros voce coloca fatiado por cima
+	\item Deixa descansar durante a noite (pode botar em tupperware desde que esteja frio).
+	\item No dia seguinte corta umas rodelas de ovo cozido e poe por cima e umas fatias de tomate tambem. Bota no forno pra deixar  queimado em cima.
+\end{itemize}
 
-\item Add in the spinach, kasuri methi, tomato paste and simmer for 5' (You can also cook the spinach and make a puree before). Add the friend tofu. 
-\end{itemize}|
+\subsection{Bacalhau Espiritual - Modificado}
+
+A base desse bacalhau eh o gomes sa + o molho bechamel. A grande diferenca do gomes sa eh que essa receita leva bem menos azeite ja que vai levar o molho branco. A receita original [1] leva pao, mas eu acho melhor com batata.
+
+[1] https://www.196flavors.com/portugal-bacalhau-espiritual/
+
+Essa receita demora 3 dias para ficar pronta:
+\begin{itemize}
+	\item T-2: Bacalhau fica de molho pra desalgar
+	\item T-1: Faz a base do gomes sa
+	\item T: Faz o molho branco, batata e mistura com o bacalhau
+\end{itemize}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 1 lb bacalhau
+	\item Azeite de oliva
+	\item 1 onion
+	\item 2 garlic cloves crushed
+	\item 10 yellow potatoes, chopped
+	\item Bechamel Sauce (Blue Apron)
+\end{itemize}
+
+\paragraph{Directions (T-2)}
+\begin{itemize}
+	\item Deixar o bacalhau de molho, trocar a agua pelo menos 3 vezes.
+\end{itemize}
+
+\paragraph{Directions (T-1)}
+\begin{itemize}
+	\item Cozer o bacalhau, depois que estiver fervendo contar 5 minutos. Retire do fogo. Descarte a agua e desfie.
+	\item Fritar a cebola no azeite, adicionar o alho e logo em seguida o bacalhau desfiado.
+	\item Deixar o bacalhau fritando um pouco (uns 5minutos)
+\end{itemize}
+
+
+\paragraph{Directions (T)}
+\begin{itemize}
+	\item Corte a batata, leve para ferver. Quando estiver ao dente retire a batata do forno.
+	\item Fazer o molho branco seguindo a receita to Molho Bechamel (Blue Apron) ao pe da letra.
+	\item Misture tudo (Molho Branco, Batata e base do bacalhau)
+	\item Adicione mais queijo fontina em cima a gosto e leve ao forno para gratinar (450F)
+\end{itemize}
+
+
+\placeholder{Creme de bacalhau}{https://www.youtube.com/watch?v=sf8dNmpWWVA}
+
+\placeholder{Bacalhau ao ze do pipo}{https://www.youtube.com/watch?v=vKF096k3oxk}
+
+\placeholder{Bacalhau gomes sa}{https://www.youtube.com/watch?v=biRLy3Uuj3Q}
+
+\placeholder{Bolinho de bacalhau}{https://www.youtube.com/watch?v=tA48tXulepQ}
+
+\section{Bread}
+
+\placeholder{Bread}{https://www.youtube.com/watch?v=3Uc8h4T7GDo}
+
+\section{Smoker}
+
+\placeholder{Smoked Salmon}{https://www.traeger.com/recipes/traeger-smoked-salmon}
+
+\placeholder{Pulled Pork}{https://www.traeger.com/recipes/traeger-pulled-pork}
+
+
+\section{Seafood}
+
+\placeholder{Fish Tacos}{none}
+
+\placeholder{Moqueca}{https://www.youtube.com/watch?v=zNeeM21pt70}
+
+\url{https://www.youtube.com/watch?v=7fzeJI96_S0}
+\url{https://www.tudogostoso.com.br/receita/2831-moqueca-de-peixe.html}
+
+\placeholder{Clam showder}{}
+
+\placeholder{Mussels w/ Wine and Garlic}{https://www.jessicagavin.com/steamed-mussels-white-wine-garlic/}
 
 \section{Breakfast}
 
@@ -520,24 +650,6 @@ Have some spare butter
 
 \section{Apps}
 
-\subsection{Beet Humus}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-	\item 1 can of whole beets
-	\item 1 can of garbanzo beans
-	\item 1 lemon (zest + juice)
-	\item 6 garlic cloves
-	\item 1/4 cup olive oil
-\end{itemize}
-
-\paragraph{Directions:}
-
-\begin{itemize}
-	\item Put everything in a mixer (Add some salt and pepper to taste) and mix. You might want to put some water too.
-\end{itemize}
-
 \subsection{Bruschetta}
 
 \paragraph{Ingredients:}
@@ -560,41 +672,45 @@ PS1: Trick to cut the toast thin is to put on the freezer overnight
 PS2: One variation is using fried garlic. But you need more. I've used 6 garlic cloves.
 PS3: Another variation is using balsamic vinegar.
 
-\subsection{Eggplant (Sergio)}
+\subsection{Caponata (Sergio)}
 
 \paragraph{Ingredients:}
 
 \begin{itemize}
 	\item 1 eggplant
+	\item 1lb of tomatoes (3-4 tomatoes)
+	\item 1 onion
 	\item 5 garlic cloves
-	\item red bell peppers
+	\item 3 table spoons of chopped olives.
+	\item 2 teaspoon of sherry vinegar.
+	\item 1 red bell pepper
 \end{itemize}
 
 \paragraph{Directions:}
 \begin{itemize}
-	\item Chop everything, put some olive oil and salt then put in a tray at 400F for 20-30min.
-	\item Put everything in a blender with a bit of water 
+	\item Roast eggplant (425F for 20min)
+	\item With olive oil (Be generous) and on this order sear: onions, garlic, bell peppers.
+	\item Once they are seared, add tomatoes and let it simmer for 30min.
+	\item Once ready, add vinegar and olives.
 \end{itemize}
 
-\subsection{Eggplant (Cunhado)}
+\subsection{Caponata in Oven}
+
+\placeholder{Eggplant in preserved olive oil}{https://www.youtube.com/watch?v=CUgBNdagVGU}
 
 \paragraph{Ingredients:}
 
 \begin{itemize}
-	\item 1 Eggplant
-	\item 8 garlic cloves
+	\item 10 roma tomatoes roughly chopped
 	\item 1 onion
-	\item olive oil
-	\item red pepper
-	\item 1 tomato
+	\item 10 green olives
+	\item 8 garlic cloves (whole)
 \end{itemize}
 
 \paragraph{Directions:}
 \begin{itemize}
-	\item Add olive oil in the sauce pan and cook garlic, onion and pepper
-	\item Add eggplants cut into small pieces
-	\item Cover sauce pan for 10'
-	\item Leave in the fridge overnight for absorbing flavour
+	\item Mix everything with olive oil, salt and ground pepper.
+	\item Turn oven to 350F and leave for a 2-3hours. Mix every 30mins.
 \end{itemize}
 
 \subsection{Garlic bread}
@@ -641,57 +757,129 @@ PS3: Another variation is using balsamic vinegar.
 
 \section{Weekend Meals}
 
-\subsection{Tomato Soup}
+\subsection{Burger}
 
-\paragraph{Ingredients:}
-\begin{itemize}
-	\item 2 lb of tomatoes
-	\item 7 garlic cloves
-	\item 1 onion
-	\item Chicken stock
-	\item olive oil
-	\item 3 table spoons Parmesan cheese
-\end{itemize}
+TODO: Fill it
 
-\paragraph{Directions:}
-\begin{itemize}
-	\item Cut tomatoes in half.
-	\item Roughly chop onions
-	\item Put all vegetables in a large tray.
-	\item Season generously with salt and pepper
-	\item Sprinkle olive oil on top
-	\item Put tray on oven on 375F for 60-90minutes
-	\item When vegetables are roasted put in a food mixer
-	\item Put mixture in a sauce pan, add chicken stock until reaches desired consistency.
-	\item Taste and depending on acidity add some sugar (1-2 tsp of coconut sugar). Make sure to balance with salt for sweetness.
-\end{itemize}
-
-\paragraph{Notes:}
-\begin{itemize}
-	\item (Optional) Add 1 tsp of cornstarch and 1 cup of milk for a richer soup.
-	\item (Optional) Add 2-4 tbl spoon of Parmesan cheese.
-\end{itemize}
-
-\subsection{French Onion Soup}
+\subsection{Chicken Fricassee}
 
 \paragraph{Ingredients:}
 
 \begin{itemize}
-	\item 2 tbl spoons unsalted butter
-	\item 3 large onions (2 pounds), halved lengthwise and thinly sliced crosswise
-	\item sea salt
-	\item fresh ground pepper
-	\item 2 tablespoons dry sherry
-	\item 1 quart rich beef stock
-	\item 1 bouquet garni, made with 1 bay leaf, 1 thyme sprig, 2 juniper berries and 2 flat-leaf parsley sprigs, tied in cheesecloth
-	\item 2 cups shredded Gruyère cheese (about 6 ounces)
+	\item 1 Onion
+	\item 2lb of chicken
+	\item 1 tablespoon of butter
+	\item Batata palha
+	\item 2 Requeijao
 \end{itemize}
 
 \paragraph{Directions:}
 \begin{itemize}
-	\item Melt the butter in a large enameled cast-iron casserole. Add the onions and a pinch of salt, cover and cook over moderate heat, stirring once or twice, until the onions soften, about 10 minutes. Uncover and cook over moderate heat, stirring frequently, until the onions are lightly browned, about 40 minutes.
-	\item Stir in the sherry. Add the stock and bouquet garni and bring to a boil. Cover and simmer over low heat until the soup has a deep flavor, about 30 minutes. Discard the bouquet garni and season the soup with salt and pepper.
-	\item Preheat the oven to 425°. Bring the soup to a simmer, ladle it into 4 deep ovenproof bowls and sprinkle with half of the cheese. Bake the bowls of soup on a baking sheet in the middle of the oven for 10 minutes, or until the cheese is bubbling. Serve hot.
+	\item Blend onion on a blender (You might need to add a bit of olive oil in order to blend)
+	\item Add chicken to skillet, sear all sides
+	\item Then add onion mixture
+	\item Let it cook for a little bit.
+	\item Shred chicken
+	\item Add in onion sauce until the consistency seems correct
+	\item Put chicken in a Pyrex
+	\item Then add the requeijao
+	\item Then add the batata palha
+\end{itemize}
+
+
+\subsection{File Mignon}
+
+\paragraph{Ingredients (For marinate):}
+\begin{itemize}
+	\item 2lb of Beef tenderloin (Make sure to remove fat otherwise sauce gets really greasy)
+	\item 12 garlic cloves (~1 package of garlic)
+	\item 1/2 of chipped onion
+	\item 1 tomato without seeds (I remove the inner part entirely)
+	\item 2-3 tablespoons of red wine vinegar
+	\item 1-2 teaspoons of cumin
+	\item Salt and pepper
+\end{itemize}
+
+\paragraph{Ingredients (For searing):}
+\begin{itemize}
+	\item 2 tablespoons of margarine (I've used Country Rock)
+	\item 2 tablespoons of oil
+	\item 4oz of red wine
+	\item 1 tablespoon of tomato extract
+	\item 1 cup of water
+	\item 2 cans of while mushrooms
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Poke small wholes in the tenderloin for the marinate to penetrate.
+	\item In an aluminium pan, put margarine and oil. Let it get super hot.
+	\item Reserve the veggies. Sear the two sides of the tenderloin.
+	\item Reserve the tenderloin and let the oil get hot again (Repeat this step as needed).
+	\item Brush the tenderloin in the pan.
+	\item Sear all sides of the tenderloin.
+	\item Reserve the tenderloin.
+	\item Put the veggies in the pan, let it sear. Sometimes I put a bit of water if the pan is burning too much.
+	\item Once veggies are very soft, put wine and let it cook a bit.
+	\item Add Tomato extract and water, let it cook for 5-10min.
+	\item Taste and see if it needs salt.
+	\item Once ready, put veggies on a strainer and using a spoon apply some force so that the veggies go over the strainer so that the sauce thickens.
+	\item Add the mushrooms and tenderloin back in the pan.
+	\item Done.
+\end{itemize}
+
+\subsection{Camarao ao Tornedor}
+
+\paragraph{Ingredients (Shrimp prep):}
+\begin{itemize}
+	\item 3lb of shrimp
+	\item 1 lime
+	\item 3 table spoons of olive
+\end{itemize}
+
+\paragraph{Ingredients (white sauce):}
+\begin{itemize}
+	\item 200ml of flour
+	\item 1 cup of powdered milk (nido)
+	\item Water (TBD)
+\end{itemize}
+
+\paragraph{Ingredients (searing):}
+\begin{itemize}
+	\item 3/4 chopped onion
+	\item 1 tablespoon oil
+	\item 4 tablespoons of margarine (Country rock)
+	\item 1 tablespoon of tomato extract
+	\item 4 oz white while
+	\item 2 cans of creme de leche (~200g each)
+	\item 1 cup of shredded parmesan cheese
+\end{itemize}
+
+\paragraph{Directions (shrimp prep):}
+\begin{itemize}
+	\item Squeeze lime with water in a container
+	\item Remove skins and organ from shrimp and add to the container with mixture.
+	\item Let the shrimp stay in the water with lime for 20min (Usually its just the time of prepping the shrimp)
+	\item Wash the shrimp to remove the lime
+	\item Put the shrimp in a saucepan with water
+	\item Turn off when the shrimp turn lightly pink (The water doesn't even boil)
+	\item Throw away the water, put shrimp with olive oil, salt and pepper in a container.
+\end{itemize}
+
+\paragraph{Directions (White sauce):}
+\begin{itemize}
+	\item Mix flour, powdered milk and mix well. Add water.
+\end{itemize}
+
+\paragraph{Directions (Searing):}
+\begin{itemize}
+	\item Put margerine and oil in a saucepan
+	\item Add onion, let the onion get trans-lucid.
+	\item Add the shrimp, add wine, white sauce, tomato extract and parmesan cheese.
+	\item No need to boil (its still going to the oven), Add the creme de leche.
+	\item Test the salt
+	\item Put in a dish for going to the oven, add parmesan on the top.
+	\item 425F for 30min.
 \end{itemize}
 
 \subsection{Boef Bourguignon}
@@ -745,34 +933,6 @@ PS3: Another variation is using balsamic vinegar.
 \item Drizzle with sherry vinegar and season generously with salt and pepper.
 \item Place skillet in a oven, stirrring occasionally, until onions and mushrooms turn golden brown and most of the liquid have evaporated. Around 20-25minutes.
 \item Remove from oven and set aside.
-\end{itemize}
-
-\subsection{Bacalhau Gomes Sa (Tia Ana)}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-	\item Bacalhau (1.5kg)
-	\item Batata (6 batatas)
-	\item Cebola (6 cebolas)
-	\item Alho (1 cabeca de alho)
-	\item Azeite (2 latas de azeite galo)
-	\item Tomate (4 tomates)
-	\item Ovo (8 ovos)
-	\item Salsa (1 bocadinho)
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-	\item Doura cebola e alho no azeite (Bastante azeite). Nao colocar no oleo quente. Deixar a cebola e o alho cozinhar no azeite.
-	\item Cozinha o bacalhau na agua e sal por pouco tempo, separa e desfia (Se o bacalhau ja for salgado não precisa colocar mais sal
-	\item Cozinha batata cortada em cubinhos. Nao deixar cozinhar muito pra não virar um "pure" quando misturar no bacalhau depois
-	\item Quando a cebola comecar a dourar, joga o peixe e deixa uns 10min
-	\item Coloca salsa picada
-	\item Coloca a batata e espera ver se vai precisar botar mais azeite
-	\item Coloca ovo cozido amassado no bacalhau (so coloca 4) os outros voce coloca fatiado por cima
-	\item Deixa descansar durante a noite (pode botar em tupperware desde que esteja frio).
-	\item No dia seguinte corta umas rodelas de ovo cozido e poe por cima e umas fatias de tomate tambem. Bota no forno pra deixar  queimado em cima.
 \end{itemize}
 
 \subsection{Steakhouse Steak}
@@ -963,6 +1123,26 @@ Note:
 	\item In a non-stick pan, add a bit of butter and olive oil, add gnocchi and garlic until the gnocci is golden brown. Do in batches.
 \end{itemize}
 
+\subsection{Pizza Dough}
+
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 250g of 00 flour
+	\item 5g of salt
+	\item 1.5 active dry yeast
+	\item 162.5g of warm watter
+\end{itemize}
+
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item mix all ingredients (be-careful with mixing salt and yeast together as the salt kills the yeast)
+	\item turn the light of the oven on, put a wet cloth
+	\item leave rising for a few hours
+\end{itemize}
+
 \subsection{Asian Glazed Salmon in Foil}
 
 \paragraph{Directions:}
@@ -994,6 +1174,10 @@ marinade making sure that the entire fish is brushed with marinade.
 minutes. You may also turn the broiler on and broil for about 2 to 3 minutes at the end if preferred.
   \item Open the foil and garnish with sesame seeds and chopped green onions.
 \end{itemize}
+
+\placeholder{Teriyaki Salmon}{https://natashaskitchen.com/teriyaki-salmon-recipe/}
+
+\url{https://www.daringgourmet.com/homemade-teriyaki-sauce/}
 
 \section{Pressure Cook}
 
@@ -1541,7 +1725,7 @@ Notes: You can replace the panko breadcrumb with tempura batter. The ingredients
 	\item 3 tbsp olive oil
 	\item 1 lb cremini mushrooms cleaned and sliced
 	\item 2 cloves garlic minced
-	36  \item 2 cups Madeira wine or a dry red wine
+	\item 2 cups Madeira wine or a dry red wine
 	\item 1 cup chicken broth
 	\item 1 tbsp all-purpose flour optional
 	\item 2 tbsp butter
@@ -1565,6 +1749,8 @@ Notes: You can replace the panko breadcrumb with tempura batter. The ingredients
 	\item Add the chicken breasts back to the pan and cook for another 5 minutes.
 	\item Garnish with fresh parsley and serve over mashed potatoes.	
 \end{itemize}
+
+\paragraph{Notes:}To make the chicken madeira, you just need to change the wine to Masala wine (1 1/2 cup) + heavy cream (1 1/2 cup) and 3 cups of chicken stock.
 
 \subsection{Butter Chicken}
 
@@ -1601,7 +1787,7 @@ Notes: You can replace the panko breadcrumb with tempura batter. The ingredients
 	parsley.	
 \end{itemize}
 
-\subsection{Mo Pasta Chicken}
+\subsection{Italian Pasta Chicken - Mo Pasta}
 
 \paragraph{Ingredients (For seasoning chicken):}
 \begin{itemize}
@@ -1649,26 +1835,6 @@ Notes: You can replace the panko breadcrumb with tempura batter. The ingredients
 
 \section{Pastas}
 
-\subsection{Spaguetti Squash}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-	\item Spaguetti Squash
-	\item Olive oil
-	\item Salt and pepper
-	
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-	\item Poke some holes on the squash and put on the microwave for 5'
-	\item Remove from the microwave, cut it in half and remove the seeds with a spoon.
-	\item Turn oven on 400F and leave it for 35-40'
-	\item Using a fork, make the pasta
-	\item Add your favourite sauce (marinara, olive oil and garlic, etc.)
-\end{itemize}
-
 \subsection{Fettuccine Alfredo (Olive garden)}
 
 \paragraph{Ingredients:}
@@ -1686,6 +1852,78 @@ Notes: You can replace the panko breadcrumb with tempura batter. The ingredients
 \begin{itemize}
   \item Melt butter, then mix all ingredients.
   \item Add salt and pepper to taste
+\end{itemize}
+
+\subsection{Smoked Salmon Alfredo}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 1 cup of whipping cream
+	\item 1/2 cup of parmesan cheese
+	\item pinch of salt
+	\item ground pepper to taste
+	\item 1 package of trader joes salmon (4oz) chopped
+	\item 1/2 chopped onion
+	\item 1 tbl spoon of butter
+	\item 1 tsp of oil
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item In a skillet add a bit of butter and oil
+	\item Add onions
+	\item Let it caramelize
+	\item Add smoked salmon
+	\item Add whipping cream and parmesan
+	\item Taste for salt, add if necessary
+	\item Add ground pepper to taste
+\end{itemize}
+
+\subsection{Pasta al Fungi}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 2 cups Dried Porcini Mushrooms
+	\item 2 cups heavy cream
+	\item 1 1/4 cup parmesan cheese
+	\item 2 table spoon butter
+	\item 3 table spoons flour.
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Put dried porcini on hot water (1 cup) and let it rest for 1hr. Then boil the water until it reduces the water significantly.
+	\item On a saucepan add ground pepper and butter, let it boil for a little bit.
+	\item Add heavy cream, and parmesan.
+	\item Add mushroom and half the liquid.
+	\item On a small container add the other half of the mushroom liquid and flour, mix well.
+	\item Mix flour paste and main ingredients.
+	\item Taste and if necessary add salt and/or pepper.
+\end{itemize}
+
+\subsection{Fettuccine al Tartufo}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 2 tbl spoons of White Truffle Olive Oil
+	\item 2 tea spoons of truffle oil salt
+	\item 2 cups heavy cream
+	\item 1 1/4 cup parmesan cheese
+	\item Milk to taste
+	\item 2 table spoon butter
+	\item 3 table spoons flour.
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item On a saucepan add ground pepper and butter, let it boil for a little bit.
+	\item Add heavy cream, and parmesan.
+	\item Add Truffle oil and salt
+	\item Mix flour paste and main ingredients.
+	\item Taste and if necessary add milk if too salty or truffle salt if not enough salty.
 \end{itemize}
 
 \subsection{Carbonara}
@@ -1713,7 +1951,397 @@ Notes: You can replace the panko breadcrumb with tempura batter. The ingredients
 	\item Garnish with parsley
 \end{itemize}
 
-\section{Healthy}
+\section{Desserts}
+
+\newcommand{\mousse}[3]{
+\subsection{#1 Mousse}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 1 can of condensed milk
+	\item 1 can of "Crema de leche"
+	\item #2
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Blend all ingredients on a blender.
+\end{itemize}
+
+\paragraph{Note: #3}
+}
+
+\mousse{Cheese}{Philadelphia cheese or brazilian requeijao, Guava Jam}{Melt the guava jam and mix after mixing all the ingredients}
+
+\mousse{Passion Fruit}{Passion Fruit Juice}{Melt the guava jam and mix on the mixture after mixing all the ingredients}
+
+\subsection{Banofe}
+
+TODO: Fill it
+
+\url{https://www.youtube.com/watch?v=OWh748JNruM}
+
+\subsection{Creme brulee}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+\item 1 tsp vanilla bean paste
+\item 6 egg yolks
+\item 6 tbl spoon of sugar
+\item 2 1/2 cup of heavy cream
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+\item Combine heavy cream and sugar in a sauce pan. Place over medium heat, bring just to a simmer and remove from heat.
+
+\item Whisk the egg yolks until they lighten in color in a mixing bowl. Slowly add the cream mixture, mixing continuously.
+\item Add back to the sauce pan on medium heat, stir constantly until mixture thickens. About 5'. Don't let it boil.
+\item Put mixture in small containers and bake in a preheated oven (300F) for 30'. 
+\item Let it refrigerate overnight
+\item Using a hand torch add a bit of sugar over the top and caramelize the sugar. Be careful not to burn.
+\end{itemize}
+
+Notes: Try with 5 eggs and more vanilla paste (2-3 tsp?)
+
+\subsection{Milk Pudding (Pudim de leite)}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 1 can of condensed milk
+	\item 1 1/2 cup of sugar
+	\item Milk
+	\item 1 1/2 spoon of cornstarch
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Blend the condensed milk, same amount of milk and cornstarch.
+	\item On a saucepan, melt sugar. It takes quite a while
+	\item In a pudding container, carefully put the melted sugar. It gets solid pretty quickly.
+	\item Turn on heat at 350F, setup a bain-marie.
+	\item Wrap pudding in aluminium foil, let it cook for 30-40'
+	\item Remove aluminium foil and cook until ready (When its not wet inside)
+\end{itemize}
+
+\subsection{Beet Pistachio Bars}
+
+\paragraph{Ingredients (Dry components):}
+\begin{itemize}
+	\item 1/4 cup brown sugar
+	\item 1 cup brown rice flour
+	\item 1/4 cup coconut flour
+	\item 2 teaspoons baking powder
+	\item 2 teaspoon cinnamon
+	\item 1/2 teaspoon salt
+	\item 1/2 cup dark chocolate chips (optional)
+	\item 1/2 cup unsalted shelled pistachios
+	\item Zest of 1 lemon
+\end{itemize}
+
+\paragraph{Ingredients (Wet components):}
+\begin{itemize}
+	\item 2 large eggs
+	\item 1/3 cup melted coconut oil
+	\item 1/2 cup low-fat milk
+	\item Some oil for roasting the beets, e.g. sunflower/avocado oil.
+	\item 1 pound beets (about 4 medium-sized), peeled and chopped
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Add a little bit of oil to chopped beets, mix well.
+	\item Roast beets on 400F (200C) for 35'. Let them cool.
+	\item On a blender add all wet ingredients (Except eggs)
+	\item Once blended, move to a container and add eggs.
+	\item On a separate container, mix the dry ingredients.
+	\item Mix both containers well.
+	\item Using a baking pan, add parchment paper and spread evenly. Bake for 30'.
+\end{itemize}
+
+\subsection{Brownie Sofia}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 2 packages of 10oz bittersweet chocolate (Ghirardelli premium baking chips - 60%)
+	\item 4 tablespoons unsalted butter
+	\item 1 cup of fine granulate sugar
+	\item 2 eggs
+	\item 1/2 tsp of vanilla extract
+	\item 2/3 cup flour
+	\item 1 cup of nuts
+	\item a touch of salt
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Melt the chocolate and the butter altogether (You can melt on the microwave, perhaps 30-60'' at a time)
+	\item Let it cool a little bit.
+	\item Add everything (except the flour), mix well.
+	\item Add flour.
+	\item In a baking sheet, spread butter and flour.
+	\item Spread mixture well in baking sheet.
+	\item Put in the oven for 30min at 375F.
+\end{itemize}
+
+\section{Cured Meats}
+
+\subsection{Charque}
+
+TODO: Fill it
+
+\url{https://www.youtube.com/watch?v=zCUlzI2n0ic}
+\url{https://www.youtube.com/watch?v=QEAqYDH6DDk}
+\url{https://www.youtube.com/watch?v=liP9mfqCIQw}
+
+\subsection{Coppa}
+
+TODO: Fill it
+
+\url{https://tasteofartisan.com/capicola-recipe/}
+
+\section{Sauces}
+
+\subsection{Tomato Sauce (Sergio)}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 1 onion 
+	\item 1 tomato 
+	\item 3 cloves of garlic 
+	\item 1 tomato paste can
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Chop onion, tomatoes and garlic. On a sauce pan add one table spoon of oil, mix veggies and let it sauté for a while (until smells). 
+	\item Remove from sauce pan, put on blender and mix all ingredients. 
+	\item Put the blended mix back into the sauce pan. Reduce the fire, mix in tomato paste and let it simmer for 30'.
+\end{itemize}
+
+\subsection{Teriyaki Sauce}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 1 cup of water
+	\item 4 table spoon of brown sugar
+	\item 1/4 cup soy sauce
+	\item 1 tablespoon honey
+	\item 1 large clove of garlic, finely minced
+	\item 1/2 teaspoon ground ginger
+	\item 2 tablespoons cornstarch
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Mix everything, put on low heat, mix and wait until its thick.
+\end{itemize}
+
+\subsection{Bechamel Sauce (Blue Apron)}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+\item 1 tablespoon of butter
+\item 1 tablespoons all purpose flour
+\item 1 cup of whole milk at room temperature
+\item 1/2 cup fontina cheese
+\item Optional: Nutmeg
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+\item Melt the butter over medium heat
+\item Add flour and whisk until smooth (2min)
+\item Add the milk gradually
+\item Simmer until thick enough (~10min)
+\item Optional: Add nutmeg
+\item Add the fontina cheese
+\item Season with salt and pepper
+\end{itemize}
+
+\subsection{Bechamel Sauce (Adapted Luzinete Style)}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 2 tablespoons of flour
+	\item 1 onion or garlic (2 cloves)
+	\item 1 cup of milk
+	\item (Optional) pinch of nutmeg
+	\item 1 tablespoon of butter
+	\item 1 1/2 tablespoon of Parmesan cheese
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item On a blender add the milk and flour
+	\item Put the butter on a sautee pan, add grated onion or garlic
+	\item Add mixture of milk and flour
+	\item Wait until thickens
+	\item Add Parmesan cheese and nutmeg
+\end{itemize}
+
+\subsection{Roux}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 2 tbl spoon clarified butter (Melted butter where the fat is separated from the milk)
+	\item 2 tbl spoon of white flour
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Melt clarified butter (if not already melted)
+	\item Add flour and whisk constantly
+	\item For white roux, around 5' will cause flour to lose that raw smell. We are looking for a wet sand consistency. About 20' for blonde roux (smell of toasted bread) and 35' for brown roux (Peanut butter). Dark roux ~ 45'.
+\end{itemize}
+
+\subsection{Mother sauces}
+\begin{itemize}
+	\item Bechamel: White roux mixed with milk
+	\item Veloute (From velvet): White roux mixed with clear stock (usually chicken or vegetable).
+	\item Espagnole: Dark roux + beef stock.
+\end{itemize}
+
+Notes: Mix ingredients (1:8 part ratio). For example: 2 table spoons of roux and 1 cup of liquid (1 cup = 16 tbl spoons), let it simmer for 10' and strain at the end.
+
+\subsection{Pesto Sauce}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 2 garlic cloves
+	\item 2 cups of basil
+	\item 1/4 cup of pine nuts
+	\item 1/3 cup of olive oil
+	\item 1/2 Parmesan cheese
+	\item salt to taste
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Mix everything in a mixer. Add salt and pepper to taste.
+\end{itemize}
+
+Notes: You can make a sauce for pasta by adding a bit of milk and cornstarch (mix both together before putting in pesto mixture).
+
+\subsection{Chipotle Mayo}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 2 eggs raw
+	\item oil (Canola or Peanut oil)
+	\item Chipotle peppers in adobo sauce (in the can)
+	\item salt
+	\item lime
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Using a mixer, add the two eggs and oil until it emulsifies. Don't be shy on the oil.
+	\item Use a spoon to see if the consistency reminds you of mayonnaise.
+	\item Add chipotle peppers (You might want to half first otherwise it might be too spicy)
+	\item Add the lime of 2 lemon wedges
+	\item Add salt to taste
+\end{itemize}
+
+\subsection{Chimichurri}
+
+\paragraph{Directions:}
+\begin{itemize}
+  \item 1/2 cup olive oil
+  \item 1/4 cup red wine vinegar
+  \item 1 tbsp lemon juice freshly squeezed
+  \item 1/2 cup curly leaf parsley minced
+  \item 1 tbsp dried oregano (or fresh)
+  \item 1/2 tsp red pepper flakes
+  \item 1/2 tsp salt
+  \item 1/2 tsp black pepper freshly ground	
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+  \item Mix all ingredients and let it sit in the fridge overnight.	
+\end{itemize}
+
+\section{Dump}
+
+\subsection{Miso Dressing}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 1/3 cup of lemon juice
+	\item 1/2 cup of olive oil
+	\item 1 tbl spoon of miso paste
+	\item pinch of salt
+	\item 2 garlic cloves finely minced
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Mix all ingredients
+\end{itemize}
+
+\subsection{Cesar Dressing (Blue Apron)}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 1 teaspoon of lemon zest
+	\item 2 lemon wedges (the juice)
+	\item 2 garlic cloves
+	\item 1 tbl spoon white vinegar
+	\item 1/4 cup mayo
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Smash garlic until it resembles a paste, add vinegar and place it in a bowl. Let it marinate for 5-10'. 
+	\item Mix all ingredients.
+	\item Season with salt and pepper.
+\end{itemize}
+
+\subsection{Potato Salad}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 5 large potatoes 
+	\item 2 ribs of celery, finely chopped 
+	\item 1/2 onion, finely chopped 
+	\item 3 hard boiled eggs. 2 chopped, 1 sliced 
+	\item 1 cup miracle whip 
+	\item 3 tablespoons Dijon mustard 
+	\item salt 
+	\item pepper
+\end{itemize}
+
+\paragraph{Ingredients (Miracle Whip):}
+
+\begin{itemize}
+	\item 6 teaspoons of white vinegar 
+	\item 2 teaspoons of cornstarch 
+	\item 3 teaspoon of sugar 
+	\item 1 teaspoon paprika 
+	\item 1 teaspoon of garlic salt 
+	\item 1/4 teaspoon of mustard powder 
+	\item 1 1/2 cup of mayo
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Mix everything and season with salt and pepper to taste.
+\end{itemize}
 
 \subsection{Overnight Oats}
 
@@ -1751,7 +2379,74 @@ Notes: You can replace the panko breadcrumb with tempura batter. The ingredients
 
 Notes: You can make broccoli as well. Just add some chopped garlic to the broccoli.
 
-\section{Dump}
+\subsection{Spaguetti Squash}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item Spaguetti Squash
+	\item Olive oil
+	\item Salt and pepper
+	
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Poke some holes on the squash and put on the microwave for 5'
+	\item Remove from the microwave, cut it in half and remove the seeds with a spoon.
+	\item Turn oven on 400F and leave it for 35-40'
+	\item Using a fork, make the pasta
+	\item Add your favourite sauce (marinara, olive oil and garlic, etc.)
+\end{itemize}
+
+\subsection{Tomato Soup}
+
+\paragraph{Ingredients:}
+\begin{itemize}
+	\item 2 lb of tomatoes
+	\item 7 garlic cloves
+	\item 1 onion
+	\item Chicken stock
+	\item olive oil
+	\item 3 table spoons Parmesan cheese
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Cut tomatoes in half.
+	\item Roughly chop onions
+	\item Put all vegetables in a large tray.
+	\item Season generously with salt and pepper
+	\item Sprinkle olive oil on top
+	\item Put tray on oven on 375F for 60-90minutes
+	\item When vegetables are roasted put in a food mixer
+	\item Put mixture in a sauce pan, add chicken stock until reaches desired consistency.
+	\item Taste and depending on acidity add some sugar (1-2 tsp of coconut sugar). Make sure to balance with salt for sweetness.
+\end{itemize}
+
+\paragraph{Notes:}
+\begin{itemize}
+	\item (Optional) Add 1 tsp of cornstarch and 1 cup of milk for a richer soup.
+	\item (Optional) Add 2-4 tbl spoon of Parmesan cheese.
+\end{itemize}
+
+\subsection{Beet Humus}
+
+\paragraph{Ingredients:}
+
+\begin{itemize}
+	\item 1 can of whole beets
+	\item 1 can of garbanzo beans
+	\item 1 lemon (zest + juice)
+	\item 6 garlic cloves
+	\item 1/4 cup olive oil
+\end{itemize}
+
+\paragraph{Directions:}
+
+\begin{itemize}
+	\item Put everything in a mixer (Add some salt and pepper to taste) and mix. You might want to put some water too.
+\end{itemize}
 
 \subsection{Lemon and Sprite}
 
@@ -1864,26 +2559,6 @@ Notes: You can make broccoli as well. Just add some chopped garlic to the brocco
 	\item After potatoes are cooked, drain them.
 	\item Add olive oil to the same pan, add \textbf{marinate} and sear until onion is translucent.
 	\item Add cooked \textbf{potatoes, mixture and season with salt and pepper}.
-\end{itemize}
-
-\subsection{Feijao de Soja Luzinete}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-	\item 2 cups of soybeans
-	\item olive oil
-	\item 1 onion
-	\item 1 tomato
-	\item Tomato sauce (The brazilian one Tarantella is the best)
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-	\item Cook the soybeans on the pressure cooker with just water and salt for 40'.
-	\item On a sautee pan cook chopped onions and tomato
-	\item Add the tomato sauce and cooked soybeans
-	\item Cook for another 10'
 \end{itemize}
 
 \chick{Orange and Soy}{2 tbl spoon olive oil, 1/2 cup of orange juice, 1/4 cup of soy sauce and 2 garlic cloves (pureed)}
@@ -2042,338 +2717,154 @@ For the day the filet is being cooked:
 	\item Put peanut oil and crack the eggs
 	\item Make an egg scramble then throw in the remaining ingredients
 	\item Mix a bit and season with salt if required
-
+	
 \end{itemize}
 
 Note: Experiment with more soy sauce + sesame oil + grated onions
 
-\section{Deserts}
-
-\newcommand{\mousse}[3]{
-\subsection{#1 Mousse}
+\subsection{French Onion Soup}
 
 \paragraph{Ingredients:}
 
 \begin{itemize}
-	\item 1 can of condensed milk
-	\item 1 can of "Crema de leche"
-	\item #2
+	\item 2 tbl spoons unsalted butter
+	\item 3 large onions (2 pounds), halved lengthwise and thinly sliced crosswise
+	\item sea salt
+	\item fresh ground pepper
+	\item 2 tablespoons dry sherry
+	\item 1 quart rich beef stock
+	\item 1 bouquet garni, made with 1 bay leaf, 1 thyme sprig, 2 juniper berries and 2 flat-leaf parsley sprigs, tied in cheesecloth
+	\item 2 cups shredded Gruyère cheese (about 6 ounces)
 \end{itemize}
 
 \paragraph{Directions:}
 \begin{itemize}
-	\item Blend all ingredients on a blender.
+	\item Melt the butter in a large enameled cast-iron casserole. Add the onions and a pinch of salt, cover and cook over moderate heat, stirring once or twice, until the onions soften, about 10 minutes. Uncover and cook over moderate heat, stirring frequently, until the onions are lightly browned, about 40 minutes.
+	\item Stir in the sherry. Add the stock and bouquet garni and bring to a boil. Cover and simmer over low heat until the soup has a deep flavor, about 30 minutes. Discard the bouquet garni and season the soup with salt and pepper.
+	\item Preheat the oven to 425°. Bring the soup to a simmer, ladle it into 4 deep ovenproof bowls and sprinkle with half of the cheese. Bake the bowls of soup on a baking sheet in the middle of the oven for 10 minutes, or until the cheese is bubbling. Serve hot.
 \end{itemize}
 
-\paragraph{Note: #3}
-}
+\subsection{Carrot Soup (Healthy)}
 
-\mousse{Cheese}{Philadelphia cheese or brazilian requeijao, Guava Jam}{Melt the guava jam and mix after mixing all the ingredients}
+\paragraph{Ingredients:}
+\begin{itemize}
+	\item 1.5 lb of carrots (Chopped)
+	\item 1 Onion
+	\item Olive oil
+	\item 2 cups of vegetable stock (no salt)
+	\item 2 cups of water
+	\item 1 table spoon of minced ginger
+	\item 3 strips of orange
+\end{itemize}
 
-\mousse{Passion Fruit}{Passion Fruit Juice}{Melt the guava jam and mix on the mixture after mixing all the ingredients}
+\paragraph{Directions:}
+\begin{itemize}
+	\item Put oven on 375 and add carrots and onion into a tray.
+	\item Sprinkle olive oil and salt.
+	\item Roast for 30-45' until slightly brown.
+	\item Put onions, carrots, stock, water, ginger and orange on a saucepan and simmer for 30'
+	\item Remove orange
+	\item Blend everything
+\end{itemize}
 
-\subsection{Creme brulee}
+\subsection{Tomato Soup (Healthy)}
+
+\paragraph{Ingredients:}
+\begin{itemize}
+	\item 3 lb of tomatoes
+	\item 1 Onion
+	\item Olive oil
+	\item 2 cups of vegetable stock (no salt)
+	\item 2 cups of water
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Put oven on 375 and add tomatoes and onion into a tray.
+	\item Sprinkle olive oil and salt.
+	\item Roast for 30-45' until slightly brown.
+	\item Put onions, tomatoes, stock and water simmer for 90'
+	\item Blend everything
+\end{itemize}
+
+\subsection{Asparagus Soup (Healthy)}
+
+\paragraph{Ingredients:}
+\begin{itemize}
+	\item 2 lb of asparagus
+	\item 1 Onion
+	\item Olive oil
+	\item 2 cups of vegetable stock (no salt)
+	\item 2 cups of water
+	\item 1 table spoon of yogurt
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Put oven on 375F and add onion into a tray.
+	\item Sprinkle olive oil and salt.
+	\item Roast for 30-45' until slightly brown.
+	\item Put onions, asparagus stock and water simmer for 30'
+	\item Blend everything
+	\item Add yogurt
+\end{itemize}
+
+\subsection{Sag Paneer (With tofu)}
+
+\paragraph{Ingredients (For gravy):}
+\begin{itemize}
+	\item 2 bunches of spinach (500g)
+	\item 1 pinch of kasuri methi
+	\item 1 tablespoon of tomato paste
+\end{itemize}
+
+\paragraph{Ingredients (Base):}
+\begin{itemize}
+	\item 1 pinch of cumin seeds
+	\item 1 onion thiny sliced
+	\item 1 teaspoon of grated fresh ginger
+	\item 3 cloves garlic, minced
+	\item 1 tomatoe diced
+\end{itemize}
+
+\paragraph{Ingredients (Seasonings):}
+\begin{itemize}
+	\item 2 tsp of garam masala
+	\item 1/8 tsp of cardamom
+	\item 1/2 tsp ground turmeric
+	\item 1/2 tsp red pepper
+	\item 1 tsp cumin
+\end{itemize}
+
+\paragraph{Ingredients (Protein):}
+\begin{itemize}
+	\item Tofu
+\end{itemize}
+
+\paragraph{Directions:}
+\begin{itemize}
+	\item Dry tofu with paper towels. Fry them and set aside.
+	\item In a pan add oil and fry cumin seeds (Around 1 minute). \item Add onion for 2-3 minutes. Then add ginger and garlic until fragrant. Add seasonings (garam masala, turmeric, cumin, red pepper and cumin). Add the tomato and sear for 10'.
+	
+	\item Add in the spinach, kasuri methi, tomato paste and simmer for 5' (You can also cook the spinach and make a puree before). Add the friend tofu. 
+\end{itemize}|
+
+\subsection{BBQ Beans}
 
 \paragraph{Ingredients:}
 
 \begin{itemize}
-\item 1 tsp vanilla bean paste
-\item 6 egg yolks
-\item 6 tbl spoon of sugar
-\item 2 1/2 cup of heavy cream
+	\item 1 cup de tomato sauce
+	\item 1/2 cup de bbq sauce
+	\item 2 table spoons of liquid smoke
+	\item seasoning (e.g. 1 tbl spoon of knoor)
+	\item 1lb of pinto beans
 \end{itemize}
 
 \paragraph{Directions:}
 \begin{itemize}
-\item Combine heavy cream and sugar in a sauce pan. Place over medium heat, bring just to a simmer and remove from heat.
-
-\item Whisk the egg yolks until they lighten in color in a mixing bowl. Slowly add the cream mixture, mixing continuously.
-\item Add back to the sauce pan on medium heat, stir constantly until mixture thickens. About 5'. Don't let it boil.
-\item Put mixture in small containers and bake in a preheated oven (300F) for 30'. 
-\item Let it refrigerate overnight
-\item Using a hand torch add a bit of sugar over the top and caramelize the sugar. Be careful not to burn.
+	\item Add all ingredients into a pressure cooker and cook for 20'
 \end{itemize}
-
-Notes: Try with 5 eggs and more vanilla paste (2-3 tsp?)
-
-\subsection{Milk Pudding (Pudim de leite)}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-	\item 1 can of condensed milk
-	\item 1 1/2 cup of sugar
-	\item Milk
-	\item 1 1/2 spoon of cornstarch
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-	\item Blend the condensed milk, same amount of milk and cornstarch.
-	\item On a saucepan, melt sugar. It takes quite a while
-	\item In a pudding container, carefully put the melted sugar. It gets solid pretty quickly.
-	\item Turn on heat at 350F, setup a bain-marie.
-	\item Wrap pudding in aluminium foil, let it cook for 30-40'
-	\item Remove aluminium foil and cook until ready (When its not wet inside)
-\end{itemize}
-
-\subsection{Milk Pudding (Pudim de leite)}
-
-\paragraph{Ingredients (Dry components):}
-\begin{itemize}
-	\item 1 cup almond flour
-	\item 1/4 cup coconut flour
-	\item 1 tbl spoon baking powder
-	\item 1 tbl spoon cinnamon
-	\item 1/2 tbl spoon salt
-	\item 1/2 cup brown sugar
-	\item zest of 1 lemon
-	\item 1/2 cup dark chocolate chips
-	\item 1/2 cup shelled pistachios
-\end{itemize}
-
-\paragraph{Ingredients (Wet components):}
-\begin{itemize}
-	\item 1 pound beets chopped
-	\item 1/2 cup almond milk
-	\item 1/3 melted coconut oil
-	\item 2 large eggs
-\end{itemize}
-
-
-\paragraph{Directions:}
-\begin{itemize}
-	\item Roast beets on 400F for 35'. Let them cool.
-	\item On a blender add all wet ingredients (Except eggs)
-	\item Once blended, move to a container and add eggs.
-	\item On a separate container, mix the dry ingredients.
-	\item Mix both containers well.
-	\item Using a baking pan, add parchment paper and spread evenly. Bake for 30'.
-\end{itemize}
-
-\section{Sauces}
-
-\subsection{Tomato Sauce (Sergio)}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-	\item 1 onion 
-	\item 1 tomato 
-	\item 3 cloves of garlic 
-	\item 1 tomato paste can
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-	\item Chop onion, tomatoes and garlic. On a sauce pan add one table spoon of oil, mix veggies and let it sauté for a while (until smells). 
-	\item Remove from sauce pan, put on blender and mix all ingredients. 
-	\item Put the blended mix back into the sauce pan. Reduce the fire, mix in tomato paste and let it simmer for 30'.
-\end{itemize}
-
-\subsection{Bechamel Sauce (Blue Apron)}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-\item 1 tablespoon of butter
-\item 1 tablespoons all purpose flour
-\item 1 cup of whole milk at room temperature
-\item 1/2 cup fontina cheese
-\item Optional: Nutmeg
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-\item Melt the butter over medium heat
-\item Add flour and whisk until smooth (2min)
-\item Add the milk gradually
-\item Simmer until thick enough (~10min)
-\item Optional: Add nutmeg
-\item Add the fontina cheese
-\item Season with salt and pepper
-\end{itemize}
-
-\subsection{Bechamel Sauce (Adapted Luzinete Style)}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-	\item 2 tablespoons of flour
-	\item 1 onion or garlic (2 cloves)
-	\item 1 cup of milk
-	\item (Optional) pinch of nutmeg
-	\item 1 tablespoon of butter
-	\item 1 1/2 tablespoon of Parmesan cheese
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-	\item On a blender add the milk and flour
-	\item Put the butter on a sautee pan, add grated onion or garlic
-	\item Add mixture of milk and flour
-	\item Wait until thickens
-	\item Add Parmesan cheese and nutmeg
-\end{itemize}
-
-\subsection{Roux}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-	\item 2 tbl spoon clarified butter (Melted butter where the fat is separated from the milk)
-	\item 2 tbl spoon of white flour
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-	\item Melt clarified butter (if not already melted)
-	\item Add flour and whisk constantly
-	\item For white roux, around 5' will cause flour to lose that raw smell. We are looking for a wet sand consistency. About 20' for blonde roux (smell of toasted bread) and 35' for brown roux (Peanut butter). Dark roux ~ 45'.
-\end{itemize}
-
-\subsection{Mother sauces}
-\begin{itemize}
-	\item Bechamel: White roux mixed with milk
-	\item Veloute (From velvet): White roux mixed with clear stock (usually chicken or vegetable).
-	\item Espagnole: Dark roux + beef stock.
-\end{itemize}
-
-Notes: Mix ingredients (1:8 part ratio). For example: 2 table spoons of roux and 1 cup of liquid (1 cup = 16 tbl spoons), let it simmer for 10' and strain at the end.
-
-\subsection{Pesto Sauce}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-	\item 2 garlic cloves
-	\item 2 cups of basil
-	\item 1/4 cup of pine nuts
-	\item 1/3 cup of olive oil
-	\item 1/2 Parmesan cheese
-	\item salt to taste
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-	\item Mix everything in a mixer. Add salt and pepper to taste.
-\end{itemize}
-
-Notes: You can make a sauce for pasta by adding a bit of milk and cornstarch (mix both together before putting in pesto mixture).
-
-\subsection{Chipotle Mayo}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-	\item 2 eggs raw
-	\item oil (Canola or Peanut oil)
-	\item Chipotle peppers in adobo sauce (in the can)
-	\item salt
-	\item lime
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-	\item Using a mixer, add the two eggs and oil until it emulsifies. Don't be shy on the oil.
-	\item Use a spoon to see if the consistency reminds you of mayonnaise.
-	\item Add chipotle peppers (You might want to half first otherwise it might be too spicy)
-	\item Add the lime of 2 lemon wedges
-	\item Add salt to taste
-\end{itemize}
-
-\subsection{Chimichurri}
-
-\paragraph{Directions:}
-\begin{itemize}
-  \item 1/2 cup olive oil
-  \item 1/4 cup red wine vinegar
-  \item 1 tbsp lemon juice freshly squeezed
-  \item 1/2 cup curly leaf parsley minced
-  \item 1 tbsp dried oregano (or fresh)
-  \item 1/2 tsp red pepper flakes
-  \item 1/2 tsp salt
-  \item 1/2 tsp black pepper freshly ground	
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-  \item Mix all ingredients and let it sit in the fridge overnight.	
-\end{itemize}
-
-\section{Salad Related}
-
-\subsection{Miso Dressing}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-	\item 1/3 cup of lemon juice
-	\item 1/2 cup of olive oil
-	\item 1 tbl spoon of miso paste
-	\item pinch of salt
-	\item 2 garlic cloves finely minced
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-	\item Mix all ingredients
-\end{itemize}
-
-\subsection{Cesar Dressing (Blue Apron)}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-	\item 1 teaspoon of lemon zest
-	\item 2 lemon wedges (the juice)
-	\item 2 garlic cloves
-	\item 1 tbl spoon white vinegar
-	\item 1/4 cup mayo
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-	\item Smash garlic until it resembles a paste, add vinegar and place it in a bowl. Let it marinate for 5-10'. 
-	\item Mix all ingredients.
-	\item Season with salt and pepper.
-\end{itemize}
-
-\subsection{Potato Salad}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-	\item 5 large potatoes 
-	\item 2 ribs of celery, finely chopped 
-	\item 1/2 onion, finely chopped 
-	\item 3 hard boiled eggs. 2 chopped, 1 sliced 
-	\item 1 cup miracle whip 
-	\item 3 tablespoons Dijon mustard 
-	\item salt 
-	\item pepper
-\end{itemize}
-
-\paragraph{Ingredients (Miracle Whip):}
-
-\begin{itemize}
-	\item 6 teaspoons of white vinegar 
-	\item 2 teaspoons of cornstarch 
-	\item 3 teaspoon of sugar 
-	\item 1 teaspoon paprika 
-	\item 1 teaspoon of garlic salt 
-	\item 1/4 teaspoon of mustard powder 
-	\item 1 1/2 cup of mayo
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-	\item Mix everything and season with salt and pepper to taste.
-\end{itemize}
-
-\section{Dump}
-
-\chick{Chicken on Tomato Sauce}{1 can of diced tomato (fire roasted), cummin, cilantro, 1 knoor, chopped garlid}
 
 \subsection{Rosbife Tia Tina (Tia Ana)}
 
