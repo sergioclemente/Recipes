@@ -10,6 +10,22 @@ parsed_success = 0
 def filter_nonempty_strings(string_list):
     return [s for s in string_list if len(s) > 0]
 
+def warn_unparsed_paragraphs(recipe_string, title):
+    paragraphs = re.findall(r"\\paragraph\{(.*?)\}", recipe_string)
+    for para in paragraphs:
+        if para not in ["Ingredients:", "Directions:", "Notes:"] and not re.match(r"(Ingredients|Directions) \(.*\):", para):
+            print(f"WARNING: Unrecognized paragraph '{{{para}}}' in recipe '{title}'")
+
+def warn_multiline_items(item_block, title):
+    item_lines = [line for line in item_block.strip().splitlines()]
+    collecting = False
+    for i, line in enumerate(item_lines):
+        if line.strip().startswith("\\item"):
+            collecting = True
+        elif collecting and line.strip():
+            print(f"ERROR: Multiline item detected in recipe '{title}' near line: {item_lines[i-1].strip()}\n       -> {line.strip()}")
+            collecting = False
+
 def parse_recipe(recipe_string):
     global parse_errors, parsed_success
 
@@ -35,10 +51,14 @@ def parse_recipe(recipe_string):
 
     if title_match:
         title = title_match.group(1).strip()
+        warn_unparsed_paragraphs(recipe_string, title)
 
         if simple_ingredients_match and simple_directions_match:
             ingredients_raw = simple_ingredients_match.group(1)
             directions_raw = simple_directions_match.group(1)
+
+            warn_multiline_items(ingredients_raw, title)
+            warn_multiline_items(directions_raw, title)
 
             ingredients = filter_nonempty_strings([line.strip()[6:].strip() for line in ingredients_raw.strip().splitlines() if line.strip().startswith("\\item")])
             directions = filter_nonempty_strings([line.strip()[6:].strip() for line in directions_raw.strip().splitlines() if line.strip().startswith("\\item")])
@@ -59,6 +79,7 @@ def parse_recipe(recipe_string):
             group_counts = defaultdict(lambda: {"Ingredients": 0, "Directions": 0})
 
             for kind, group, content in advanced_blocks:
+                warn_multiline_items(content, title)
                 items = [line.strip()[6:].strip() for line in content.strip().splitlines() if line.strip().startswith("\\item")]
                 group_counts[group][kind] += 1
                 if kind == "Ingredients":
@@ -75,6 +96,7 @@ def parse_recipe(recipe_string):
 
             if len(fallback_directions_match) == 1 and len(direction_keys) == 0:
                 fallback_steps = fallback_directions_match[0]
+                warn_multiline_items(fallback_steps, title)
                 fallback_items = [line.strip()[6:].strip() for line in fallback_steps.strip().splitlines() if line.strip().startswith("\\item")]
                 directions_parts["Main"] = fallback_items
 
