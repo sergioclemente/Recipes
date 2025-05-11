@@ -26,17 +26,15 @@ def warn_multiline_items(item_block, title):
             print(f"ERROR: Multiline item detected in recipe '{title}' near line: {item_lines[i-1].strip()}\n       -> {line.strip()}")
             collecting = False
 
+def is_advanced_recipe(recipe_string):
+    return bool(re.search(r"\\paragraph\{(Ingredients|Directions) \((.*?)\):\}", recipe_string))
+
 def parse_recipe(recipe_string):
     global parse_errors, parsed_success
 
     title_match = re.search(r"\\subsection\{(.*?)\}", recipe_string)
-    simple_ingredients_match = re.search(r"\\paragraph\{Ingredients:\}.*?\\begin\{itemize\}(.*?)\\end\{itemize\}", recipe_string, re.DOTALL)
-    simple_directions_match = re.search(r"\\paragraph\{Directions:\}.*?\\begin\{itemize\}(.*?)\\end\{itemize\}", recipe_string, re.DOTALL)
     notes_itemized_match = re.search(r"\\paragraph\{Notes:\}.*?\\begin\{itemize\}(.*?)\\end\{itemize\}", recipe_string, re.DOTALL)
     notes_inline_match = re.search(r"\\paragraph\{Notes:\}(.*)$", recipe_string, re.DOTALL)
-
-    advanced_blocks = re.findall(r"\\paragraph\{(Ingredients|Directions) \((.*?)\):\}.*?\\begin\{itemize\}(.*?)\\end\{itemize\}", recipe_string, re.DOTALL)
-    fallback_directions_match = re.findall(r"\\paragraph\{Directions:\}.*?\\begin\{itemize\}(.*?)\\end\{itemize\}", recipe_string, re.DOTALL)
 
     notes = []
     if notes_itemized_match:
@@ -53,27 +51,10 @@ def parse_recipe(recipe_string):
         title = title_match.group(1).strip()
         warn_unparsed_paragraphs(recipe_string, title)
 
-        if simple_ingredients_match and simple_directions_match:
-            ingredients_raw = simple_ingredients_match.group(1)
-            directions_raw = simple_directions_match.group(1)
+        if is_advanced_recipe(recipe_string):
+            advanced_blocks = re.findall(r"\\paragraph\{(Ingredients|Directions) \((.*?)\):\}.*?\\begin\{itemize\}(.*?)\\end\{itemize\}", recipe_string, re.DOTALL)
+            fallback_directions_match = re.findall(r"\\paragraph\{Directions:\}.*?\\begin\{itemize\}(.*?)\\end\{itemize\}", recipe_string, re.DOTALL)
 
-            warn_multiline_items(ingredients_raw, title)
-            warn_multiline_items(directions_raw, title)
-
-            ingredients = filter_nonempty_strings([line.strip()[6:].strip() for line in ingredients_raw.strip().splitlines() if line.strip().startswith("\\item")])
-            directions = filter_nonempty_strings([line.strip()[6:].strip() for line in directions_raw.strip().splitlines() if line.strip().startswith("\\item")])
-
-            if not ingredients or not directions:
-                print(f"WARNING: Empty ingredients or directions in simple recipe '{title}'")
-
-            parsed_success += 1
-            return title, {
-                "ingredients": ingredients,
-                "steps": directions,
-                "notes": notes
-            }
-
-        elif advanced_blocks:
             ingredients_parts = {}
             directions_parts = {}
             group_counts = defaultdict(lambda: {"Ingredients": 0, "Directions": 0})
@@ -129,15 +110,32 @@ def parse_recipe(recipe_string):
             }
 
         else:
-            parse_errors += 1
-            print(f"ERROR:: Can't parse '{title}' - no simple or advanced match found")
-            if not simple_ingredients_match:
-                print(f"  missing: simple_ingredients_match")
-            if not simple_directions_match:
-                print(f"  missing: simple_directions_match")
-            if not advanced_blocks:
-                print(f"  missing: advanced_blocks")
-            return None, None
+            simple_ingredients_match = re.search(r"\\paragraph\{Ingredients:\}.*?\\begin\{itemize\}(.*?)\\end\{itemize\}", recipe_string, re.DOTALL)
+            simple_directions_match = re.search(r"\\paragraph\{Directions:\}.*?\\begin\{itemize\}(.*?)\\end\{itemize\}", recipe_string, re.DOTALL)
+
+            if simple_ingredients_match and simple_directions_match:
+                ingredients_raw = simple_ingredients_match.group(1)
+                directions_raw = simple_directions_match.group(1)
+
+                warn_multiline_items(ingredients_raw, title)
+                warn_multiline_items(directions_raw, title)
+
+                ingredients = filter_nonempty_strings([line.strip()[6:].strip() for line in ingredients_raw.strip().splitlines() if line.strip().startswith("\\item")])
+                directions = filter_nonempty_strings([line.strip()[6:].strip() for line in directions_raw.strip().splitlines() if line.strip().startswith("\\item")])
+
+                if not ingredients or not directions:
+                    print(f"WARNING: Empty ingredients or directions in simple recipe '{title}'")
+
+                parsed_success += 1
+                return title, {
+                    "ingredients": ingredients,
+                    "steps": directions,
+                    "notes": notes
+                }
+
+        parse_errors += 1
+        print(f"ERROR:: Can't parse '{title}' - no matching structure")
+        return None, None
 
     else:
         parse_errors += 1
