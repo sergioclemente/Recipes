@@ -619,9 +619,7 @@
           "panko breakcrumb (3/4 of a bowl)",
           "olive oil",
           "black pepper"
-        ],
-        "Balls": [],
-        "Searing": []
+        ]
       },
       "steps": {
         "Main": [
@@ -746,9 +744,7 @@
           "Tortilhas"
         ]
       },
-      "steps": {
-        "Main": []
-      },
+      "steps": {},
       "notes": []
     },
     "Moqueca": {
@@ -2322,8 +2318,7 @@
           "1 colher de acucar",
           "chantily para decorar (heavy cream + acucar)",
           "canela em p\u00f3 para decorar"
-        ],
-        "Montar": []
+        ]
       },
       "steps": {
         "Massa": [

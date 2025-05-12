@@ -93,18 +93,9 @@ def parse_recipe(recipe_string):
             direction_keys = set(directions_parts.keys())
             all_keys = ingredient_keys.union(direction_keys)
 
-            if len(direction_keys) > 1 and direction_keys != ingredient_keys:
-                for key in sorted(all_keys):
-                    if key not in ingredient_keys:
-                        print(f"WARNING: '{title}' is missing Ingredients for group '{key}'")
-                    if key not in direction_keys:
-                        print(f"WARNING: '{title}' is missing Directions for group '{key}'")
-
-            if len(direction_keys) > 1:
-                if direction_keys != ingredient_keys:
-                    parse_errors += 1
-                    print(f"ERROR:: Too many unmatched direction groups in '{title}'")
-                    return None, None
+            if len(direction_keys) > 1 and not ingredient_keys.issuperset(direction_keys):
+                for key in sorted(direction_keys - ingredient_keys):
+                    print(f"WARNING: '{title}' has Directions for group '{key}' with no matching Ingredients")
 
             for k, v in directions_parts.items():
                 if not v:
