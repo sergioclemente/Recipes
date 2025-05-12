@@ -1,0 +1,40 @@
+name: Build Recipes PDF
+
+on:
+  push:
+    branches:
+      - main  # or "master", adjust if needed
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-base texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra
+
+      - name: Install Python requirements
+        run: |
+          pip install jinja2
+
+      - name: Run Makefile
+        run: |
+          make clean
+          make all
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: recipes-pdf
+          path: recipes.pdf
