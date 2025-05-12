@@ -58,11 +58,19 @@ def parse_recipe(recipe_string):
             ingredients_parts = {}
             directions_parts = {}
             group_counts = defaultdict(lambda: {"Ingredients": 0, "Directions": 0})
+            empty_blocks = []
 
             for kind, group, content in advanced_blocks:
+                if "\\item" not in content:
+                    msg = f"EMPTY BLOCK: {kind} group '{group}' in recipe '{title}' contains no \\item entries"
+                    print(f"INFO: {msg}")
+                    empty_blocks.append(msg)
+                    continue
+
                 warn_multiline_items(content, title)
                 items = [line.strip()[6:].strip() for line in content.strip().splitlines() if line.strip().startswith("\\item")]
                 group_counts[group][kind] += 1
+
                 if kind == "Ingredients":
                     if group in ingredients_parts:
                         print(f"WARNING: Duplicate Ingredients for group '{group}' in '{title}'")
@@ -154,7 +162,7 @@ def parse_and_group_by_section(input_path="recipes.tex", json_out_path="section_
     inside_recipe = False
 
     for i, line in enumerate(lines):
-        if i < 71:
+        if i < 39:
             continue
 
         stripped = line.strip()
@@ -201,7 +209,7 @@ def parse_and_group_by_section(input_path="recipes.tex", json_out_path="section_
     print(f"Number of recipes successfully parsed: {parsed_success}")
     print(f"Number of recipes that could not be parsed: {parse_errors}")
 
-# Example usage: python3 extract_recipes_json.py recipes.tex recipes.jso
+# Example usage: python3 extract_recipes_json.py recipes.tex recipes.json
 if __name__ == "__main__":
     input_file = sys.argv[1] if len(sys.argv) > 1 else "recipes_out.tex"
     output_file = sys.argv[2] if len(sys.argv) > 2 else "recipes_out.json"

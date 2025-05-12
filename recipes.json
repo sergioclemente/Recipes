@@ -1,5 +1,121 @@
 {
   "Fast everyday recipes": {
+    "Curry Chicken": {
+      "ingredients": [
+        "1 tsp knoor, 2 tbl spoon curry powder, 1 tbl spoon Coconut oil",
+        "1 Chicken Breast",
+        "oil"
+      ],
+      "steps": [
+        "Cut the chicken, wash and add some lime. Alternatively: Just washing the chicken and patting with paper towels for removing excess moisture (After last step you can optionally coat chicken with flour for making it crisp).",
+        "If you let it \\textbf{lime}, let it sit for 10min, than wash the chicken with running water",
+        "(Optional) If you can put all ingredients in a ziplock bag and let it rest for couple of hours or overnight.",
+        "On a sautee pan, add some oil and sear one side of the chicken in high heat.",
+        "Throw in the remaining ingredients. Lower the heat, flip the side of the chicken, add a lid and let it simmer for 10-15min.",
+        "If you have a temperature probe, make sure its 165F"
+      ],
+      "notes": []
+    },
+    "Galinha Baiana": {
+      "ingredients": [
+        "Tempero baiano, 3-4 colheres de molho ingles, 6-7 dentes de alho amassado, 2 colheres de molho shoyu, 3 colheres de molho de tomate, 1 colher de cha de knoor",
+        "1 Chicken Breast",
+        "oil"
+      ],
+      "steps": [
+        "Cut the chicken, wash and add some lime. Alternatively: Just washing the chicken and patting with paper towels for removing excess moisture (After last step you can optionally coat chicken with flour for making it crisp).",
+        "If you let it \\textbf{lime}, let it sit for 10min, than wash the chicken with running water",
+        "(Optional) If you can put all ingredients in a ziplock bag and let it rest for couple of hours or overnight.",
+        "On a sautee pan, add some oil and sear one side of the chicken in high heat.",
+        "Throw in the remaining ingredients. Lower the heat, flip the side of the chicken, add a lid and let it simmer for 10-15min.",
+        "If you have a temperature probe, make sure its 165F"
+      ],
+      "notes": []
+    },
+    "Galinha italiana": {
+      "ingredients": [
+        "Cuminho, Oregano, Alho e sal",
+        "1 Chicken Breast",
+        "oil"
+      ],
+      "steps": [
+        "Cut the chicken, wash and add some lime. Alternatively: Just washing the chicken and patting with paper towels for removing excess moisture (After last step you can optionally coat chicken with flour for making it crisp).",
+        "If you let it \\textbf{lime}, let it sit for 10min, than wash the chicken with running water",
+        "(Optional) If you can put all ingredients in a ziplock bag and let it rest for couple of hours or overnight.",
+        "On a sautee pan, add some oil and sear one side of the chicken in high heat.",
+        "Throw in the remaining ingredients. Lower the heat, flip the side of the chicken, add a lid and let it simmer for 10-15min.",
+        "If you have a temperature probe, make sure its 165F"
+      ],
+      "notes": []
+    },
+    "Cilantro chicken": {
+      "ingredients": [
+        "Cilantro, Chopped onion and Salt",
+        "1 Chicken Breast",
+        "oil"
+      ],
+      "steps": [
+        "Cut the chicken, wash and add some lime. Alternatively: Just washing the chicken and patting with paper towels for removing excess moisture (After last step you can optionally coat chicken with flour for making it crisp).",
+        "If you let it \\textbf{lime}, let it sit for 10min, than wash the chicken with running water",
+        "(Optional) If you can put all ingredients in a ziplock bag and let it rest for couple of hours or overnight.",
+        "On a sautee pan, add some oil and sear one side of the chicken in high heat.",
+        "Throw in the remaining ingredients. Lower the heat, flip the side of the chicken, add a lid and let it simmer for 10-15min.",
+        "If you have a temperature probe, make sure its 165F"
+      ],
+      "notes": []
+    },
+    "Chicken on Tomato Sauce": {
+      "ingredients": [
+        "1 can of diced tomato (fire roasted), cummin, cilantro, 1 knoor, chopped garlid",
+        "1 Chicken Breast",
+        "oil"
+      ],
+      "steps": [
+        "Cut the chicken, wash and add some lime. Alternatively: Just washing the chicken and patting with paper towels for removing excess moisture (After last step you can optionally coat chicken with flour for making it crisp).",
+        "If you let it \\textbf{lime}, let it sit for 10min, than wash the chicken with running water",
+        "(Optional) If you can put all ingredients in a ziplock bag and let it rest for couple of hours or overnight.",
+        "On a sautee pan, add some oil and sear one side of the chicken in high heat.",
+        "Throw in the remaining ingredients. Lower the heat, flip the side of the chicken, add a lid and let it simmer for 10-15min.",
+        "If you have a temperature probe, make sure its 165F"
+      ],
+      "notes": []
+    },
+    "Onion chicken": {
+      "ingredients": [
+        "2 onions, 2 tsp of chopped garlic, 2 tablespoons of olive oil, 1 knoor",
+        "1 Chicken Breast",
+        "oil"
+      ],
+      "steps": [
+        "Cut the chicken, wash and add some lime. Alternatively: Just washing the chicken and patting with paper towels for removing excess moisture (After last step you can optionally coat chicken with flour for making it crisp).",
+        "If you let it \\textbf{lime}, let it sit for 10min, than wash the chicken with running water",
+        "(Optional) If you can put all ingredients in a ziplock bag and let it rest for couple of hours or overnight.",
+        "On a sautee pan, add some oil and sear one side of the chicken in high heat.",
+        "Throw in the remaining ingredients. Lower the heat, flip the side of the chicken, add a lid and let it simmer for 10-15min.",
+        "If you have a temperature probe, make sure its 165F"
+      ],
+      "notes": [
+        "User a blender to blend onion and garlic. Use just enough water so you can get a pasty texture"
+      ]
+    },
+    "Curried Tomato": {
+      "ingredients": [
+        "2 onions, 5 chopped tomatoes, 1 tablespoon of garlic, 1 tsp cumin, 2/3 tsp paprika, 2/3 tsp curry, 1 knoor",
+        "1 Chicken Breast",
+        "oil"
+      ],
+      "steps": [
+        "Cut the chicken, wash and add some lime. Alternatively: Just washing the chicken and patting with paper towels for removing excess moisture (After last step you can optionally coat chicken with flour for making it crisp).",
+        "If you let it \\textbf{lime}, let it sit for 10min, than wash the chicken with running water",
+        "(Optional) If you can put all ingredients in a ziplock bag and let it rest for couple of hours or overnight.",
+        "On a sautee pan, add some oil and sear one side of the chicken in high heat.",
+        "Throw in the remaining ingredients. Lower the heat, flip the side of the chicken, add a lid and let it simmer for 10-15min.",
+        "If you have a temperature probe, make sure its 165F"
+      ],
+      "notes": [
+        "User a blender to blend onion and garlic."
+      ]
+    },
     "Soy-Glazed Beef": {
       "ingredients": [
         "beef for beef stew (1lb)",
@@ -631,9 +747,7 @@
         ]
       },
       "steps": {
-        "Main": [
-          ""
-        ]
+        "Main": []
       },
       "notes": []
     },

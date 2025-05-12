@@ -37,59 +37,11 @@
 	\item Cut perpendicular to the fiber to maximize tenderness (Meats)
 \end{itemize}
 
-\newcommand{\chick}[3]{
-\subsection{[TODO: Add Title]}
-
-\paragraph{Ingredients:}
-
-\begin{itemize}
-\item #2
-\item 1 Chicken Breast 
-\item oil
-\end{itemize}
-
-\paragraph{Directions:}
-\begin{itemize}
-\item Cut the chicken, wash and add some lime. Alternatively: Just washing the chicken and patting with paper towels for removing excess moisture (After last step you can optionally coat chicken with flour for making it crisp).
-\item If you let it \textbf{lime}, let it sit for 10min, than wash the chicken with running water
-\item (Optional) If you can put all ingredients in a ziplock bag and let it rest for couple of hours or overnight.
-\item On a sautee pan, add some oil and sear one side of the chicken in high heat.
-\item Throw in the remaining ingredients. Lower the heat, flip the side of the chicken, add a lid and let it simmer for 10-15min.
-\item If you have a temperature probe, make sure its 165F
-\end{itemize}
-
-\paragraph{Notes:} #3
-}
-
-\newcommand{\placeholder}[2]{
-	\subsection{[TODO: Add Title]}
-	
-	Fill it
-	
-		#2 
-}
-
-\section{Fast everyday recipes}
-
-\chick{Curry Chicken}{1 tsp knoor, 2 tbl spoon curry powder, 1 tbl spoon Coconut oil}{}
-
-\chick{Galinha Baiana}{Tempero baiano, 3-4 colheres de molho ingles, 6-7 dentes de alho amassado, 2 colheres de molho shoyu, 3 colheres de molho de tomate, 1 colher de cha de knoor}{}
-
-\chick{Galinha italiana}{Cuminho, Oregano, Alho e sal}
-
-\chick{Cilantro chicken}{Cilantro, Chopped onion and Salt}
-
-\chick{Chicken on Tomato Sauce}{1 can of diced tomato (fire roasted), cummin, cilantro, 1 knoor, chopped garlid}
-
-\chick{Onion chicken}{2 onions, 2 tsp of chopped garlic, 2 tablespoons of olive oil, 1 knoor}{User a blender to blend onion and garlic. Use just enough water so you can get a pasty texture}
-
-\chick{Curried Tomato}{2 onions, 5 chopped tomatoes, 1 tablespoon of garlic, 1 tsp cumin, 2/3 tsp paprika, 2/3 tsp curry, 1 knoor}{User a blender to blend onion and garlic.}
-
-((* macro render_block(block, label, items) *))
+((* macro render_block(block, label, items) *))((* if items|length > 0 *))
 ((* if label *))
 \paragraph{((( block ))) ((( '(' )))((( label )))((( ')' ))):}((* else *))
 \paragraph{((( block ))):}((* endif *))
-((* if items|length > 0 *))\begin{itemize}((* for item in items *))
+\begin{itemize}((* for item in items *))
     \item ((( item )))((* endfor *))
 \end{itemize}((* endif *))((* endmacro *))
 
