@@ -34,8 +34,7 @@ pip install jinja2
 To generate the PDF from the recipes:
 
 ```bash
-make clean
-make all
+make clean && make all
 ```
 
 This will:
