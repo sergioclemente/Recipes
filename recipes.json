@@ -54,7 +54,9 @@
         "Bota molho de tomate e vinagre (1 colher)",
         "Deixa por uns 30-40min em fogo baixo tampado."
       ],
-      "notes": []
+      "notes": [
+        "Pra um sabor diferente use 2 colheres de molho ingles e 2 colheres de molho soyu."
+      ]
     },
     "Oven Roasted Chicken": {
       "ingredients": {
@@ -70,9 +72,9 @@
         "Chicken": [
           "Preheat the oven to 400\u00b0F.",
           "Line a sheet pan with aluminum foil.",
-          "Pat the chicken dry with paper towels; season with salt and pepper on",
-          "Roast 36 to 38 minutes, or until the chicken is browned and cooked",
-          "Reserving the juices on the sheet pan, transfer the roasted chicken to a"
+          "Pat the chicken dry with paper towels; season with salt and pepper on both sides. Place on the prepared sheet pan. Drizzle with olive oil; turn to coat. Arrange the seasoned chicken skin side up.",
+          "Roast 36 to 38 minutes, or until the chicken is browned and cooked through. (An instant-read thermometer inserted into the thickest part of the thigh should register 165\u00baF.) Remove from the oven.",
+          "Reserving the juices on the sheet pan, transfer the roasted chicken to a cutting board. Let rest for at least 5 minutes."
         ],
         "Gravy": [
           "Heat 2 tablespoons of butter and add 2 tablespoons of flour",
@@ -175,7 +177,9 @@
         "Cook covered for 20-30'",
         "Turn heat off (don't uncover) and let it sit for 20'"
       ],
-      "notes": []
+      "notes": [
+        "PS: Couple of variants of this rice: - Chop 1/2 onion and 2 garlic cloves. Add 1 tbsp of oil and stir fry the onion and garlic until garlic gets fragrant and onion translucent. Add rice and stir for 1-2\u2019, then do the same steps in the Directions."
+      ]
     },
     "Potatoes Gratin (Sergio)": {
       "ingredients": [
@@ -287,10 +291,10 @@
       ],
       "steps": [
         "Preheat your oven to \\textbf{400 F} degrees.",
-        "Melt the \\textbf{butter} in a saucepan or skillet over medium heat. Add the \\textbf{garlic} and cook for 30 seconds until",
+        "Melt the \\textbf{butter} in a saucepan or skillet over medium heat. Add the \\textbf{garlic} and cook for 30 seconds until the garlic is aromatic.",
         "Sprinkle the \\textbf{flour} over the garlic/butter then whisk well until combined with the butter. Add the \\textbf{chicken broth} and whisk until combined. It should look like a thick paste. Cook for another minute while stirring, then add the \\textbf{heavy cream} and whisk until smooth.",
         "Season with \\textbf{salt, pepper and nutmeg}. Continue cooking for 2 more minutes until the sauce comes to a simmer and thickens. Remove the saucepan from the heat and set aside.",
-        "Start layering. Start with a spreading a couple ladlefuls of the sauce over the bottom of a 9x13 inch baking dish. Spread a third of the sliced potatoes over the sauce in an even layer (see video). Top with",
+        "Start layering. Start with a spreading a couple ladlefuls of the sauce over the bottom of a 9x13 inch baking dish. Spread a third of the sliced potatoes over the sauce in an even layer (see video). Top with more of the sauce to cover the potatoes. Top with a third of the cheddar cheese and then a third of the bacon. You should have enough ingredients for 3 layers of potatoes. Continue layering with potatoes, sauce, cheese, bacon and repeat. Finally sprinkle with \\textbf{half the chives}.",
         "Cover with foil and bake for \\textbf{45 minutes}. Uncover and finish baking for for \\textbf{another 45 minutes} or until the potatoes are fork tender.",
         "Garnish with remaining \\textbf{chives} and serve warm."
       ],
@@ -312,7 +316,7 @@
     },
     "Truffle Sauce for Pasta": {
       "ingredients": [
-        "4 tbl spoons of truffle butter",
+        "4 tbl spoons of truffle butter (Put two blocks of butter with a truffle in a zip-lock bag. Let it rest for 2 days in the fridge or https://a.co/d/8Xkq81l.)",
         "1 truffle shredded (size of a brussel sprouts)",
         "1/4 cup of milk",
         "1/3 cup of shredded cheese (used Beecher's. you can use parmesan too)"
@@ -323,15 +327,6 @@
         "Stir until butter is fully melt",
         "Add cheese",
         "Add milk slowly, taste, you might need more or less milk if truffle is too strong."
-      ],
-      "notes": []
-    },
-    "Sushi Rice": {
-      "ingredients": [
-        ""
-      ],
-      "steps": [
-        ""
       ],
       "notes": []
     }
@@ -381,6 +376,9 @@
         "(T) Adicione mais queijo fontina em cima a gosto e leve ao forno para gratinar (450F)"
       ],
       "notes": [
+        "A base desse bacalhau eh o gomes sa + o molho bechamel. A grande diferenca do gomes sa eh que essa receita leva bem menos azeite ja que vai levar o molho branco. A receita original [1] leva pao, mas eu acho melhor com batata.",
+        "[1] https://www.196flavors.com/portugal-bacalhau-espiritual/",
+        "Essa receita demora 3 dias para ficar pronta:",
         "T-2: Bacalhau fica de molho pra desalgar",
         "T-1: Faz a base do gomes sa",
         "T: Faz o molho branco, batata e mistura com o bacalhau"
@@ -492,28 +490,48 @@
       ]
     },
     "Chef Zeca - Bolinho de bacalhau": {
-      "ingredients": [
-        "1lb of bacalao",
-        "1lb of asterix potatoes (1:1 ratio), boil them and mash like a puree",
-        "1 red onion in small pieces",
-        "green onion in small slices",
-        "parsley in small pieces",
-        "3 garlic cloves in small pieces",
-        "2 eggs",
-        "lemon",
-        "panko breakcrumb (3/4 of a bowl)",
-        "olive oil",
-        "black pepper"
-      ],
-      "steps": [
-        "Prepare the bacalao like the other recipes until the boiling phase.",
-        "Add 3 table spoons olive oil wait it to get warm ~275F-300F",
-        "Add onions for 3min or so",
-        "Season with ground pepper",
-        "Add garlic",
-        "Add bacalao (Should be in small pieces)",
-        "Taste for salt"
-      ],
+      "ingredients": {
+        "Main": [
+          "1lb of bacalao",
+          "1lb of asterix potatoes (1:1 ratio), boil them and mash like a puree",
+          "1 red onion in small pieces",
+          "green onion in small slices",
+          "parsley in small pieces",
+          "3 garlic cloves in small pieces",
+          "2 eggs",
+          "lemon",
+          "panko breakcrumb (3/4 of a bowl)",
+          "olive oil",
+          "black pepper"
+        ],
+        "Balls": [],
+        "Searing": []
+      },
+      "steps": {
+        "Main": [
+          "Prepare the bacalao like the other recipes until the boiling phase.",
+          "Add 3 table spoons olive oil wait it to get warm ~275F-300F",
+          "Add onions for 3min or so",
+          "Season with ground pepper",
+          "Add garlic",
+          "Add bacalao (Should be in small pieces)",
+          "Taste for salt"
+        ],
+        "Balls": [
+          "In a bowl, mix puree, bacalao mixture and green onion and parsley",
+          "Add lemon",
+          "Taste for salt",
+          "add  eggs",
+          "Add half the panko",
+          "Make small ball shaped (~1oz per ball)",
+          "Coat each ball with panko"
+        ],
+        "Searing": [
+          "Add oil to a pan until its hot ~350F",
+          "Add the balls in a controlled manner to the frying pan so that the temperature doesn't drop too much",
+          "Fry the balls like you would deep fry other stuff like french fries"
+        ]
+      },
       "notes": [
         "If you want to freeze you can stop here. If you froze you can continue from here. If it was frozen, wait 30min before throwing them in the frying pan",
         "Fazer esse bacalhau inicialmente como os anteriores, deixar de molho na agua e dar uma leve fervura no dia seguinte.",
@@ -536,7 +554,9 @@
         "On dutch oven (using the water inside the dutch oven) cook for 30min @ 480F with the lid closed",
         "Open the lid to allow bread to brown"
       ],
-      "notes": []
+      "notes": [
+        "https://www.youtube.com/watch?v=3Uc8h4T7GDo"
+      ]
     },
     "Pizza Dough": {
       "ingredients": [
@@ -587,24 +607,6 @@
     }
   },
   "Seafood": {
-    "Crab Cakes": {
-      "ingredients": [
-        ""
-      ],
-      "steps": [
-        ""
-      ],
-      "notes": []
-    },
-    "Salmon Burger": {
-      "ingredients": [
-        ""
-      ],
-      "steps": [
-        ""
-      ],
-      "notes": []
-    },
     "Fish Tacos": {
       "ingredients": {
         "Sour cream": [
@@ -698,7 +700,7 @@
       "ingredients": [
         "1 tablespoon unsalted butter",
         "1/4 pound slab bacon or salt pork, diced",
-        "2 leeks, tops removed, halved and cleaned, then",
+        "2 leeks, tops removed, halved and cleaned, then sliced into half moons",
         "3 large Yukon Gold potatoes, cubed",
         "1/2 cup dry white wine",
         "3 sprigs thyme",
@@ -735,7 +737,10 @@
         "Preheat waffle iron. Beat eggs in large bowl with hand beater until fluffy. Beat in flour, milk, vegetable oil, sugar, baking powder, salt and vanilla, just until smooth.",
         "Spray preheated waffle iron with non-stick cooking spray. Pour mix onto hot waffle iron (You can optionally interleave with the turkey and cheese). Cook until golden brown. Serve hot."
       ],
-      "notes": []
+      "notes": [
+        "Have some spare butter.",
+        "Experiment1: Add more salt (1/2). Add parmesan cheese."
+      ]
     },
     "Pancakes": {
       "ingredients": [
@@ -753,7 +758,9 @@
         "Use the 1/3 cup measurer to put pancakes into the pan",
         "Flip after 3-5min in the pan, adjust heat accordingly if too hot"
       ],
-      "notes": []
+      "notes": [
+        "Have some spare butter"
+      ]
     }
   },
   "Apps": {
@@ -783,7 +790,11 @@
         "Season with salt and pepper.",
         "Put butter on both sides of the toast, put on the oven for 350F until on of the sides is brown, then put the mixture"
       ],
-      "notes": []
+      "notes": [
+        "PS1: Trick to cut the toast thin is to put on the freezer overnight",
+        "PS2: One variation is using fried garlic. But you need more. I've used 6 garlic cloves.",
+        "PS3: Another variation is using balsamic vinegar."
+      ]
     },
     "Caponata (Sergio)": {
       "ingredients": [
@@ -975,26 +986,35 @@
   },
   "Weekend Meals": {
     "Burger": {
-      "ingredients": [
-        "1 garlic clove minced",
-        "1 pound of 80-85\\% meat",
-        "1-2 oz of bacon chopped in small pieces",
-        "2 egg yolk",
-        "4 burger buns",
-        "4 table spoons Mayonnaise",
-        "1/4 of onion seared (add some salt and sugar)",
-        "1 tablespoon of worcestershire sauce",
-        "4 cheese slices"
-      ],
-      "steps": [
-        "Fry the bacon, reserve meat and fat",
-        "Wait bacon to cool",
-        "Mix egg yolk, meat, bacon and garlic and make some nice paddies.",
-        "Fry the burger paddies on the bacon fat",
-        "Once its close to done (125F) add the cheese and cover for the cheese to melt.",
-        "Toast the buns lightly",
-        "Assemble the dish adding aioli"
-      ],
+      "ingredients": {
+        "Main": [
+          "1 garlic clove minced",
+          "1 pound of 80-85\\% meat",
+          "1-2 oz of bacon chopped in small pieces",
+          "2 egg yolk",
+          "4 burger buns",
+          "4 cheese slices"
+        ],
+        "Aioli": [
+          "4 table spoons Mayonnaise",
+          "1/4 of onion seared (add some salt and sugar)",
+          "1 tablespoon of worcestershire sauce"
+        ]
+      },
+      "steps": {
+        "Aioli": [
+          "Mix Mayonnaise, worcestershire sauce and seared onion. You want to blend that."
+        ],
+        "Main": [
+          "Fry the bacon, reserve meat and fat",
+          "Wait bacon to cool",
+          "Mix egg yolk, meat, bacon and garlic and make some nice paddies.",
+          "Fry the burger paddies on the bacon fat",
+          "Once its close to done (125F) add the cheese and cover for the cheese to melt.",
+          "Toast the buns lightly",
+          "Assemble the dish adding aioli"
+        ]
+      },
       "notes": []
     },
     "Chicken Fricassee": {
@@ -1132,41 +1152,60 @@
       "notes": []
     },
     "Boef Bourguignon": {
-      "ingredients": [
-        "4 ounces of bacon, sliced crosswise into thin strips (1/4 inch by 1 inch pieces)",
-        "2 pounds of boneless beef chuck, trimmed of all fat and cut into 1 inch cubes",
-        "1 carrot, peeled and sliced into 1/4 inch think rounds",
-        "1 large yellow onion, medium diced",
-        "2 tablespoon unbleached all-purpose flour",
-        "2 cups full-bodied, red wine like chianti or merlot",
-        "2-3 cups of low sodium beef stock",
-        "1 tbl spoon tomato paste",
-        "3 large garlic cloves, finely minced",
-        "3 sprigs fresh thyme, tied with butcher's twine",
-        "2 bay leaves",
-        "2 tbl spoon of butter, room temperature",
-        "3 tbl spoons chopped flat-leaf parsley",
-        "1/6 cup sherry vinegar"
-      ],
-      "steps": [
-        "Preheat oven to 325",
-        "In a large dutch oven over medium heat, saute bacon until lightly browned. About 5 minutes. Transfer bacon into a medium bowl and reserve fat in the pan.",
-        "Dry the beef thoroughly with paper towel and season with salt and pepper. Return dutch oven to medium-high heat. When fat is shimmering, add the beef and sear all sides. Transfer seared beef to bowl with bacon.",
-        "Reduce heat to medium and add the carrots and onions to the pan. Saute until lightly browned, about 8 minutes.",
-        "Return the beef and bacon to the dutch oven with the onion and carrots; season lightly with salt and pepper. Sprinkle flour over and toss to a lightly coat.",
-        "Slowly stir in wine and add enough stock to just cover the meat.",
-        "Stir in tomato paste, garlic, thyme sprigs and bay leaf.",
-        "Bring to a simmer over medium heat.",
-        "Cover the pot and place in the preheated oven for 1 1/2 to 2 hours.",
-        "The meat is done when a fork pierces it easily.",
-        "Separate the solids from the liquid with a sieve.",
-        "Discard thyme sprigs and bay leaf.",
-        "Put liquid in a saucepan with the sherry vinegar and let is simmer until liquid is required by half.",
-        "Add roasted onions and mushroom to the dutch oven.",
-        "Skim fat off the surface of the braising liquid with a laddle and discard fat.",
-        "Season with salt and pepper. Maybe adding a bit of sugar to balance the acidity (Used 3 teaspoons of coconut sugar).",
-        "Pour mixture to dutch oven and stir to combine."
-      ],
+      "ingredients": {
+        "Onions": [
+          "15 pearl onions",
+          "8 ounces cremini or button mushrooms, trimmed and quartered",
+          "1/6 cup sherry vinegar",
+          "butter"
+        ],
+        "Main": [
+          "4 ounces of bacon, sliced crosswise into thin strips (1/4 inch by 1 inch pieces)",
+          "2 pounds of boneless beef chuck, trimmed of all fat and cut into 1 inch cubes",
+          "1 carrot, peeled and sliced into 1/4 inch think rounds",
+          "1 large yellow onion, medium diced",
+          "2 tablespoon unbleached all-purpose flour",
+          "2 cups full-bodied, red wine like chianti or merlot",
+          "2-3 cups of low sodium beef stock",
+          "1 tbl spoon tomato paste",
+          "3 large garlic cloves, finely minced",
+          "3 sprigs fresh thyme, tied with butcher's twine",
+          "2 bay leaves",
+          "2 tbl spoon of butter, room temperature",
+          "3 tbl spoons chopped flat-leaf parsley",
+          "1/6 cup sherry vinegar"
+        ]
+      },
+      "steps": {
+        "Onions": [
+          "While the beef is cooking, blanch the pearl onions in rapidly boiling salted water until tender, about 4 minutes.",
+          "Drain and let cool, then trim ends and peel. Set aside",
+          "To a large ovenproof skillet over medium-high heat, add butter.",
+          "Add onions and mushrooms and stir to coat vegetables with the melted butter.",
+          "Drizzle with sherry vinegar and season generously with salt and pepper.",
+          "Place skillet in a oven, stirrring occasionally, until onions and mushrooms turn golden brown and most of the liquid have evaporated. Around 20-25minutes.",
+          "Remove from oven and set aside."
+        ],
+        "Main": [
+          "Preheat oven to 325",
+          "In a large dutch oven over medium heat, saute bacon until lightly browned. About 5 minutes. Transfer bacon into a medium bowl and reserve fat in the pan.",
+          "Dry the beef thoroughly with paper towel and season with salt and pepper. Return dutch oven to medium-high heat. When fat is shimmering, add the beef and sear all sides. Transfer seared beef to bowl with bacon.",
+          "Reduce heat to medium and add the carrots and onions to the pan. Saute until lightly browned, about 8 minutes.",
+          "Return the beef and bacon to the dutch oven with the onion and carrots; season lightly with salt and pepper. Sprinkle flour over and toss to a lightly coat.",
+          "Slowly stir in wine and add enough stock to just cover the meat.",
+          "Stir in tomato paste, garlic, thyme sprigs and bay leaf.",
+          "Bring to a simmer over medium heat.",
+          "Cover the pot and place in the preheated oven for 1 1/2 to 2 hours.",
+          "The meat is done when a fork pierces it easily.",
+          "Separate the solids from the liquid with a sieve.",
+          "Discard thyme sprigs and bay leaf.",
+          "Put liquid in a saucepan with the sherry vinegar and let is simmer until liquid is required by half.",
+          "Add roasted onions and mushroom to the dutch oven.",
+          "Skim fat off the surface of the braising liquid with a laddle and discard fat.",
+          "Season with salt and pepper. Maybe adding a bit of sugar to balance the acidity (Used 3 teaspoons of coconut sugar).",
+          "Pour mixture to dutch oven and stir to combine."
+        ]
+      },
       "notes": []
     },
     "Steakhouse Steak": {
@@ -1238,19 +1277,36 @@
       ]
     },
     "Slow Cooked BBQ Ribs": {
-      "ingredients": [
-        "Jack Daniels BBQ Sauce",
-        "1 Rack of Ribs",
-        "Ribs Seasoning (Safeway would do it)"
-      ],
-      "steps": [
-        "Put seasoning in both sides of ribs",
-        "Wrap the ribs in aluminum foil",
-        "Turn oven on 325F and let it cook for 3-4hrs",
-        "Remove aluminum foil and put BBQ sauce",
-        "Turn the heat up to 425F and leave for more 10min",
-        "Cut and serve"
-      ],
+      "ingredients": {
+        "Rub": [
+          "1/2 cup brown sugar",
+          "2 tablespoons paprika",
+          "1 tablespoon smoked paprika",
+          "1 tablespoon black pepper",
+          "1/2 tablespoon kosher salt",
+          "1 tablespoon garlic powder",
+          "1 tablespoon onion powder",
+          "1 teaspoon mustard powder"
+        ],
+        "Main": [
+          "Jack Daniels BBQ Sauce",
+          "1 Rack of Ribs",
+          "Rub"
+        ]
+      },
+      "steps": {
+        "Rub": [
+          "Mix all dry ingredients."
+        ],
+        "Main": [
+          "Put seasoning in both sides of ribs",
+          "Wrap the ribs in aluminum foil",
+          "Turn oven on 325F and let it cook for 3-4hrs",
+          "Remove aluminum foil and put BBQ sauce",
+          "Turn the heat up to 425F and leave for more 10min",
+          "Cut and serve"
+        ]
+      },
       "notes": []
     },
     "Peixe ao coco": {
@@ -1293,7 +1349,10 @@
         "In a medium skillet over medium heat, melt the butter and olive oil. As soon as the butter and oil begin to turn golden and smoke, gently place the steaks in the pan. For medium-rare, cook for 2-3 minutes on each side. Once done, remove the steaks to a plate, tent with foil and set aside. Pour off the excess fat but do not wipe or scrape the pan clean.",
         "Off of the heat, add 1/3 cup Cognac to the pan and carefully ignite the alcohol with a long match or firestick. Gently shake pan until the flames die. Return the pan to medium heat and add the cream. Bring the mixture to a boil and whisk until the sauce coats the back of a spoon, approximately 5 to 6 minutes. Add the teaspoon of Cognac and season, to taste, with salt. Add the steaks back to the pan, spoon the sauce over, and serve."
       ],
-      "notes": []
+      "notes": [
+        "If the sauce is too bitter add a bit of sugar.",
+        "If you need to cook many batches of the recipe use many pans so that the bits in the pan don't get cooked too much."
+      ]
     },
     "Parisian Gnocchi": {
       "ingredients": {
@@ -1339,10 +1398,10 @@
         "2 green onions chopped"
       ],
       "steps": [
-        "Preheat your oven to 375 F degrees. Place 2 foil sheets on a baking sheet. I used 2 foil sheets because I",
-        "In a small bowl whisk together the soy sauce, maple syrup, sweet chili sauce, lime juice, fresh ginger,",
-        "Place the salmon fillet over the foil then pour about half the marinade over and brush if necessary to",
-        "Fold the edges of the aluminum foil over the salmon so that it is fully wrapped. Bake for about 20 to",
+        "Preheat your oven to 375 F degrees. Place 2 foil sheets on a baking sheet. I used 2 foil sheets because I want to make sure there\u2019s enough foil to wrap around the salmon.",
+        "In a small bowl whisk together the soy sauce, maple syrup, sweet chili sauce, lime juice, fresh ginger, garlic, salt and pepper. The salt can probably be omitted since the soy sauce should have plenty of sodium.",
+        "Place the salmon fillet over the foil then pour about half the marinade over and brush if necessary to cover the entire surface of the fish. Turn the fish over and pour the rest of the marinade. Also brush the marinade making sure that the entire fish is brushed with marinade.",
+        "Fold the edges of the aluminum foil over the salmon so that it is fully wrapped. Bake for about 20 to 25 minutes, depending on the size of your salmon. My salmon was quite a big piece, so I baked it for 25 minutes. You may also turn the broiler on and broil for about 2 to 3 minutes at the end if preferred.",
         "Open the foil and garnish with sesame seeds and chopped green onions."
       ],
       "notes": []
@@ -1397,7 +1456,9 @@
         "Throw remainder of ingredients (Tomato sauce, Beer and Onion Soup), stir until mixture is uniform.",
         "Leave in the pressure cooker for 35-40'"
       ],
-      "notes": []
+      "notes": [
+        "The chicken version of this dish you replace beer for 1/2 cup of white wine, and 1 cup of chicken stock and put grated onion instead of the onion soup."
+      ]
     },
     "Bife de Molho Luzinete": {
       "ingredients": [
@@ -1439,8 +1500,8 @@
       "steps": [
         "Season beef with salt and pepper and use flour to coat.",
         "Add oil to large skillet, sear all sides of the beef, 5-10\u2019. Reserve.",
-        "Add a little bit more of oil and add onions. Wait until onion gets translucent. 3\u2019. Add garlic until its",
-        "Deglaze pan with wine, cook on medium/low heat for 1-2\u2019, then add stock, worcestershire sauce and",
+        "Add a little bit more of oil and add onions. Wait until onion gets translucent. 3\u2019. Add garlic until its fragrant. Around 1\u2019.",
+        "Deglaze pan with wine, cook on medium/low heat for 1-2\u2019, then add stock, worcestershire sauce and tomatoes.",
         "Cook under pressure for 20\u2019."
       ],
       "notes": []
@@ -1512,11 +1573,11 @@
       "steps": [
         "Season pork generously with salt and pepper",
         "Add olive oil and sear all sides of the pork until they are brown. Reserve the pork.",
-        "Add butter, saute the mushrooms, season with salt and pepper. Stir until mushrooms are slightly",
+        "Add butter, saute the mushrooms, season with salt and pepper. Stir until mushrooms are slightly crisp and browned. This step should take around 7-12 minutes.",
         "Add garlic, carrots and bay leaves. Saute for 2 minutes.",
         "De-glaze with a dash of balsamic vinegar add chicken stock and soy sauce.",
         "Add pork, potatoes and cook under pressure for 15\u2019.",
-        "If necessary add a bit of cornstarch for thickening the gravy (You might want to mix separate from the"
+        "If necessary add a bit of cornstarch for thickening the gravy (You might want to mix separate from the main sauce)."
       ],
       "notes": []
     }
@@ -1634,7 +1695,9 @@
         "Make Bechamel",
         "Start layering: Sheets, Beef, Sheets, Bechamel, Mozzarella, Sheets, ... You should make 3 layers of beef. In the top, cover with mozzarella cheese."
       ],
-      "notes": []
+      "notes": [
+        "Note: You can replace the ground beef for pesto (I\u2019ve used the costco one) for a Pesto Lasagna."
+      ]
     },
     "Beef Empanadas": {
       "ingredients": [
@@ -1650,8 +1713,8 @@
       ],
       "steps": [
         "Make ground beef, or using the ground beef left over",
-        "Mix all spices (oregano, smoked paprika, chili powder, salt, brown sugar, hot sauce) using beef",
-        "Working with one puff pastry sheet at a time, roll it out so that it\u2019s long enough to cut 6 circles, 2 on each",
+        "Mix all spices (oregano, smoked paprika, chili powder, salt, brown sugar, hot sauce) using beef stock as needed to allow stirring.",
+        "Working with one puff pastry sheet at a time, roll it out so that it\u2019s long enough to cut 6 circles, 2 on each row. Using a 4 inch cookie cutter or bowl, cut 6 circles, 2 per row. Fill each with a about a tablespoon of meat mixture in the middle of each pastry round. Brush half of the pastry round edge with egg wash, then fold the dough over into a half-moon shape so the edges meet and then press them together with your fingers to seal. Use a fork to crimp the edge. Place it onto a baking sheet and repeat with remaining ingredients.",
         "Poke holes in each empanada using a fork then brush the empanadas with the egg wash and bake (on 375-400F) for about 20 to 25 minutes, or until golden brown."
       ],
       "notes": []
@@ -1679,15 +1742,15 @@
       },
       "steps": {
         "Main": [
-          "Start by first cooking the potatoes in boiling water for about 15 minutes or until fork tender. While the",
-          "Heat the oil in a large skillet over medium heat. Add the ground beef to the skillet and cook it for abut",
+          "Start by first cooking the potatoes in boiling water for about 15 minutes or until fork tender. While the potatoes are cooking, you can prepare the meat mixture.",
+          "Heat the oil in a large skillet over medium heat. Add the ground beef to the skillet and cook it for about 5 minutes or until it\u2019s no longer pink, breaking it up as you go along.",
           "Add the onion and garlic and cook for 3 more minutes until the onion softens and becomes translucent.",
           "Taste for salt, might need more.",
-          "Add the pepper flakes, Worcestershire sauce, onion soup mix, beef broth and stir. Stir in the frozen",
+          "Add the pepper flakes, Worcestershire sauce, onion soup mix, beef broth and stir. Stir in the frozen veggies and cook for a couple more minutes. Set aside.",
           "Preheat the oven 350 F degrees.",
           "Prepare the mashed potatoes.",
-          "Spread the potatoes over the meat and smooth with a spoon. Take a fork and rough up the top a bit and",
-          "Place the skillet on a baking sheet, then place it in the oven and bake for 40 minutes until golden brown",
+          "Spread the potatoes over the meat and smooth with a spoon. Take a fork and rough up the top a bit and garnish with a bit of parsley.",
+          "Place the skillet on a baking sheet, then place it in the oven and bake for 40 minutes until golden brown on top.",
           "Garnish with more parsley and pepper and serve warm."
         ]
       },
@@ -1714,7 +1777,9 @@
         "Put the parchment paper on a tray and then on the oven.",
         "Leave it on the oven for 20-30min or until fully brown."
       ],
-      "notes": []
+      "notes": [
+        "Notes: You can replace the panko breadcrumb with tempura batter. The ingredients are: Tempura mix, cold water, salt and water."
+      ]
     },
     "Chicken Piccatta": {
       "ingredients": {
@@ -1765,14 +1830,14 @@
       ],
       "steps": [
         "Pat the chicken dry with paper towels and season with salt and pepper.",
-        "Add the chicken skin-side down in a large cast iron with oil and cook until the fat is rendered and the",
+        "Add the chicken skin-side down in a large cast iron with oil and cook until the fat is rendered and the skin is crisp and golden-brown, 6 to 8 minutes. Reserve chicken.",
         "Add the shallots to the pan and cook over medium heat until softened, about 3 minutes.",
-        "Add the wine, scrape up any browned bits at the bottom of the pan with a wooden spoon, and cook",
+        "Add the wine, scrape up any browned bits at the bottom of the pan with a wooden spoon, and cook until evaporated, about 3 minutes.",
         "Stir in the broth and whole-grain mustard and bring to a simmer.",
         "Return the chicken skin-side up, and add any juices accumulated on the plate to the pan.",
         "In a 400F oven, braise the chicken for 15-20\u2019 or until internal temperature reaches 165F.",
         "Transfer the chicken with tongs to a platter.",
-        "Place the pan over medium-high heat, whisk the smooth Dijon mustard into the sauce, and simmer until",
+        "Place the pan over medium-high heat, whisk the smooth Dijon mustard into the sauce, and simmer until reduced slightly, about 2 minutes. Add the cream.",
         "Adjust salt and pepper accordingly."
       ],
       "notes": []
@@ -1862,10 +1927,10 @@
       ],
       "steps": [
         "Season the chicken breasts generously with salt and pepper.",
-        "Heat 2 tbsp of the olive oil in a large skillet or a saucepan over medium-high heat. Add the chicken",
-        "Add the remaining 1 tbsp of olive oil to the skillet and add the mushrooms. Season the mushrooms with",
-        "Add the garlic, Madeira wine and chicken broth to the skillet and stir. Season with more salt and pepper",
-        "If you find that the sauce hasn\u2019t thickened enough, you can take about a ladle of the liquid from the pan",
+        "Heat 2 tbsp of the olive oil in a large skillet or a saucepan over medium-high heat. Add the chicken breasts to the skillet and cook for about 3 to 4 minutes per side until they get to get golden brown. More time may be needed depending on the thickness of your chicken breasts. Remove the chicken breasts from the skillet and set aside.",
+        "Add the remaining 1 tbsp of olive oil to the skillet and add the mushrooms. Season the mushrooms with salt and pepper then cook for about 8 minutes until the mushrooms start to brown. Stir occasionally.",
+        "Add the garlic, Madeira wine and chicken broth to the skillet and stir. Season with more salt and pepper as needed. Reduce heat and cook for another 15 minutes until the sauce thickens a bit and reduces.",
+        "If you find that the sauce hasn\u2019t thickened enough, you can take about a ladle of the liquid from the pan and whisk it with a tbsp of flour, then pour it back into the saucepan and stir, the sauce should thicken almost instantly. Add the butter and stir, this will give the sauce a nice glossy color.",
         "Add the chicken breasts back to the pan and cook for another 5 minutes.",
         "Garnish with fresh parsley and serve over mashed potatoes."
       ],
@@ -1893,11 +1958,11 @@
         "2 tbsp parsley chopped"
       ],
       "steps": [
-        "Add the butter and cook until the butter has melted. Add the garlic and ginger and saute for another",
-        "Add the tomato puree and tomato paste to the Instant Pot and stir. Add the garam masala, coriander,",
-        "Add the chicken thighs, water and stir everything together. There should be enough liquid in the pot to",
+        "Add the butter and cook until the butter has melted. Add the garlic and ginger and saute for another minute or until the garlic becomes aromatic. Do not cook too long because you don\u2019t want to burn it.",
+        "Add the tomato puree and tomato paste to the Instant Pot and stir. Add the garam masala, coriander, cumin, paprika, turmeric and salt to the Instant Pot, stir and cook for about 3 to 5 minutes.",
+        "Add the chicken thighs, water and stir everything together. There should be enough liquid in the pot to cover the chicken, so add more water if needed.",
         "Close the lid. Cook on the pressure cooker for 20\u2019.",
-        "Whisk milk and flour and add to the pot. Simmer for another 5\u2019 until sauce reduces a bit. Add chopped"
+        "Whisk milk and flour and add to the pot. Simmer for another 5\u2019 until sauce reduces a bit. Add chopped parsley."
       ],
       "notes": []
     },
@@ -2088,11 +2153,25 @@
     }
   },
   "Desserts": {
-    "Chocolate Mousse": {
+    "Cheese Mousse": {
       "ingredients": [
         "1 can of condensed milk",
         "1 can of \"Crema de leche\"",
-        "#2"
+        "Philadelphia cheese or brazilian requeijao",
+        "Guava Jam"
+      ],
+      "steps": [
+        "Blend all ingredients on a blender."
+      ],
+      "notes": [
+        "Melt the guava jam and mix after mixing all the ingredients."
+      ]
+    },
+    "Passion Fruit Mousse": {
+      "ingredients": [
+        "1 can of condensed milk",
+        "1 can of \"Crema de leche\"",
+        "Passion Fruit Juice"
       ],
       "steps": [
         "Blend all ingredients on a blender."
@@ -2130,9 +2209,7 @@
           "chantily para decorar (heavy cream + acucar)",
           "canela em p\u00f3 para decorar"
         ],
-        "Montar": [
-          ""
-        ]
+        "Montar": []
       },
       "steps": {
         "Massa": [
@@ -2147,7 +2224,9 @@
           "Polvilha com canela"
         ]
       },
-      "notes": []
+      "notes": [
+        "https://www.youtube.com/watch?v=OWh748JNruM"
+      ]
     },
     "Creme brulee": {
       "ingredients": [
@@ -2164,7 +2243,9 @@
         "Let it refrigerate overnight",
         "Using a hand torch add a bit of sugar over the top and caramelize the sugar. Be careful not to burn."
       ],
-      "notes": []
+      "notes": [
+        "Notes: Try with 5 eggs and more vanilla paste (2-3 tsp?)"
+      ]
     },
     "Milk Pudding (Pudim de leite)": {
       "ingredients": [
@@ -2248,11 +2329,17 @@
         "Non iodized salt"
       ],
       "steps": [
-        "Season the meat with liquid smoke, don't over do it",
-        "Cover with salt and massage thorough",
-        "Add to the fridge"
+        "(T-1) Season the meat with liquid smoke, don't over do it",
+        "(T-1) Cover with salt and massage thorough",
+        "(T-1) Add to the fridge",
+        "(T) Remove salt and add more salt",
+        "(T) Repeat the process until there is not a lot of water being released"
       ],
-      "notes": []
+      "notes": [
+        "https://www.youtube.com/watch?v=zCUlzI2n0ic",
+        "https://www.youtube.com/watch?v=QEAqYDH6DDk",
+        "https://www.youtube.com/watch?v=liP9mfqCIQw"
+      ]
     },
     "Coppa": {
       "ingredients": [
@@ -2280,7 +2367,9 @@
         "Vacuum seal and put on the fridge for 7 days.",
         "Once the time passed, use a slicer for cutting the coppa and enjoy."
       ],
-      "notes": []
+      "notes": [
+        "Original: https://tasteofartisan.com/capicola-recipe/"
+      ]
     }
   },
   "Sauces": {
@@ -2385,7 +2474,9 @@
       "steps": [
         "Mix everything in a mixer. Add salt and pepper to taste."
       ],
-      "notes": []
+      "notes": [
+        "Notes: You can make a sauce for pasta by adding a bit of milk and cornstarch (mix both together before putting in pesto mixture)."
+      ]
     },
     "Chipotle Mayo": {
       "ingredients": [
@@ -2451,19 +2542,35 @@
       "notes": []
     },
     "Potato Salad": {
-      "ingredients": [
-        "5 large potatoes",
-        "2 ribs of celery, finely chopped",
-        "1/2 onion, finely chopped",
-        "3 hard boiled eggs. 2 chopped, 1 sliced",
-        "1 cup miracle whip",
-        "3 tablespoons Dijon mustard",
-        "salt",
-        "pepper"
-      ],
-      "steps": [
-        "Mix everything and season with salt and pepper to taste."
-      ],
+      "ingredients": {
+        "Main": [
+          "5 large potatoes",
+          "2 ribs of celery, finely chopped",
+          "1/2 onion, finely chopped",
+          "3 hard boiled eggs. 2 chopped, 1 sliced",
+          "1 cup miracle whip",
+          "3 tablespoons Dijon mustard",
+          "salt",
+          "pepper"
+        ],
+        "Miracle Whip": [
+          "6 teaspoons of white vinegar",
+          "2 teaspoons of cornstarch",
+          "3 teaspoon of sugar",
+          "1 teaspoon paprika",
+          "1 teaspoon of garlic salt",
+          "1/4 teaspoon of mustard powder",
+          "1 1/2 cup of mayo"
+        ]
+      },
+      "steps": {
+        "Miracle Whip": [
+          "Mix everything."
+        ],
+        "Main": [
+          "Mix everything and season with salt and pepper to taste."
+        ]
+      },
       "notes": []
     },
     "Overnight Oats": {
@@ -2490,7 +2597,9 @@
         "Cut brussels sprouts in half, mix with a bit of olive oil, salt and pepper.",
         "Turn oven on 475F and leave for 20'. Flip sides 10'."
       ],
-      "notes": []
+      "notes": [
+        "Notes: You can make broccoli as well. Just add some chopped garlic to the broccoli."
+      ]
     },
     "Spaguetti Squash": {
       "ingredients": [
@@ -2691,7 +2800,9 @@
         "Turn on the oven at 350F for 50'",
         "Check if bread is ready"
       ],
-      "notes": []
+      "notes": [
+        "Should yield 20 slices with 100 cal each."
+      ]
     },
     "Filet Mignon - Luzinete Style": {
       "ingredients": [
@@ -2703,8 +2814,15 @@
         "2 onions (or 1 large)"
       ],
       "steps": [
-        "Wash the meat in water, grate the onion and put 1 cup of red wine. Add salt and pepper to taste.",
-        "Put in a container (tupperware) and leave it overnight."
+        "(T-1) Wash the meat in water, grate the onion and put 1 cup of red wine. Add salt and pepper to taste.",
+        "(T-1) Put in a container (tupperware) and leave it overnight.",
+        "(T) In a large and hot skillet melt a tablespoon of butter",
+        "(T) Sear on all sides of the filet",
+        "(T) Remove the filet from the skillet, and in the same skillet add the misture (wine and onion) with 2 table spoons of cornstarch (Be careful with the cornstarch so that is fully dissolved)",
+        "(T) Let it cook for 5min",
+        "(T) Add the filet into the skillet and close it with a lid, put the fire on low and let it cook for 10min.",
+        "(T) Turn off the heat, cut the filet in pieces and use the juice from the meat and put back in the skillet.",
+        "(T) Put 1 tablespoon of butter in the skillet and let it cook for a couple more minutes."
       ],
       "notes": []
     },
@@ -2744,7 +2862,9 @@
         "Make an egg scramble then throw in the remaining ingredients",
         "Mix a bit and season with salt if required"
       ],
-      "notes": []
+      "notes": [
+        "Experiment with more soy sauce + sesame oil + grated onions"
+      ]
     },
     "French Onion Soup": {
       "ingredients": [
