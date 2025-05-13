@@ -1849,6 +1849,25 @@
       ],
       "notes": []
     },
+    "Smoked Salmon Dip (Chef Taku)": {
+      "ingredients": [
+        "1 lb (450g) smoked salmon, chopped",
+        "Two 8 oz (227g) blocks cream cheese, softened to room temperature",
+        "1 cup (250g) plain Greek yogurt",
+        "1–2 tbsp (15–30ml) wasabi, to taste",
+        "1 1/2 bunches of green onion, chopped",
+        "1 serrano pepper, chopped",
+        "1 tbsp (15ml) light soy sauce"
+      ],
+      "steps": [
+        "In a large bowl, combine all the \\textbf{ingredients}. To get the perfect spice balance, mix all the \\textbf{ingredients} together, adding as little or as much \\textbf{wasabi} as you'd like. Taste and adjust accordingly.",
+        "Enjoy with your favorite crackers!"
+      ],
+      "notes": [
+        "Recipe works with any smoked fish, not just salmon.",
+        "I like a more fishy dip, so I use \\textbf{less cream cheese and yogurt} (1/4 of the amount they mention). I also use \\textbf{chives} instead of green onions."
+      ]
+    },
     "Asian Glazed Salmon in Foil": {
       "ingredients": [
         "1/4 cup soy sauce low sodium",
@@ -2038,7 +2057,29 @@
         "Put for more 5' in the oven"
       ],
       "notes": []
-    }
+    },
+    "Pickled Onions": {
+      "ingredients": [
+        "30 small onions",
+        "1 cups distilled white vinegar",
+        "1 cups water",
+        "2 tablespoon sugar",
+        "2 teaspoon salt",
+        "1 teaspoon mustard seed",
+        "2 sprigs fresh dill",
+        "1/2 teaspoon chili pepper flakes"          
+      ],
+      "steps": [
+        "In a saucepan over medium heat, combine \\textbf{onion}, \\textbf{distilled white vinegar}, \\textbf{water}, \\textbf{sugar}, \\textbf{salt}, \\textbf{dill seed}, \\textbf{mustard seed}, \\textbf{fresh dill}, and \\textbf{chili pepper flakes}. Bring to a boil, stirring until the \\textbf{sugar} and \\textbf{salt} dissolve.",
+        "Pack the \\textbf{onions} into sterilized jars, and pour the hot vinegar mixture over them, ensuring the \\textbf{onions} is fully submerged.",
+        "Seal the jars and refrigerate for at least 2 hours before serving. For best flavor, refrigerate overnight."
+      ],
+      "notes": [
+        "Original recipe from https://www.allrecipes.com/recipe/69722/pickled-asparagus/ and https://www.allrecipes.com/recipe/218986/pickled-onions/",
+        "Pickled onions can be stored in the refrigerator for up to 2 weeks.",
+        "Adjust the amount of \\textbf{chili pepper flakes} to taste for a milder or spicier flavor."
+      ]
+   }
   },
   "Spanish Cuisine": {
     "Bravas Sauce": {

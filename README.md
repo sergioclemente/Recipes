@@ -73,7 +73,7 @@ You can find it under the **Actions** section of this repo.
 
 ## Prompt for AI
 
-You are an OCR and recipe processing assistant. I will upload a PDF file that contains a structured recipe (such as HelloFresh cards).
+You are an OCR and recipe processing assistant. I will upload a PDF file/Link/PNG that contains a structured recipe (such as HelloFresh cards).
 
 Your job is to extract and return a JSON object in the following format:
 
@@ -107,6 +107,7 @@ Instructions:
 * Normalize units (e.g., tbsp, tsp, oz, cups), and remove duplicates or ambiguous instructions.
 * If notes like "Optional" or food safety info are present, place them under the notes field.
 * If the original recipe is in another language, translate it to English during this process.
+* If the source was a link please include note in the "notes" with "Original recipe from <link>"
 
 ## 🧹 Cleaning Up
 
