@@ -71,6 +71,43 @@ You can find it under the **Actions** section of this repo.
 
 3. Run `make` to regenerate the PDF
 
+## Prompt for AI
+
+You are an OCR and recipe processing assistant. I will upload a PDF file that contains a structured recipe (such as HelloFresh cards).
+
+Your job is to extract and return a JSON object in the following format:
+
+json
+```
+{
+  "Root": {
+    "<Recipe Title>": {
+      "ingredients": [
+        "...", 
+        "..."
+      ],
+      "steps": [
+        "...", 
+        "..."
+      ],
+      "notes": [
+        "..."
+      ]
+    }
+  }
+}
+```
+
+Instructions:
+* Always use "Root" as the top-level section.
+* The ingredients should be listed cleanly (no extra units like bullet marks or Unicode characters).
+* In the steps, highlight ingredient mentions using \\textbf{...}. For example, “Add rice and butter” becomes “Add \\textbf{rice} and \\textbf{butter}.”
+* Convert any special Unicode fractions (like ⅓, ½) into ASCII equivalents (1/3, 1/2, etc).
+* Replace & with \\& (escaped for LaTeX).
+* Normalize units (e.g., tbsp, tsp, oz, cups), and remove duplicates or ambiguous instructions.
+* If notes like "Optional" or food safety info are present, place them under the notes field.
+* If the original recipe is in another language, translate it to English during this process.
+
 ## 🧹 Cleaning Up
 
 To remove all generated files:
