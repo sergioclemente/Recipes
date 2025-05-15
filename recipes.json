@@ -2935,6 +2935,111 @@
       ]
     }
   },
+  "Experimental": {
+    "Fish/Vegetable Broth": {
+      "ingredients": [
+        "2 pounds fish heads, fish strips, prawn shells or whole fish",
+        "2 celery stalks, broken into pieces",
+        "2 carrots, peeled, cut in half",
+        "1 large onion, quartered",
+        "6 black peppercorns",
+        "2 tbsp salt",
+        "3 bay leaves, broken into small pieces",
+        "2 tbsp lobster base (optional)",
+        "4 quarts plus 2 cups cold water"
+      ],
+      "steps": [
+        "In a large pot, place \\textbf{seafood}, \\textbf{celery}, \\textbf{carrots}, \\textbf{onion}, \\textbf{peppercorns}, \\textbf{salt}, \\textbf{bay leaves} and \\textbf{lobster base}.",
+        "Add \\textbf{cold water} and simmer, uncovered, over medium-low heat for 1 hour.",
+        "Skim the surface foam occasionally with a slotted spoon.",
+        "Strain the \\textbf{broth}, discarding the solids."
+      ],
+      "notes": [
+        "For vegetable broth, omit the seafood and lobster base."
+      ]
+    },
+    "Chicken Broth": {
+      "ingredients": [
+        "1 chicken (4 pounds), cut into 6 pieces",
+        "2 celery stalks, broken into pieces",
+        "2 carrots, peeled, cut in half",
+        "1 large onion, quartered",
+        "6 black peppercorns",
+        "2 tbsp salt",
+        "3 bay leaves, broken into small pieces",
+        "2 tbsp chicken base (optional)",
+        "4 quarts plus 2 cups cold water"
+      ],
+      "steps": [
+        "In a large pot, place \\textbf{chicken}, \\textbf{celery}, \\textbf{carrots}, \\textbf{onion}, \\textbf{peppercorns}, \\textbf{salt}, \\textbf{bay leaves} and \\textbf{chicken base}.",
+        "Add \\textbf{cold water} and simmer, uncovered, over medium-low heat for 3 hours.",
+        "Strain the \\textbf{broth}, discarding the solids."
+      ],
+      "notes": [
+        "The remaining chicken pieces are great for salads or other recipes."
+      ]
+    },
+    "LINGUINE ALL'AMATRICIANA PASTA WITH PANCETTA AND TOMATOES": {
+      "ingredients": [
+        "1 pound linguine",
+        "2 tablespoons extra-virgin olive oil",
+        "1/2 pound pancetta, diced",
+        "1 small white onion, diced",
+        "1 can (28 ounces) San Marzano tomatoes",
+        "1/4 cup grated Pecorino Romano",
+        "2 teaspoons crushed red pepper flakes",
+        "1 tablespoon ground black pepper"
+      ],
+      "steps": [
+        "In a large pot, bring 6 quarts of salted water to a boil. Add \\textbf{linguine} and cook until al dente. Drain the \\textbf{pasta}.",
+        "In a large sauté pan, heat \\textbf{olive oil} over high heat until shimmering. Add \\textbf{pancetta} and cook until the fat has been rendered from the meat. Turn the heat down to medium. Add \\textbf{onions} and cook until translucent. Add \\textbf{tomatoes} and mash with a spoon. Cook for 1 minute. Stir in \\textbf{cheese}, \\textbf{red pepper flakes} \\& \\textbf{black pepper}. Turn the heat to low. Add the \\textbf{pasta} to the sauce and serve."
+      ],
+      "notes": []
+    },
+    "BRASATO DI CARNE AL CHIANTI CHIANTI BRAISED BEEF": {
+      "ingredients": [
+        "6 pound boneless bottom rump beef roast, trimmed",
+        "1/2 cup extra-virgin olive oil",
+        "3 small white onions, peeled, quartered",
+        "6 carrots, peeled, chopped into wedges",
+        "5 celery stalks, chopped into wedges",
+        "10 cloves garlic, peeled",
+        "1/4 bunch rosemary",
+        "8 sage leaves",
+        "1/2 teaspoon grated nutmeg",
+        "1 teaspoon whole black peppercorns",
+        "1 cup porcini mushrooms, sliced",
+        "3 bottles Chianti",
+        "3 cups vegetable broth",
+        "Salt"
+      ],
+      "steps": [
+        "Preheat oven to 250°F. Season the outside of the \\textbf{roast} with \\textbf{salt}.",
+        "In a large ovenproof saucepan or Dutch oven, heat \\textbf{olive oil} over medium heat until shimmering.",
+        "Place the \\textbf{roast} in the pan and brown each side for 2 minutes, or until caramelized. Move the \\textbf{roast} to a platter. In the pan with \\textbf{oil}, toss \\textbf{onions}, \\textbf{carrots}, \\textbf{celery} \\& \\textbf{garlic}. Add \\textbf{rosemary}, \\textbf{sage}, \\textbf{nutmeg}, \\textbf{peppercorns}, \\textbf{mushrooms} \\& \\textbf{salt}. Cook over medium heat for 4 minutes, or until the \\textbf{vegetables} soften. Make sure to scrape the browned bits from the bottom and stir frequently. Reduce the heat, pushing the \\textbf{vegetables} to the side of the pan.",
+        "Place the \\textbf{roast} in the center. Pour in \\textbf{wine} and \\textbf{meat juices} from the platter. The \\textbf{roast} should be half submerged. Add \\textbf{broth} as needed. Cover and turn the heat to high until the \\textbf{liquid} is steaming. Uncover and place the pan in the oven. Cook for 30 minutes and then rotate the \\textbf{roast}. Turn the meat every 30 minutes for 3 hours. The \\textbf{liquid} should not boil. If it does, lower the temperature and add cold water to stop.",
+        "After 4 1/2 hours, use a meat thermometer to check the temperature in the center of the \\textbf{roast}. Once it reads 180°F, remove the pan from the oven. Place the \\textbf{roast} on a serving tray and garnish with \\textbf{carrots}, \\textbf{celery} \\& \\textbf{juices}. Serve."
+      ],
+      "notes": []
+    },
+    "UPPER EAST SIDE STEAK SAUCE": {
+      "ingredients": [
+        "1/4 cup expeller-pressed safflower oil",
+        "1/2 jalapeño pepper, stemmed, seeded, and cut into thin strips",
+        "1/2 yellow onion, diced (3/4 to 1 cup)",
+        "2 tablespoons white vinegar",
+        "2 teaspoons finely chopped ancho chile (about 1/4 chile)",
+        "12 ounces mushrooms, sliced 1/8-inch thick",
+        "1/2 teaspoon kosher salt",
+        "1 clove garlic, minced (about 1 teaspoon)"
+      ],
+      "steps": [
+        "In a large skillet over high heat, heat the \\textbf{oil} until smoking, about 1 minute. Add the \\textbf{jalapeño} and cook, without stirring, until the \\textbf{pepper} is just beginning to blacken on one side, about 2 minutes. Add the \\textbf{onion} and cook until the \\textbf{onion} is translucent, about 3 minutes. Add the \\textbf{vinegar} and \\textbf{ancho chile} and cook until partially reduced, 1 minute. Add the \\textbf{mushrooms}, \\textbf{salt}, and \\textbf{garlic}, and cook, stirring occasionally, until the \\textbf{mushrooms} release their moisture and partially collapse, about 3 minutes.",
+        "Serve immediately or store refrigerated in an airtight container for up to 5 days; rewarm before serving."
+      ],
+      "notes": []
+    }
+  },
   "Unsorted / Miscellaneous": {
     "Miso Dressing": {
       "ingredients": [
