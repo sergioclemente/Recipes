@@ -1188,41 +1188,6 @@
         "Add Chayote Squash (after being steamed)"
       ],
       "notes": []
-    },
-    "Perfect Salmon Burgers (Food Network Kitchen)": {
-      "ingredients": [
-        "1 1/4 pounds center-cut salmon fillet (skin and pin bones removed)",
-        "2 tablespoons Dijon mustard",
-        "1 tablespoon mayonnaise",
-        "1 tablespoon lemon juice",
-        "1/2 teaspoon grated lemon zest",
-        "Pinch of cayenne pepper",
-        "2 scallions (chopped)",
-        "1 cup plus 2 tablespoons panko breadcrumbs",
-        "Kosher salt",
-        "Freshly ground black pepper",
-        "2 tablespoons extra-virgin olive oil (plus more for brushing)",
-        "4 brioche buns (split)",
-        "Tartar sauce",
-        "Arugula"
-      ],
-      "steps": [
-        "Cut \\textbf{3/4 of the salmon} into \\textbf{1/4-inch pieces} and place in a large bowl.",
-        "Process the remaining salmon with \\textbf{Dijon, mayo, lemon juice, zest, and cayenne} until a paste forms.",
-        "Add the paste to the bowl with the \\textbf{diced salmon}. Mix in \\textbf{scallions, 2 tbsp panko, 1/2 tsp salt, and pepper}. Combine gently.",
-        "Line a baking sheet with parchment and brush with \\textbf{olive oil}. Shape mixture into 4 patties (about 4-inch wide, 3/4-inch thick). Refrigerate for 30+ minutes.",
-        "Preheat broiler. Coat patties with remaining \\textbf{panko}.",
-        "Heat \\textbf{2 tbsp olive oil} in a skillet. Cook patties 3–4 minutes per side until browned and springy.",
-        "Drain on paper towels and season with salt.",
-        "Broil \\textbf{buns} cut-side up for 1–2 minutes until toasted.",
-        "Assemble burgers with salmon patty, \\textbf{tartar sauce, and arugula} on toasted buns."
-      ],
-      "notes": [
-        "Great served with fries, slaw, or chips.",
-        "Alternative topping: lettuce and tomato.",
-        "For a simpler sauce, mix mayo and Dijon.",
-        "Original recipe from https://www.foodnetwork.com/recipes/food-network-kitchen/perfect-salmon-burgers-recipe-2105786"
-      ]
     }
   },
   "Pasta Dishes": {
@@ -1705,6 +1670,41 @@
         ]
       },
       "notes": []
+    },
+    "Perfect Salmon Burgers (Food Network Kitchen)": {
+      "ingredients": [
+        "1 1/4 pounds center-cut salmon fillet (skin and pin bones removed)",
+        "2 tablespoons Dijon mustard",
+        "1 tablespoon mayonnaise",
+        "1 tablespoon lemon juice",
+        "1/2 teaspoon grated lemon zest",
+        "Pinch of cayenne pepper",
+        "2 scallions (chopped)",
+        "1 cup plus 2 tablespoons panko breadcrumbs",
+        "Kosher salt",
+        "Freshly ground black pepper",
+        "2 tablespoons extra-virgin olive oil (plus more for brushing)",
+        "4 brioche buns (split)",
+        "Tartar sauce",
+        "Arugula"
+      ],
+      "steps": [
+        "Cut \\textbf{3/4 of the salmon} into \\textbf{1/4-inch pieces} and place in a large bowl.",
+        "Process the remaining salmon with \\textbf{Dijon, mayo, lemon juice, zest, and cayenne} until a paste forms.",
+        "Add the paste to the bowl with the \\textbf{diced salmon}. Mix in \\textbf{scallions, 2 tbsp panko, 1/2 tsp salt, and pepper}. Combine gently.",
+        "Line a baking sheet with parchment and brush with \\textbf{olive oil}. Shape mixture into 4 patties (about 4-inch wide, 3/4-inch thick). Refrigerate for 30+ minutes.",
+        "Preheat broiler. Coat patties with remaining \\textbf{panko}.",
+        "Heat \\textbf{2 tbsp olive oil} in a skillet. Cook patties 3–4 minutes per side until browned and springy.",
+        "Drain on paper towels and season with salt.",
+        "Broil \\textbf{buns} cut-side up for 1–2 minutes until toasted.",
+        "Assemble burgers with salmon patty, \\textbf{tartar sauce, and arugula} on toasted buns."
+      ],
+      "notes": [
+        "Great served with fries, slaw, or chips.",
+        "Alternative topping: lettuce and tomato.",
+        "For a simpler sauce, mix mayo and Dijon.",
+        "Original recipe from https://www.foodnetwork.com/recipes/food-network-kitchen/perfect-salmon-burgers-recipe-2105786"
+      ]
     },
     "Creamy Garlic Squid Pasta": {
       "ingredients": [
