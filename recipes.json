@@ -277,19 +277,18 @@
       },
       "steps": {
         "Chicken": [
-          "Mix \\textbf{flour}, \\textbf{salt}, \\textbf{pepper}, \\textbf{chopped onion} and let the chicken rest for a 10-20min",
+          "Mix \\textbf{flour}, \\textbf{salt}, \\textbf{pepper}, \\textbf{chopped onion} and \\textbf{chicken} and let it rest for a 10-20min",
           "Add some \\textbf{oil} into a searing pan, wait until hot then add chicken (You might need to divide into 2 batches)",
           "Once chicken is browned, reserve."
         ],
         "Sauce": [
           "In the same searing pan, lower the heat, then add \\textbf{lemon}. Scrape the bits from the pan",
-          "Add \\textbf{butter}, \\textbf{cream} and \\textbf{chicken stock concentrate}.",
-          "Season with cream, salt or pepper to taste"
+          "Add \\textbf{butter}, \\textbf{cream}, \\textbf{chicken stock concentrate} and \\textbf{capers}."
         ]
       },
       "notes": []
     },
-    "Skillet Creamy French Mustard Chicken": {
+    "Skillet Creamy French Mustard Chicken (thekitchn)": {
       "ingredients": [
         "1 tbsp olive oil",
         "2 pounds bone-in chicken thighs",
@@ -350,6 +349,7 @@
         "12 ounces white mushrooms, sliced",
         "1 tablespoon all-purpose flour",
         "1/4 cup white wine",
+        "1 1/2 cups heavy cream",
         "1 tablespoon parsley"
       ],
       "steps": [
@@ -390,10 +390,10 @@
       },
       "steps": {
         "Main": [
-          "Add the olive oil, lemon juice, paprika, turmeric, cumin, cinnamon, red pepper flakes, garlic, pepper, salt and onions to a ziploc bag, then add the chicken thighs. Seal the bag and shake it well to mix the ingredients. Place the bag in the refrigerator and marinate for at least 1 hour. The flavours develop better the longer you leave them.",
-          "Transfer the chicken into your Instant Pot. Mix to ensure even coverage. Close the lid (follow the manufacturer’s guide for instructions on how to close the instant pot lid). Set the Instant Pot to the Manual setting and set the timer to 8 minutes on high pressure.",
-          "Once the Instant Pot cycle is complete, wait until the natural release cycle is complete, should take about 15 minutes. Follow the manufacturer’s guide for quick release, if in a rush. Carefully unlock and remove the lid from the instant pot. Remove the chicken using a slotted spoon.",
-          "Heat the olive oil in a large skillet over medium-high heat. Add the chicken thighs to the skillet and sear them for about 1 to 2 minutes per side just until they start to brown. You may have to do this in a couple batches. This step is optional if you want to get a crispier chicken."
+          "Add the \\textbf{olive oil}, \\textbf{lemon juice}, \\textbf{paprika}, \\textbf{turmeric}, \\textbf{cumin}, \\textbf{cinnamon}, \\textbf{red pepper flakes}, \\textbf{garlic}, \\textbf{pepper}, \\textbf{salt} and \\textbf{onions} to a ziploc bag, then add the \\textbf{chicken thighs}. Seal the bag and shake it well to mix the ingredients. Place the bag in the refrigerator and marinate for at least 1 hour. The flavours develop better the longer you leave them.",
+          "Transfer the \\textbf{chicken} into your Instant Pot. Mix to ensure even coverage. Close the lid (follow the manufacturer’s guide for instructions on how to close the instant pot lid). Set the Instant Pot to the Manual setting and set the timer to 8 minutes on high pressure.",
+          "Once the Instant Pot cycle is complete, wait until the natural release cycle is complete, should take about 15 minutes. Follow the manufacturer’s guide for quick release, if in a rush. Carefully unlock and remove the lid from the instant pot. Remove the \\textbf{chicken} using a slotted spoon.",
+          "Heat the \\textbf{olive oil} in a large skillet over medium-high heat. Add the \\textbf{chicken thighs} to the skillet and sear them for about 1 to 2 minutes per side just until they start to brown. You may have to do this in a couple batches. This step is optional if you want to get a crispier \\textbf{chicken}."
         ],
         "Sauce": [
           "Add all the ingredients to a blender and blend until smooth, about 1-2 minutes. Refrigerate leftover sauce."
@@ -417,13 +417,13 @@
         "2 tbsp fresh parsley chopped"
       ],
       "steps": [
-        "Season the chicken breasts generously with salt and pepper.",
-        "Heat 2 tbsp of the olive oil in a large skillet or a saucepan over medium-high heat. Add the chicken breasts to the skillet and cook for about 3 to 4 minutes per side until they get to get golden brown. More time may be needed depending on the thickness of your chicken breasts. Remove the chicken breasts from the skillet and set aside.",
-        "Add the remaining 1 tbsp of olive oil to the skillet and add the mushrooms. Season the mushrooms with salt and pepper then cook for about 8 minutes until the mushrooms start to brown. Stir occasionally.",
-        "Add the garlic, Madeira wine and chicken broth to the skillet and stir. Season with more salt and pepper as needed. Reduce heat and cook for another 15 minutes until the sauce thickens a bit and reduces.",
-        "If you find that the sauce hasn\u2019t thickened enough, you can take about a ladle of the liquid from the pan and whisk it with a tbsp of flour, then pour it back into the saucepan and stir, the sauce should thicken almost instantly. Add the butter and stir, this will give the sauce a nice glossy color.",
-        "Add the chicken breasts back to the pan and cook for another 5 minutes.",
-        "Garnish with fresh parsley and serve over mashed potatoes."
+        "Season the \\textbf{chicken breasts} generously with \\textbf{salt} and \\textbf{pepper}.",
+        "Heat \\textbf{2 tbsp of the olive oil} in a large skillet or a saucepan over medium-high heat. Add the \\textbf{chicken breasts} to the skillet and cook for about 3 to 4 minutes per side until they get to get golden brown. More time may be needed depending on the thickness of your \\textbf{chicken breasts}. Remove the \\textbf{chicken breasts} from the skillet and set aside.",
+        "Add the remaining \\textbf{1 tbsp of olive oil} to the skillet and add the \\textbf{mushrooms}. Season the \\textbf{mushrooms} with \\textbf{salt} and \\textbf{pepper} then cook for about 8 minutes until the \\textbf{mushrooms} start to brown. Stir occasionally.",
+        "Add the \\textbf{garlic}, \\textbf{Madeira wine} and \\textbf{chicken broth} to the skillet and stir. Season with more \\textbf{salt} and \\textbf{pepper} as needed. Reduce heat and cook for another 15 minutes until the sauce thickens a bit and reduces.",
+        "If you find that the sauce hasn’t thickened enough, you can take about a ladle of the liquid from the pan and whisk it with a \\textbf{tbsp of flour}, then pour it back into the saucepan and stir, the sauce should thicken almost instantly. Add the \\textbf{butter} and stir, this will give the sauce a nice glossy color.",
+        "Add the \\textbf{chicken breasts} back to the pan and cook for another 5 minutes.",
+        "Garnish with \\textbf{fresh parsley} and serve over \\textbf{mashed potatoes}."
       ],
       "notes": [
         "To make the chicken Masala, you just need to change the wine to Masala wine (1 1/2 cup) + heavy cream (1 1/2 cup) and 3 cups of chicken stock.",
@@ -446,15 +446,14 @@
         "2 lbs chicken thighs boneless and skinless, cut into pieces",
         "1 cup water",
         "1 cup whipping cream",
-        "1 tbsp flour",
         "2 tbsp parsley chopped"
       ],
       "steps": [
-        "Add the butter and cook until the butter has melted. Add the garlic and ginger and saute for another minute or until the garlic becomes aromatic. Do not cook too long because you don\u2019t want to burn it.",
-        "Add the tomato puree and tomato paste to the Instant Pot and stir. Add the garam masala, coriander, cumin, paprika, turmeric and salt to the Instant Pot, stir and cook for about 3 to 5 minutes.",
-        "Add the chicken thighs, water and stir everything together. There should be enough liquid in the pot to cover the chicken, so add more water if needed.",
-        "Close the lid. Cook on the pressure cooker for 20\u2019.",
-        "Whisk milk and flour and add to the pot. Simmer for another 5\u2019 until sauce reduces a bit. Add chopped parsley."
+        "Add the \\textbf{butter} and cook until the \\textbf{butter} has melted. Add the \\textbf{garlic} and \\textbf{ginger} and saute for another minute or until the \\textbf{garlic} becomes aromatic. Do not cook too long because you don’t want to burn it.",
+        "Add the \\textbf{tomato puree} and \\textbf{tomato paste} to the Instant Pot and stir. Add the \\textbf{garam masala}, \\textbf{coriander}, \\textbf{cumin}, \\textbf{paprika}, \\textbf{turmeric} and \\textbf{salt} to the Instant Pot, stir and cook for about 3 to 5 minutes.",
+        "Add the \\textbf{chicken thighs}, \\textbf{water} and stir everything together. There should be enough liquid in the pot to cover the \\textbf{chicken}, so add more \\textbf{water} if needed.",
+        "Close the lid. Cook on the pressure cooker for 20’.",
+        "Whisk \\textbf{heavy cream} and \\textbf{flour} and add to the pot. Simmer for another 5’ until sauce reduces a bit. Add \\textbf{chopped parsley}."
       ],
       "notes": [
         "Original recipe from https://www.jocooks.com/recipes/instant-pot-butter-chicken/"
@@ -533,7 +532,7 @@
           "The cut should go until the meat, but barely touching.",
           "Season generously with \\textbf{salt}, within the cuts, etc.",
           "Have the BBQ at 250-300F.",
-          "Cook until its internal temp is 120F.",
+          "Cook until its internal temp is 120-125F.",
           "To finish sear the \\textbf{top sirloin cap} on the cast iron, both sides."
         ],
         "notes": []
@@ -598,7 +597,7 @@
       ],
       "notes": []
     },
-    "File Mignon": {
+    "Filet Mignon": {
       "ingredients": {
         "Marinate": [
           "2lb of Beef tenderloin (Make sure to remove fat otherwise sauce gets really greasy)",
@@ -615,7 +614,7 @@
           "4oz of red wine",
           "1 tablespoon of tomato extract",
           "1 cup water",
-          "2 cans of while mushrooms"
+          "2 cans of wild mushrooms"
         ]
       },
       "steps": {
@@ -640,7 +639,7 @@
       },
       "notes": []
     },
-    "Boef Bourguignon": {
+    "Boef Bourguignon (Sur la table)": {
       "ingredients": {
         "Onions": [
           "15 pearl onions",
@@ -697,7 +696,7 @@
       },
       "notes": []
     },
-    "Steakhouse Steak": {
+    "Steakhouse Steak (Youtube)": {
       "ingredients": [
         "2 good steaks (Ribeye or New york - look for dry aged prime beef)",
         "5 cloves of garlic"
@@ -804,7 +803,7 @@
     }
   },
   "Jane Loures": {
-    "Homemade Cumin Seasoning Mix": {
+    "Tempero caseiro": {
       "ingredients": [
         "6 dentes de alho",
         "100ml de oleo",
@@ -942,22 +941,16 @@
     },
     "Sushi Rice": {
         "ingredients": [
-          "2 cups Japanese short-grain rice (sushi rice)",
-          "2 cups water",
-          "1/3 cup unseasoned rice vinegar",
-          "2 tablespoon sugar",
-          "1 teaspoon fine sea salt"
+          "1 cups of cooked rice",
+          "1/4 cup rice vinegar",
+          "1/2 table spoon vegetable oil",
+          "1 tablespoon sugar",
+          "1 pinch of salt"
         ],
         "steps": [
-          "Place the \\textbf{rice} in a fine-mesh strainer and rinse under cold water for 1–2 minutes until the water runs clear. Drain well.",
-          "Combine the rinsed \\textbf{rice and water} in a saucepan. Bring to a boil over medium-high heat. Once boiling, reduce heat to low, cover, and simmer for 20 minutes. Remove from heat and let it sit, covered, for 10 minutes.",
-          "While the rice cooks, combine the \\textbf{rice vinegar, sugar, and sea salt} in a small saucepan. Heat over medium-high heat until the mixture nearly reaches a simmer. Remove from heat and stir until the sugar dissolves.",
-          "Transfer the cooked rice to a large bowl. Gently fold in the sushi vinegar mixture with a wooden spatula, using a slicing motion to avoid mashing the rice. Continue folding until the rice has absorbed the seasoning and has a glossy appearance.",
-          "Allow the seasoned rice to cool to room temperature before using it for sushi rolls or other dishes."
+          "Mix everything up."
         ],
         "notes": [
-          "Using a wooden bowl (hangiri) to mix and cool the rice can help absorb excess moisture.",
-          "Cover the rice with a damp cloth to prevent it from drying out if not using immediately."
         ]
     },
     "Potatoes Gratin (Sergio)": {
@@ -1053,7 +1046,7 @@
       ],
       "notes": []
     },
-    "Loaded Scalloped Potatoes": {
+    "Loaded Scalloped Potatoes (Jocooks)": {
       "ingredients": [
         "4 tbsp butter unsalted",
         "3 cloves garlic minced",
@@ -1077,7 +1070,9 @@
         "Cover with foil and bake for \\textbf{45 minutes}. Uncover and finish baking for for \\textbf{another 45 minutes} or until the potatoes are fork tender.",
         "Garnish with remaining \\textbf{chives} and serve warm."
       ],
-      "notes": []
+      "notes": [
+        "Original recipe from https://www.jocooks.com/recipes/loaded-scalloped-potatoes/"
+      ]
     },
     "Beans in Tomato Sauce (Luzinete Style)": {
       "ingredients": [
@@ -1225,7 +1220,8 @@
       "notes": [
         "Great served with fries, slaw, or chips.",
         "Alternative topping: lettuce and tomato.",
-        "For a simpler sauce, mix mayo and Dijon."
+        "For a simpler sauce, mix mayo and Dijon.",
+        "Original recipe from https://www.foodnetwork.com/recipes/food-network-kitchen/perfect-salmon-burgers-recipe-2105786"
       ]
     }
   },
@@ -1324,17 +1320,14 @@
     "Carbonara": {
       "ingredients": [
         "2 large eggs",
-        "Olive oil",
-        "Pancetta or bacon",
-        "4 garlic cloves chopped",
-        "1 cup of parmesan",
-        "Ground pepper",
-        "Parsley",
-        "Spaguetti"
+        "8oz pancetta or bacon",
+        "4oz freshly grated of parmesan",
+        "ground pepper",
+        "fetuccine"
       ],
       "steps": [
         "Mix first the eggs, parsesan and ground pepper (You might add a touch of pecorino cheese as well). Add a pinch of salt.",
-        "Heat the skillet and put in either the bacon or pancetta. (if using pancetta you need a bit of olive oil). After the bacon is ready add the garlic for 1min.",
+        "Heat the skillet and put in either the bacon or pancetta. After the bacon is ready add the garlic for 1min.",
         "When the pasta is ready reserve 1 cup of the water for later",
         "Mix the pasta, and mixture done in step 1 quickly so that the egg cooks (make sure to mix outside the oven so the eggs don\u2019t become scrambled), then mix in the fat, bacon and garlic from step 2. Add the reserved water if necessary.",
         "Season with parmesan, salt and pepper for taste.",
@@ -1342,7 +1335,7 @@
       ],
       "notes": []
     },
-    "Brother-in-law\u2019s Cheese Sauce": {
+    "Molho queijo cunhado": {
       "ingredients": [
         "1/3 to 1/2 of smoked provolone",
         "1/2 cup of shredded parmesan",
@@ -1769,7 +1762,7 @@
       ],
       "notes": []
     },
-    "Fish and Chips": {
+    "Fish and Chips (The spruce eats)": {
       "ingredients": [
         "5 tablespoons all-purpose flour, divided",
         "7 tablespoons cornstarch",
@@ -1789,7 +1782,9 @@
         "Toss each \\textbf{fish fillet} in the \\textbf{flour mixture} and shake off any excess.",
         "Dip into the batter, coating the entire fillet."
       ],
-      "notes": []
+      "notes": [
+        "Original recipe from https://www.thespruceeats.com/best-fish-and-chips-recipe-434856"
+      ]
     },
     "Moqueca": {
       "ingredients": [
@@ -1977,7 +1972,7 @@
         "I like a more fishy dip, so I use \\textbf{less cream cheese and yogurt} (1/4 of the amount they mention). I also use \\textbf{chives} instead of green onions."
       ]
     },
-    "Asian Glazed Salmon in Foil": {
+    "Asian Glazed Salmon in Foil (Jocooks)": {
       "ingredients": [
         "1/4 cup soy sauce low sodium",
         "3 tbsp maple syrup",
@@ -1997,7 +1992,7 @@
         "Fold the edges of the aluminum foil over the salmon so that it is fully wrapped. Bake for about 20 to 25 minutes, depending on the size of your salmon. My salmon was quite a big piece, so I baked it for 25 minutes. You may also turn the broiler on and broil for about 2 to 3 minutes at the end if preferred.",
         "Open the foil and garnish with sesame seeds and chopped green onions."
       ],
-      "notes": []
+      "notes": ["Original recipe from https://www.jocooks.com/recipes/asian-glazed-salmon-in-foil/"]
     },
     "Teriyaki Salmon": {
       "ingredients": [
@@ -2235,7 +2230,7 @@
         "2 1/2 cups distilled white vinegar",
         "2 1/2 cups water",
         "2 tablespoon sugar",
-        "1 tablespoon salt",
+        "2 tablespoon salt",
         "1 teaspoon mustard seed",
         "2 sprigs fresh dill",
         "1/2 teaspoon chili pepper flakes"          
@@ -2554,7 +2549,7 @@
         "Original recipe from https://www.jocooks.com/recipes/beef-empanadas/"
       ]
     },
-    "Sheperds Pie": {
+    "Sheperds Pie (Jocooks)": {
       "ingredients": {
         "For Meat Mixture": [
           "1 tbsp olive oil",
@@ -2577,19 +2572,21 @@
       },
       "steps": {
         "Main": [
-          "Start by first cooking the potatoes in boiling water for about 15 minutes or until fork tender. While the potatoes are cooking, you can prepare the meat mixture.",
-          "Heat the oil in a large skillet over medium heat. Add the ground beef to the skillet and cook it for about 5 minutes or until it\u2019s no longer pink, breaking it up as you go along.",
-          "Add the onion and garlic and cook for 3 more minutes until the onion softens and becomes translucent.",
-          "Taste for salt, might need more.",
-          "Add the pepper flakes, Worcestershire sauce, onion soup mix, beef broth and stir. Stir in the frozen veggies and cook for a couple more minutes. Set aside.",
+          "Start by first cooking the \\textbf{potatoes} in boiling water for about 15 minutes or until fork tender. While the \\textbf{potatoes} are cooking, you can prepare the \\textbf{meat mixture}.",
+          "Heat the \\textbf{oil} in a large skillet over medium heat. Add the \\textbf{ground beef} to the skillet and cook it for about 5 minutes or until it’s no longer pink, breaking it up as you go along.",
+          "Add the \\textbf{onion} and \\textbf{garlic} and cook for 3 more minutes until the \\textbf{onion} softens and becomes translucent.",
+          "Taste for \\textbf{salt}, might need more.",
+          "Add the \\textbf{pepper flakes}, \\textbf{Worcestershire sauce}, \\textbf{onion soup mix}, \\textbf{beef broth} and stir. Stir in the \\textbf{frozen veggies} and cook for a couple more minutes. Set aside.",
           "Preheat the oven 350 F degrees.",
-          "Prepare the mashed potatoes.",
-          "Spread the potatoes over the meat and smooth with a spoon. Take a fork and rough up the top a bit and garnish with a bit of parsley.",
+          "Prepare the \\textbf{mashed potatoes}.",
+          "Spread the \\textbf{potatoes} over the \\textbf{meat} and smooth with a spoon. Take a fork and rough up the top a bit and garnish with a bit of \\textbf{parsley}.",
           "Place the skillet on a baking sheet, then place it in the oven and bake for 40 minutes until golden brown on top.",
-          "Garnish with more parsley and pepper and serve warm."
+          "Garnish with more \\textbf{parsley} and \\textbf{pepper} and serve warm."
         ]
       },
-      "notes": []
+      "notes": [
+        "Original recipe from https://www.jocooks.com/recipes/skillet-shepherds-pie/"
+      ]
     }
   },
   "Sauces": {
@@ -2796,7 +2793,8 @@
         "Deglaze pan with wine, cook on medium/low heat for 1-2\u2019, then add stock, worcestershire sauce and tomatoes.",
         "Cook under pressure for 20\u2019."
       ],
-      "notes": []
+      "notes": [
+      ]
     },
     "Pork Cassoulet": {
       "ingredients": {
