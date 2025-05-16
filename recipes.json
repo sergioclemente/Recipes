@@ -2,7 +2,7 @@
   "Chicken": {
     "Curry Chicken": {
       "ingredients": [
-        "1 tsp knoor, 2 tbl spoon curry powder, 1 tbl spoon Coconut oil",
+        "1 tsp knoor, 2 tablespoon curry powder, 1 tablespoon Coconut oil",
         "1 Chicken Breast",
         "oil"
       ],
@@ -146,8 +146,8 @@
           "Half chicken"
         ],
         "Gravy": [
-          "2 tbl spoon flour",
-          "2 tbl spoon butter"
+          "2 tablespoon flour",
+          "2 tablespoon butter"
         ]
       },
       "steps": {
@@ -191,8 +191,8 @@
         "For dough": [
           "6 cups of flour",
           "2 egg yolks",
-          "2 table spoons of Parmigiano cheese",
-          "7 tbl spoon of mayonnaise",
+          "2 tablespoon of Parmigiano cheese",
+          "7 tablespoon of mayonnaise",
           "3 blocks of butter - or 1 2/3 cup of margarine"
         ],
         "For chicken": [
@@ -261,72 +261,70 @@
     "Chicken Piccatta": {
       "ingredients": {
         "Sauce": [
-          "3/4 cup of chicken stock",
-          "2 tbl spoon Butter",
-          "1/2 cup of white wine",
-          "1/2 cup of lemon juice",
-          "1/4 cup of capers"
+          "2-3 pouches of chicken stock concentrate",
+          "2-3 lemons (zest and juice)",
+          "4-6 tablespoons of heavy cream",
+          "2-3 tablespoons of butter",
+          "2-3 tablespoons of capers"
         ],
         "Chicken": [
-          "Chicken breast w/ skin",
-          "1 cup and 1 tbl spoon Flour"
+          "2 Chicken breast (Chopped into pieces)",
+          "4-6 tablespoons of flour",
+          "Salt",
+          "Pepper",
+          "Optional: Onion chopped"
         ]
       },
       "steps": {
         "Chicken": [
-          "Season chicken with salt in both sides",
-          "Apply flour in both sides of the chicken",
-          "Add 1 tbl spoon of gee or butter with some olive oil in a skillet (don't use a non-stick one).",
-          "Once oil is hot, add chicken skin side down.",
-          "Sear for 3-5' until side golden brown, then flip.",
-          "Once the other side is done, set chicken aside."
+          "Mix \\textbf{flour}, \\textbf{salt}, \\textbf{pepper}, \\textbf{chopped onion} and let the chicken rest for a 10-20min",
+          "Add some \\textbf{oil} into a searing pan, wait until hot then add chicken (You might need to divide into 2 batches)",
+          "Once chicken is browned, reserve."
         ],
         "Sauce": [
-          "Add wine and scrape the bottom of the pan so that it removes chicken bits (Deglaze)",
-          "Add chicken stock and lemon juice",
-          "Add capers",
-          "Make a small mixture of 1 table spoon of butter and 1 table spoon of flour",
-          "Use a whisk to add tiny bits of the mixture until sauce thickens.",
-          "Taste sauce and add salt and pepper as necessary."
+          "In the same searing pan, lower the heat, then add \\textbf{lemon}. Scrape the bits from the pan",
+          "Add \\textbf{butter}, \\textbf{cream} and \\textbf{chicken stock concentrate}.",
+          "Season with cream, salt or pepper to taste"
         ]
       },
       "notes": []
     },
     "Skillet Creamy French Mustard Chicken": {
       "ingredients": [
-        "1 tablespoon olive oil",
+        "1 tbsp olive oil",
         "2 pounds bone-in chicken thighs",
         "Kosher salt",
-        "Ground black pepper",
-        "1/2 cup diced shallots",
+        "Freshly ground black pepper",
+        "1/2 cup diced shallots (2 medium shallots)",
         "1/2 cup dry white wine",
         "1 cup low-sodium chicken broth",
         "2 tablespoons whole-grain Dijon mustard",
         "2 tablespoons Dijon mustard",
-        "2 tablespoons heavy cream"
+        "2 tablespoons heavy cream",
+        "Coarsely chopped fresh parsley leaves, for serving (optional)"
       ],
       "steps": [
-        "Pat the chicken dry with paper towels and season with salt and pepper.",
-        "Add the chicken skin-side down in a large cast iron with oil and cook until the fat is rendered and the skin is crisp and golden-brown, 6 to 8 minutes. Reserve chicken.",
-        "Add the shallots to the pan and cook over medium heat until softened, about 3 minutes.",
-        "Add the wine, scrape up any browned bits at the bottom of the pan with a wooden spoon, and cook until evaporated, about 3 minutes.",
-        "Stir in the broth and whole-grain mustard and bring to a simmer.",
-        "Return the chicken skin-side up, and add any juices accumulated on the plate to the pan.",
-        "In a 400F oven, braise the chicken for 15-20\u2019 or until internal temperature reaches 165F.",
-        "Transfer the chicken with tongs to a platter.",
-        "Place the pan over medium-high heat, whisk the smooth Dijon mustard into the sauce, and simmer until reduced slightly, about 2 minutes. Add the cream.",
-        "Adjust salt and pepper accordingly."
+        "Arrange a rack in the middle of the oven and heat the oven to 400°F. Meanwhile, sear the \\textbf{chicken}.",
+        "Heat the \\textbf{oil} in a large cast iron or oven-safe skillet over medium-high heat until shimmering. Meanwhile, pat the \\textbf{chicken} dry with paper towels and season with \\textbf{salt} and \\textbf{pepper}. Add the \\textbf{chicken} skin-side down to the pan and sear until the fat is rendered and the skin is crisp and golden-brown, 6 to 8 minutes. Transfer the \\textbf{chicken} skin-side up to a large plate. Remove all but 1 tablespoon of fat from the pan.",
+        "Add the \\textbf{shallots} to the pan and cook over medium heat until softened, about 3 minutes. Add the \\textbf{wine}, scrape up any browned bits at the bottom of the pan with a wooden spoon, and cook until evaporated, about 3 minutes. Stir in the \\textbf{broth} and \\textbf{whole-grain mustard} and bring to a simmer. Return the \\textbf{chicken} skin-side up, and add any juices accumulated on the plate to the pan.",
+        "Braise in the oven uncovered until the \\textbf{chicken} is cooked through and reaches an internal temperature of 165°F, about 15 minutes. Transfer the \\textbf{chicken} with tongs to a platter. Place the pan over medium-high heat, whisk the smooth \\textbf{Dijon mustard} into the \\textbf{sauce}, and simmer until reduced slightly, about 2 minutes.",
+        "Remove from the heat and whisk in the \\textbf{cream}. Taste and season the \\textbf{sauce} with \\textbf{salt} and \\textbf{pepper} as needed. Serve the \\textbf{sauce} with the \\textbf{chicken} (we recommend serving it underneath the \\textbf{chicken} to keep the skin crisp), and garnish with \\textbf{parsley} if desired."
       ],
-      "notes": []
+      "notes": [
+        "Original recipe from https://www.thekitchn.com/recipe-skillet-creamy-french-mustard-chicken-248390",
+        "Serving Size: 4",
+        "Prep time: 10-15 minutes",
+        "Cook time: 30-35 minutes"
+      ]
     },
     "Strogonoff": {
       "ingredients": [
         "1 grated onion",
         "800g of meat cut into cubes",
-        "4 tbl spoons of ketchup",
-        "1 tbl spoon of Worcestershire sauce",
-        "1 tbl spoon of mustard (the yellow cheap one)",
-        "2 tbl spoon of oil",
+        "4 tablespoons of ketchup",
+        "1 tablespoon of Worcestershire sauce",
+        "1 tablespoon of mustard (the yellow cheap one)",
+        "2 tablespoon of oil",
         "1/2 cup of whipped cream",
         "1 can of mushrooms"
       ],
@@ -338,58 +336,74 @@
         "Add whipped cream and simmer for 3-5'. Be careful not to boil."
       ],
       "notes": [
-        "You can make a chipotle Strogonoff by using 1 table spoon of chipotle pepper (Best brand is Embasa: Chipotle peppers in adobo sauce) instead of the ketchup, worcestershire sauce and mustard.",
+        "You can make a chipotle Strogonoff by using 1 tablespoon of chipotle pepper (Best brand is Embasa: Chipotle peppers in adobo sauce) instead of the ketchup, worcestershire sauce and mustard.",
         "You can replace the whipping cream with 1 1/2 cup of milk and 2 tsp of cornstarch. But you have to thicken the milk by mixing on the heat for a few minutes."
       ]
     },
-    "Chicken in White Wine Sauce with Mushrooms": {
+    "Chicken in White Wine Sauce with Mushrooms (Jocooks)": {
       "ingredients": [
-        "2 tbsp butter",
-        "1 lb chicken breasts boneless and skinless cut in half lengthwise",
-        "salt and pepper to taste",
-        "1 medium onion chopped",
-        "3 cloves garlic minced",
-        "12 oz white mushrooms sliced, 340 g",
-        "1 tbsp all-purpose flour",
+        "2 tablespoons unsalted butter",
+        "1 lb skinless chicken breasts",
+        "Salt and pepper to taste",
+        "1 medium onion, chopped",
+        "3 cloves garlic, minced",
+        "12 ounces white mushrooms, sliced",
+        "1 tablespoon all-purpose flour",
         "1/4 cup white wine",
-        "1 cups whole milk",
-        "parsley for garnish"
+        "1 tablespoon parsley"
       ],
       "steps": [
-        "Add the butter to a large skillet and melt over medium high heat.",
-        "Season chicken breasts on both sides with salt and pepper.",
-        "Place chicken breasts in skillet and cook on both sides, about 5 min per side or until no longer pink inside. Remove chicken from skillet.",
-        "Add onion and garlic to skillet and cook for a couple minutes until onion is translucent and soft. Add mushrooms and stir. Season mushrooms generously with salt and pepper. Let cook for about 5 minutes, stirring occasionally. When mushrooms are cooked to your liking, reserve them along with the onions.",
-        "De glaze pan with wine, let the alcohol cook.",
-        "Whisk milk and flour and pour into skillet",
-        "Add chicken and mushrooms into the skillet, mix everything and simmer for 3'.",
-        "Garnish with parsley and serve hot."
+        "In a large skillet, melt \\textbf{butter} over medium-high heat. Season \\textbf{chicken breasts} with \\textbf{salt} and \\textbf{pepper}, then add to the skillet. Cook for 5–7 minutes per side until golden brown and cooked through. Remove \\textbf{chicken} from the skillet and set aside.",
+        "In the same skillet, add \\textbf{onion} and sauté for 2–3 minutes until translucent. Add \\textbf{garlic} and cook for an additional 30 seconds.",
+        "Add \\textbf{mushrooms} to the skillet and cook for 5 minutes until they release their moisture and begin to brown.",
+        "Sprinkle \\textbf{flour} over the vegetables and stir well to combine. Cook for 1 minute to eliminate the raw flour taste.",
+        "Pour in \\textbf{white wine} and \\textbf{chicken broth}, stirring to deglaze the pan and incorporate the flour. Bring to a simmer and cook for 5 minutes until the sauce reduces slightly.",
+        "Stir in \\textbf{heavy cream} and return the \\textbf{chicken} to the skillet. Simmer for 5 minutes until the sauce thickens and the \\textbf{chicken} is heated through."
       ],
-      "notes": []
+      "notes": [
+        "Original recipe from https://www.jocooks.com/recipes/chicken-in-white-wine-sauce-with-mushrooms/"
+      ]
     },
-    "Chicken Shawarma": {
-      "ingredients": [
-        "1/2 cup olive oil",
-        "1/4 cup lemon juice from 2 lemons",
-        "2 tsp smoked paprika",
-        "1/2 tsp tumeric",
-        "2 tsp cumin powder",
-        "1/2 tsp cinnamon",
-        "4 cloves garlic minced",
-        "1/2 tsp salt",
-        "1 large onion sliced",
-        "2 lbs chicken thighs boneless and skinless",
-        "2 tbsp fresh parsley for garnish",
-        "chicken stock"
-      ],
-      "steps": [
-        "Add the olive oil, lemon juice, paprika, turmeric, cumin, cinnamon, red pepper flakes, garlic, pepper, salt and onions to a ziploc bag, then add the chicken thighs. Seal the bag and shake it well to mix the ingredients. Place the bag in the refrigerator and marinate for at least 1 hour.",
-        "Transfer the chicken into a pressure cooker and add chicken stock enough to cover the chicken.",
-        "Cook under pressure for 10-15'"
-      ],
-      "notes": []
+    "Instant Pot Chicken Shawarma (Jocooks)": {
+      "ingredients": {
+        "Main": [
+          "1/2 cup olive oil",
+          "Juice of 2 lemons (1/2 cup)",
+          "2 tablespoon smoked paprika",
+          "1/2 tablespoon ground turmeric",
+          "2 tablespoon ground cumin",
+          "1/2 teaspoon ground cinnamon",
+          "1 teaspoon red pepper flakes",
+          "4 cloves garlic, minced",
+          "Salt and pepper to taste",
+          "1 large onion, sliced",
+          "2 pounds boneless, skinless chicken thighs",
+          "2 tablespoons chopped fresh parsley"
+        ],
+        "Sauce": [
+          "1 cup vegetable oil",
+          "1/3 cup lemon juice",
+          "6 cloves garlic (peeled and roughly chopped)",
+          "1 egg white (*)",
+          "1 teaspoon salt"
+        ]
+      },
+      "steps": {
+        "Main": [
+          "Add the olive oil, lemon juice, paprika, turmeric, cumin, cinnamon, red pepper flakes, garlic, pepper, salt and onions to a ziploc bag, then add the chicken thighs. Seal the bag and shake it well to mix the ingredients. Place the bag in the refrigerator and marinate for at least 1 hour. The flavours develop better the longer you leave them.",
+          "Transfer the chicken into your Instant Pot. Mix to ensure even coverage. Close the lid (follow the manufacturer’s guide for instructions on how to close the instant pot lid). Set the Instant Pot to the Manual setting and set the timer to 8 minutes on high pressure.",
+          "Once the Instant Pot cycle is complete, wait until the natural release cycle is complete, should take about 15 minutes. Follow the manufacturer’s guide for quick release, if in a rush. Carefully unlock and remove the lid from the instant pot. Remove the chicken using a slotted spoon.",
+          "Heat the olive oil in a large skillet over medium-high heat. Add the chicken thighs to the skillet and sear them for about 1 to 2 minutes per side just until they start to brown. You may have to do this in a couple batches. This step is optional if you want to get a crispier chicken."
+        ],
+        "Sauce": [
+          "Add all the ingredients to a blender and blend until smooth, about 1-2 minutes. Refrigerate leftover sauce."
+        ]
+      },
+      "notes": [
+        "Original recipe from https://www.jocooks.com/recipes/instant-pot-chicken-shawarma/"
+      ]
     },
-    "Chicken Madeira": {
+    "Chicken Madeira (Jocooks)": {
       "ingredients": [
         "4 chicken breasts skinless and boneless, about 1 lb",
         "salt and pepper to taste",
@@ -412,10 +426,11 @@
         "Garnish with fresh parsley and serve over mashed potatoes."
       ],
       "notes": [
-        "To make the chicken madeira, you just need to change the wine to Masala wine (1 1/2 cup) + heavy cream (1 1/2 cup) and 3 cups of chicken stock."
+        "To make the chicken Masala, you just need to change the wine to Masala wine (1 1/2 cup) + heavy cream (1 1/2 cup) and 3 cups of chicken stock.",
+        "Original recipe from https://www.jocooks.com/recipes/chicken-madeira/"
       ]
     },
-    "Butter Chicken": {
+    "Butter Chicken (Jocooks)": {
       "ingredients": [
         "3 tbsp butter unsalted",
         "8 cloves garlic minced",
@@ -430,7 +445,7 @@
         "1 tsp salt",
         "2 lbs chicken thighs boneless and skinless, cut into pieces",
         "1 cup water",
-        "1 cup whole cream",
+        "1 cup whipping cream",
         "1 tbsp flour",
         "2 tbsp parsley chopped"
       ],
@@ -441,7 +456,9 @@
         "Close the lid. Cook on the pressure cooker for 20\u2019.",
         "Whisk milk and flour and add to the pot. Simmer for another 5\u2019 until sauce reduces a bit. Add chopped parsley."
       ],
-      "notes": []
+      "notes": [
+        "Original recipe from https://www.jocooks.com/recipes/instant-pot-butter-chicken/"
+      ]
     },
     "Italian Pasta Chicken - Mo Pasta": {
       "ingredients": {
@@ -451,8 +468,8 @@
           "6-7 Garlic cloves, chopped"
         ],
         "For sauce": [
-          "1 tbl spoon tomato paste",
-          "1 cup of water",
+          "1 tablespoon tomato paste",
+          "1 cup water",
           "2 onions chopped",
           "1 bouquet garni (Thyme, parsley, bay leaf)"
         ]
@@ -491,7 +508,7 @@
       "ingredients": [
         "beef for beef stew (1lb)",
         "1 onion",
-        "2-3 garlic cloves (1 table spoon of chopped garlic)",
+        "2-3 garlic cloves (1 tablespoon of chopped garlic)",
         "1/4 red pepper (Optional)",
         "1/4 tea spoon ginger powder (Optional)",
         "1 cup soy sauce (low sodium)"
@@ -509,8 +526,8 @@
     "Leozin\u2019s Meat Marinade": {
       "ingredients": [
         "2 lb of meat",
-        "8 table spoon soy sauce",
-        "6 table spoon of molho ingles",
+        "8 tablespoon soy sauce",
+        "6 tablespoon of molho ingles",
         "4 minced garlic",
         "pepper to taste",
         "salt"
@@ -525,8 +542,8 @@
       "ingredients": [
         "1/2 onion",
         "1 clove of garlic",
-        "1 table spoon mustard",
-        "3 table spoons of apple cider vinegar",
+        "1 tablespoon mustard",
+        "3 tablespoon of apple cider vinegar",
         "3 tablespoons oil or olive oil",
         "1 tablespoon margarine",
         "salt",
@@ -582,7 +599,7 @@
           "2 tablespoons of oil",
           "4oz of red wine",
           "1 tablespoon of tomato extract",
-          "1 cup of water",
+          "1 cup water",
           "2 cans of while mushrooms"
         ]
       },
@@ -624,12 +641,12 @@
           "2 tablespoon unbleached all-purpose flour",
           "2 cups full-bodied, red wine like chianti or merlot",
           "2-3 cups of low sodium beef stock",
-          "1 tbl spoon tomato paste",
+          "1 tablespoon tomato paste",
           "3 large garlic cloves, finely minced",
           "3 sprigs fresh thyme, tied with butcher's twine",
           "2 bay leaves",
-          "2 tbl spoon of butter, room temperature",
-          "3 tbl spoons chopped flat-leaf parsley",
+          "2 tablespoon of butter, room temperature",
+          "3 tablespoons chopped flat-leaf parsley",
           "1/6 cup sherry vinegar"
         ]
       },
@@ -721,7 +738,7 @@
       "ingredients": [
         "4-6 1 1/2 inch thick steaks",
         "Kosher salt",
-        "4 table spoons of whole peppercorn",
+        "4 tablespoon of whole peppercorn",
         "1 tablespoon unsalted butter",
         "1 tsp of olive oil",
         "1/4 cup of cognac (Original Elton Brown recipe calls for 1/4)",
@@ -750,8 +767,8 @@
         ],
         "White sauce": [
           "1 Cup of milk",
-          "1 tbl spoon butter",
-          "1 tbl spoon flour",
+          "1 tablespoon butter",
+          "1 tablespoon flour",
           "Mozzarella"
         ]
       },
@@ -895,8 +912,8 @@
     "Simple Rice": {
       "ingredients": [
         "1 cup of rice",
-        "2 cups of water",
-        "1 table spoon of knoor"
+        "2 cups water",
+        "1 tablespoon of knoor"
       ],
       "steps": [
         "Boil water, then bring it to a simmer",
@@ -983,12 +1000,12 @@
         "1 tsp sweet paprika",
         "1 tsp cumin",
         "1-2 Bay leaves",
-        "3oz Tomato paste (Hunts Tomato Paste 6oz). UPDATE: I've recently updated to use a table spoon only.  I think it tastes much better.",
+        "3oz Tomato paste (Hunts Tomato Paste 6oz). UPDATE: I've recently updated to use a tablespoon only.  I think it tastes much better.",
         "1/3 of bunch of cilantro (without the stems)",
         "1 onion",
         "1 tomato",
         "1/4 red pepper",
-        "1 table spoon white vinegar"
+        "1 tablespoon white vinegar"
       ],
       "steps": [
         "Sautee the meat with Cumin, Paprika, garlic and vinegar (a bit) and salt",
@@ -1006,9 +1023,9 @@
     "Creamy Polenta": {
       "ingredients": [
         "1 cup Polenta. The finer grain the better. Been relatively successful with Delallo Instant Polenta.",
-        "1 tbl spoons butter",
-        "2 tbl spoons powdered milk",
-        "2 tbl spoons of parmesan cheese",
+        "1 tablespoons butter",
+        "2 tablespoons powdered milk",
+        "2 tablespoons of parmesan cheese",
         "2 cups Whole milk"
       ],
       "steps": [
@@ -1089,18 +1106,18 @@
       "ingredients": {
         "For dough": [
           "1 7/8 cup of flour",
-          "1 1/2 cup of water",
+          "1 1/2 cup water",
           "6oz of unsalted butter",
           "3/4 tsp kosher salt",
           "1 tablespoon dijon mustard",
           "3/4 cup of grated parmesan cheese",
           "4 eggs",
-          "2 tbl spoon parsley leaves"
+          "2 tablespoon parsley leaves"
         ],
         "For stir frying the gnocci": [
           "butter",
           "olive oil",
-          "2 table spoons chives",
+          "2 tablespoon chives",
           "6 pureed garlic cloves"
         ]
       },
@@ -1200,7 +1217,7 @@
   "Pasta Dishes": {
     "Truffle Sauce for Pasta": {
       "ingredients": [
-        "4 tbl spoons of truffle butter (Put two blocks of butter with a truffle in a zip-lock bag. Let it rest for 2 days in the fridge or https://a.co/d/8Xkq81l.)",
+        "4 tablespoons of truffle butter (Put two blocks of butter with a truffle in a zip-lock bag. Let it rest for 2 days in the fridge or https://a.co/d/8Xkq81l.)",
         "1 truffle shredded (size of a brussel sprouts)",
         "1/4 cup of milk",
         "1/3 cup of shredded cheese (used Beecher's. you can use parmesan too)"
@@ -1217,7 +1234,7 @@
     "Fettuccine Alfredo (Olive garden)": {
       "ingredients": [
         "Parmesan Grated (3/4 cup)",
-        "Milk (1/2 cup - 8 tbl spoons)",
+        "Milk (1/2 cup - 8 tablespoons)",
         "1/2 cup butter",
         "Philadelphia cheese (8oz)",
         "Salt",
@@ -1237,7 +1254,7 @@
         "ground pepper to taste",
         "1 package of trader joes salmon (4oz) chopped",
         "1/2 chopped onion",
-        "1 tbl spoon of butter",
+        "1 tablespoon of butter",
         "1 tsp of oil"
       ],
       "steps": [
@@ -1256,8 +1273,8 @@
         "2 cups Dried Porcini Mushrooms",
         "2 cups heavy cream",
         "1 1/4 cup parmesan cheese",
-        "2 table spoon butter",
-        "3 table spoons flour."
+        "2 tablespoon butter",
+        "3 tablespoon flour."
       ],
       "steps": [
         "Put dried porcini on hot water (1 cup) and let it rest for 1hr. Then boil the water until it reduces the water significantly.",
@@ -1272,13 +1289,13 @@
     },
     "Fettuccine al Tartufo": {
       "ingredients": [
-        "2 tbl spoons of White Truffle Olive Oil",
+        "2 tablespoons of White Truffle Olive Oil",
         "2 tea spoons of truffle oil salt",
         "2 cups heavy cream",
         "1 1/4 cup parmesan cheese",
         "Milk to taste",
-        "2 table spoon butter",
-        "3 table spoons flour."
+        "2 tablespoon butter",
+        "3 tablespoon flour."
       ],
       "steps": [
         "On a saucepan add ground pepper and butter, let it boil for a little bit.",
@@ -1444,7 +1461,7 @@
       ],
       "steps": [
         "Prepare the bacalao like the other recipes until the boiling phase.",
-        "Add 3 table spoons olive oil wait it to get warm ~275F-300F",
+        "Add 3 tablespoon olive oil wait it to get warm ~275F-300F",
         "Add onions for 3min or so",
         "Season with ground pepper",
         "Add the garlic",
@@ -1481,7 +1498,7 @@
         "Boil water then add potatoes",
         "Turn off the heat and drain water when potatoes are al dente",
         "Prepare the bacalao like the other recipes until the boiling phase.",
-        "Add 3 table spoons olive oil wait it to get warm ~275F-300F",
+        "Add 3 tablespoon olive oil wait it to get warm ~275F-300F",
         "Add onions for 3min or so",
         "Add peppers",
         "Season with ground pepper",
@@ -1519,7 +1536,7 @@
       "steps": {
         "Main": [
           "Prepare the bacalao like the other recipes until the boiling phase.",
-          "Add 3 table spoons olive oil wait it to get warm ~275F-300F",
+          "Add 3 tablespoon olive oil wait it to get warm ~275F-300F",
           "Add onions for 3min or so",
           "Season with ground pepper",
           "Add garlic",
@@ -1591,7 +1608,7 @@
         "1/4 tsp of salt",
         "1 tsp of baking soda (Try baking powder)",
         "1 tsp of xanthan gum (Bob Mills)",
-        "1/3 cup of water (*try more water)",
+        "1/3 cup water (*try more water)",
         "1 tsp of cinnamon (*try more)"
       ],
       "steps": [
@@ -1689,10 +1706,10 @@
         "2 tomatoes",
         "4 garlic cloves",
         "150ml of coconut milk (CHAOJKOH)",
-        "2 table spoon of chopped cilantro",
+        "2 tablespoon of chopped cilantro",
         "tomato sauce",
-        "2-3 tbl spoon red palm oil (NUTIVA)",
-        "2-3 tbl spoon olive oil",
+        "2-3 tablespoon red palm oil (NUTIVA)",
+        "2-3 tablespoon olive oil",
         "salt",
         "black pepper"
       ],
@@ -1710,8 +1727,8 @@
     "Chinese Style Fish": {
       "ingredients": {
         "Marinate": [
-          "2 table spoon soy sauce",
-          "2 table spoon chinese wine",
+          "2 tablespoon soy sauce",
+          "2 tablespoon chinese wine",
           "1 long strip of ginger, cut into pieces",
           "2 green onion cut into pieces"
         ],
@@ -1719,9 +1736,9 @@
           "2 tomatoes",
           "2 pinches of salt",
           "1 pinch of sugar",
-          "1/2 table spoon of apple vinegar",
-          "4 table spoon soy sauce",
-          "2 table spoons chinese wine",
+          "1/2 tablespoon of apple vinegar",
+          "4 tablespoon soy sauce",
+          "2 tablespoon chinese wine",
           "4 garlic cloves",
           "2 strips of ginger",
           "1 cup of boiling water"
@@ -1783,7 +1800,7 @@
         "Shrimp": [
           "3lb of shrimp",
           "1 lime",
-          "3 table spoons of olive"
+          "3 tablespoon of olive"
         ],
         "Sauce": [
           "200ml of flour",
@@ -1913,11 +1930,11 @@
       "ingredients": [
         "2 eggs",
         "2 cups of all purpose flour",
-        "2 cups of milk (or nido - 1/2 cup powder + 2 cups of water)",
+        "2 cups of milk (or nido - 1/2 cup powder + 2 cups water)",
         "1/2 cup of vegetable oil",
-        "1 tbl spoon sugar",
+        "1 tablespoon sugar",
         "4 tsp baking powder",
-        "1/4 tbl spoon salt",
+        "1/4 tablespoon salt",
         "[Optional] Mozzarella cheese and turkey (chopped)"
       ],
       "steps": [
@@ -1972,10 +1989,10 @@
     "Caponata (Sergio)": {
       "ingredients": [
         "1 eggplant",
-        "1lb of tomatoes (3-4 tomatoes)",
+        "1lb tomatoes (3-4 tomatoes)",
         "1 onion",
         "5 garlic cloves",
-        "3 table spoons of chopped olives.",
+        "3 tablespoon of chopped olives.",
         "2 teaspoon of sherry vinegar.",
         "1 red bell pepper"
       ],
@@ -1995,7 +2012,7 @@
         "Red bell peppers chopped in thin strips",
         "1 teaspoon oregano",
         "2 bay leafs",
-        "1 liter of water",
+        "1 liter water",
         "500ml of white vinegar",
         "500ml of olive oil"
       ],
@@ -2004,7 +2021,7 @@
         "(T-1) Add salt (Didn't see them adding everything)",
         "(T-1) Add a strainer and some weight on the top",
         "(T-1) Leave in the fridge overnight",
-        "(T) Wash the eggplant/peppers in 1:2 between vinegar and water (500ml of vinegar / 1000ml of water)",
+        "(T) Wash the eggplant/peppers in 1:2 between vinegar and water (500ml of vinegar / 1000ml water)",
         "(T) Start layering ingredients (garlic then eggplant and pepper mixture)",
         "(T) Add olive oil til the top",
         "(T) Let it sit for 2 weeks"
@@ -2191,7 +2208,7 @@
           "4 cheese slices"
         ],
         "Aioli": [
-          "4 table spoons Mayonnaise",
+          "4 tablespoon Mayonnaise",
           "1/4 of onion seared (add some salt and sugar)",
           "1 tablespoon of worcestershire sauce"
         ]
@@ -2253,7 +2270,7 @@
         "1/2 onion",
         "2-3 cloves of garlic",
         "garlic salt and onion salt or",
-        "1 table spoon of finaly chopped bacon",
+        "1 tablespoon of finaly chopped bacon",
         "salt",
         "pepper",
         "olive oil",
@@ -2274,7 +2291,7 @@
         "1/2 onion chopped",
         "2 pinches of salt",
         "1 pinch of sugar",
-        "2 table spoons of Worcestershire Sauce",
+        "2 tablespoon of Worcestershire Sauce",
         "1/2 cup mayo"
       ],
       "steps": [
@@ -2328,25 +2345,40 @@
         "Note: You can replace the ground beef for pesto (I\u2019ve used the costco one) for a Pesto Lasagna."
       ]
     },
-    "Beef Empanadas": {
+    "Beef Empanadas (Jocooks)": {
       "ingredients": [
-        "Ground Beef Ingredients",
-        "1/2 tsp oregano dry",
-        "1 tsp smoked paprika",
-        "1 tsp chili powder",
-        "1/2 tsp kosher salt",
-        "1 tsp brown sugar",
-        "2 tbl hot sauce (I\u2019ve used Cholula)",
-        "beef stock",
-        "1 egg for egg wash"
+        "2 tablespoon olive oil",
+        "1 pound ground beef (extra lean)",
+        "1 large onion (chopped)",
+        "3 cloves garlic (minced)",
+        "1/2 teaspoon oregano (dry)",
+        "1 teaspoon cumin (ground)",
+        "1 teaspoon smoked paprika",
+        "1 teaspoon chili powder",
+        "1/2 teaspoon salt (or to taste)",
+        "1/2 teaspoon black pepper (or to taste)",
+        "1/2 cup beef broth",
+        "1 tablespoon brown sugar (packed)",
+        "2 tablespoon hot sauce (I used Sriracha)",
+        "4 sheets puff pastry ((2 packages, 2 sheets per package))",
+        "1 egg (for egg wash)"
       ],
       "steps": [
-        "Make ground beef, or using the ground beef left over",
-        "Mix all spices (oregano, smoked paprika, chili powder, salt, brown sugar, hot sauce) using beef stock as needed to allow stirring.",
-        "Working with one puff pastry sheet at a time, roll it out so that it\u2019s long enough to cut 6 circles, 2 on each row. Using a 4 inch cookie cutter or bowl, cut 6 circles, 2 per row. Fill each with a about a tablespoon of meat mixture in the middle of each pastry round. Brush half of the pastry round edge with egg wash, then fold the dough over into a half-moon shape so the edges meet and then press them together with your fingers to seal. Use a fork to crimp the edge. Place it onto a baking sheet and repeat with remaining ingredients.",
-        "Poke holes in each empanada using a fork then brush the empanadas with the egg wash and bake (on 375-400F) for about 20 to 25 minutes, or until golden brown."
+        "Heat \textbf{olive oil} in a skillet over medium heat. Add \textbf{onion} and \textbf{garlic} and sauté for 2-3 minutes until translucent.",
+        "Add \textbf{ground beef} and cook until no longer pink, breaking it up with a wooden spoon.",
+        "Season with \textbf{salt}, \textbf{pepper}, \textbf{cumin}, \textbf{smoked paprika}, and \textbf{chili powder}. Stir to combine.",
+        "Add \textbf{tomato sauce} and cook for 5 more minutes. Remove from heat.",
+        "Stir in \textbf{fresh parsley} and \textbf{cheddar cheese}. Let the filling cool.",
+        "Preheat oven to 375°F (190°C).",
+        "Roll out the \textbf{empanada dough} and cut into circles (4-6 inches in diameter).",
+        "Add about 1-2 tbsp of filling in the center of each circle. Fold over and press edges with a fork to seal.",
+        "Place empanadas on a baking sheet lined with parchment paper. Brush with \textbf{egg wash}.",
+        "Bake for 20-25 minutes or until golden brown. Let cool slightly before serving."
       ],
-      "notes": []
+      "notes": [
+        "Optional: Serve with chimichurri or your favorite dipping sauce.",
+        "Original recipe from https://www.jocooks.com/recipes/beef-empanadas/"
+      ]
     },
     "Sheperds Pie": {
       "ingredients": {
@@ -2364,9 +2396,9 @@
         ],
         "Mashed Potatoes": [
           "6 large potatoes",
-          "1 tbl spoon butter",
-          "2 tbl spoon powdered milk (I\u2019ve used nido)",
-          "2 tbl spoon Parmesan cheese"
+          "1 tablespoon butter",
+          "2 tablespoon powdered milk (I\u2019ve used nido)",
+          "2 tablespoon Parmesan cheese"
         ]
       },
       "steps": {
@@ -2389,8 +2421,8 @@
   "Sauces": {
     "Teriyaki Sauce": {
       "ingredients": [
-        "1 cup of water",
-        "4 table spoon of brown sugar",
+        "1 cup water",
+        "4 tablespoon of brown sugar",
         "1/4 cup soy sauce",
         "1 tablespoon honey",
         "1 large clove of garlic, finely minced",
@@ -2410,7 +2442,7 @@
         "1 tomato paste can"
       ],
       "steps": [
-        "Chop onion, tomatoes and garlic. On a sauce pan add one table spoon of oil, mix veggies and let it saut\u00e9 for a while (until smells).",
+        "Chop onion, tomatoes and garlic. On a sauce pan add one tablespoon of oil, mix veggies and let it saut\u00e9 for a while (until smells).",
         "Remove from sauce pan, put on blender and mix all ingredients.",
         "Put the blended mix back into the sauce pan. Reduce the fire, mix in tomato paste and let it simmer for 30'."
       ],
@@ -2455,8 +2487,8 @@
     },
     "Roux": {
       "ingredients": [
-        "2 tbl spoon clarified butter (Melted butter where the fat is separated from the milk)",
-        "2 tbl spoon of white flour"
+        "2 tablespoon clarified butter (Melted butter where the fat is separated from the milk)",
+        "2 tablespoon of white flour"
       ],
       "steps": [
         "Melt clarified butter (if not already melted)",
@@ -2472,7 +2504,7 @@
         "Espagnole: Dark roux + beef stock."
       ],
       "steps": [
-        "Notes: Mix ingredients (1:8 part ratio). For example: 2 table spoons of roux and 1 cup of liquid (1 cup = 16 tbl spoons), let it simmer for 10' and strain at the end."
+        "Notes: Mix ingredients (1:8 part ratio). For example: 2 tablespoon of roux and 1 cup of liquid (1 cup = 16 tablespoons), let it simmer for 10' and strain at the end."
       ],
       "notes": []
     },
@@ -2556,7 +2588,7 @@
         "2 garlic cloves",
         "1 knoor block",
         "tomato sauce (1 1/2 cup)",
-        "1/2 cup of water",
+        "1/2 cup water",
         "1 cup of mozzarella cheese"
       ],
       "steps": [
@@ -2581,7 +2613,7 @@
         "fresh ground pepper",
         "1/4 cup red wine",
         "1 cup beef stock",
-        "2 table spoons Worcestershire Sauce"
+        "2 tablespoon Worcestershire Sauce"
       ],
       "steps": [
         "Season beef with salt and pepper and use flour to coat.",
@@ -2610,9 +2642,9 @@
           "1 smoked sausage, sliced (cooked)",
           "1 large onion, chopped",
           "2 tomatoes, chopped",
-          "1 tbl spoon tomato paste",
+          "1 tablespoon tomato paste",
           "4 garlic cloves, minced",
-          "1 table spoon of tomato paste"
+          "1 tablespoon of tomato paste"
         ],
         "Bake": [
           "Breadcrumbs"
@@ -2651,7 +2683,7 @@
         "1 tablespoon of olive oil",
         "4 cloves garlic, minced",
         "2 bay leaves",
-        "1 table spoon of balsamic vinegar",
+        "1 tablespoon of balsamic vinegar",
         "2 cup chicken stock",
         "salt and pepper to taste",
         "(Optional) Corn starch or flour for thickening."
@@ -2672,14 +2704,14 @@
     "Croque Madame": {
       "ingredients": {
         "Bechamel": [
-          "1 tbl spoon flour",
-          "1 tbl spoon butter",
+          "1 tablespoon flour",
+          "1 tablespoon butter",
           "1 pinch nutmeg",
           "2/3 cup of milk"
         ],
         "Sandwich": [
           "4 loafs of bread",
-          "2 tbl spoon butter",
+          "2 tablespoon butter",
           "Ham",
           "2 eggs",
           "4 slices of gruyere cheese"
@@ -2795,7 +2827,7 @@
       "ingredients": [
         "1 tsp vanilla bean paste",
         "6 egg yolks",
-        "6 tbl spoon of sugar",
+        "6 tablespoon of sugar",
         "2 1/2 cup of heavy cream"
       ],
       "steps": [
@@ -3045,7 +3077,7 @@
       "ingredients": [
         "1/3 cup of lemon juice",
         "1/2 cup of olive oil",
-        "1 tbl spoon of miso paste",
+        "1 tablespoon of miso paste",
         "pinch of salt",
         "2 garlic cloves finely minced"
       ],
@@ -3059,7 +3091,7 @@
         "1 teaspoon of lemon zest",
         "2 lemon wedges (the juice)",
         "2 garlic cloves",
-        "1 tbl spoon white vinegar",
+        "1 tablespoon white vinegar",
         "1/4 cup mayo"
       ],
       "steps": [
@@ -3156,7 +3188,7 @@
     "Blue Apron Sweet potatoes": {
       "ingredients": [
         "1 lb sweet potatoes",
-        "1 tbl spoon white vinegar",
+        "1 tablespoon white vinegar",
         "1 shallot minced",
         "1 bunch of chives thiny sliced",
         "Salt",
@@ -3219,7 +3251,7 @@
         "(T-1) Put in a container (tupperware) and leave it overnight.",
         "(T) In a large and hot skillet melt a tablespoon of butter",
         "(T) Sear on all sides of the filet",
-        "(T) Remove the filet from the skillet, and in the same skillet add the misture (wine and onion) with 2 table spoons of cornstarch (Be careful with the cornstarch so that is fully dissolved)",
+        "(T) Remove the filet from the skillet, and in the same skillet add the misture (wine and onion) with 2 tablespoon of cornstarch (Be careful with the cornstarch so that is fully dissolved)",
         "(T) Let it cook for 5min",
         "(T) Add the filet into the skillet and close it with a lid, put the fire on low and let it cook for 10min.",
         "(T) Turn off the heat, cut the filet in pieces and use the juice from the meat and put back in the skillet.",
@@ -3252,9 +3284,9 @@
       "ingredients": [
         "1 cup de tomato sauce",
         "1/2 cup de bbq sauce",
-        "2 table spoons of liquid smoke",
-        "seasoning (e.g. 1 tbl spoon of knoor)",
-        "1lb of pinto beans"
+        "2 tablespoon of liquid smoke",
+        "seasoning (e.g. 1 tablespoon of knoor)",
+        "1 lb pinto beans"
       ],
       "steps": [
         "Add all ingredients into a pressure cooker and cook for 20'"
@@ -3281,12 +3313,12 @@
   "Soups": {
     "Tomato Soup": {
       "ingredients": [
-        "2 lb of tomatoes",
+        "2 lb tomatoes",
         "7 garlic cloves",
         "1 onion",
         "Chicken stock",
         "olive oil",
-        "3 table spoons Parmesan cheese"
+        "3 tablespoon Parmesan cheese"
       ],
       "steps": [
         "Cut tomatoes in half.",
@@ -3301,16 +3333,16 @@
       ],
       "notes": [
         "(Optional) Add 1 tsp of cornstarch and 1 cup of milk for a richer soup.",
-        "(Optional) Add 2-4 tbl spoon of Parmesan cheese."
+        "(Optional) Add 2-4 tablespoon of Parmesan cheese."
       ]
     },
     "French Onion Soup": {
       "ingredients": [
-        "2 tbl spoons unsalted butter",
+        "2 tablespoons unsalted butter",
         "3 large onions (2 pounds), halved lengthwise and thinly sliced crosswise",
         "sea salt",
         "fresh ground pepper",
-        "2 tablespoons dry sherry",
+        "2 tablespoons dry sherry vinegar",
         "1 quart rich beef stock",
         "1 bouquet garni, made with 1 bay leaf, 1 thyme sprig, 2 juniper berries and 2 flat-leaf parsley sprigs, tied in cheesecloth",
         "2 cups shredded Gruy\u00e8re cheese (about 6 ounces)"
@@ -3324,12 +3356,12 @@
     },
     "Carrot Soup (Healthy)": {
       "ingredients": [
-        "1.5 lb of carrots (Chopped)",
+        "1.5 lb carrots (Chopped)",
         "1 Onion",
         "Olive oil",
         "2 cups of vegetable stock (no salt)",
-        "2 cups of water",
-        "1 table spoon of minced ginger",
+        "2 cups water",
+        "1 tablespoon of minced ginger",
         "3 strips of orange"
       ],
       "steps": [
@@ -3344,11 +3376,11 @@
     },
     "Tomato Soup (Healthy)": {
       "ingredients": [
-        "3 lb of tomatoes",
+        "3 lb tomatoes",
         "1 Onion",
         "Olive oil",
         "2 cups of vegetable stock (no salt)",
-        "2 cups of water"
+        "2 cups water"
       ],
       "steps": [
         "Put oven on 375 and add tomatoes and onion into a tray.",
@@ -3361,12 +3393,12 @@
     },
     "Asparagus Soup (Healthy)": {
       "ingredients": [
-        "2 lb of asparagus",
+        "2 lb asparagus",
         "1 Onion",
         "Olive oil",
         "2 cups of vegetable stock (no salt)",
-        "2 cups of water",
-        "1 table spoon of yogurt"
+        "2 cups water",
+        "1 tablespoon yogurt"
       ],
       "steps": [
         "Put oven on 375F and add onion into a tray.",
