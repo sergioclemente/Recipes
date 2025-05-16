@@ -1926,6 +1926,25 @@
     }
   },
   "Breakfast": {
+    "French Crepe": {
+      "ingredients": [
+        "1 3/4 cup White Wheat Flour",
+        "3 Eggs",
+        "1/4 teaspoon Salt",
+        "1 tablespoon Vanilla Extract optional",
+        "1 teaspoon White Sugar optional",
+        "2 cups Milk",
+        "2 tablespoons Unsalted Butter melted or vegetable oil of your choice"
+      ],
+      "steps": [
+        "In a large bowl, add the \\textbf{flour}, \\textbf{eggs}, \\textbf{salt}, \\textbf{vanilla extract}, \\textbf{melted butter}, and \\textbf{sugar} if used[cite: 1123].",
+        "Using a whisk or electric mixer, beat in the \\textbf{milk} gradually until a smooth batter forms with no lumps[cite: 1124].",
+        "Heat a lightly buttered crepe pan over medium/high heat.",
+        "Pour or scoop the batter onto the pan, then tip and rotate the pan to spread the batter as thinly as possible[cite: 1126].",
+        "Cook until lightly brown on both sides about 1-2 minutes on each side and serve hot with your favorite fillings[cite: 1127]."
+      ],
+      "notes": ["Original recipe from https://www.sweetashoney.co/french-crepes-recipe-easy/"]
+    },    
     "Waffle": {
       "ingredients": [
         "2 eggs",
@@ -2004,6 +2023,24 @@
       ],
       "notes": []
     },
+    "Deviled Eggs": {
+      "ingredients": [
+        "6 eggs boiled",
+        "2 table spoons of japanese mayo",
+        "1 tsp of dijon mustard",
+        "1 pinch of salt",
+        "Bacon cut into small bits",
+        "Paprika"
+      ],
+      "steps": [
+        "Fry the \\textbf{bacon} until golden brown, reserve.",
+        "Slice \\textbf{eggs} in half lengthwise.",
+        "Remove yolks and transfer to a medium-sized bowl.",
+        "Add \\textbf{mayo}, \\textbf{mustard} and \\textbf{salt}. Use a fork to mash well.",
+        "Spoon filling into each \\textbf{egg} white. Sprinkle with \\textbf{paprika} and \\textbf{bacon} and serve."
+      ],
+      "notes": []
+    },
     "Eggplant in preserved olive oil": {
       "ingredients": [
         "2 eggplant chopped in thin strips",
@@ -2078,8 +2115,8 @@
     "Pickled Onions": {
       "ingredients": [
         "30 small onions",
-        "1 cups distilled white vinegar",
-        "1 cups water",
+        "2 1/2 cups distilled white vinegar",
+        "3 1/2 cups water",
         "2 tablespoon sugar",
         "2 teaspoon salt",
         "1 teaspoon mustard seed",
@@ -2192,6 +2229,26 @@
         "Just when it begins to boil, add the rice, the snails, salt and saffron and remove the rosemary. At this moment the fire needs to be at its maximum.",
         "When the rice is cooking for about 10 minutes, decrease the heat gradually for at least another ten minutes.",
         "Once the paella is done and all the liquid has evaporated, let it stand for a couple of minutes to let it form the socarrat or socarradet (light crust of rice on the bottom of the pan) and then it\u2019s ready."
+      ],
+      "notes": []
+    },
+    "Tortilhas Espanholas": {
+      "ingredients": [
+        "yukon potatoes (gold) half a bag from safeway",
+        "1 box of eggs (12)",
+        "olive oil",
+        "2 onions"
+      ],
+      "steps": [
+        "Cut \\textbf{potatoes} in small chunks.",
+        "In a large skilet add a lot of \\textbf{olive oil} and let it warm to 200F.",
+        "Cook the \\textbf{potatoes} for a while (20min).",
+        "Add \\textbf{onions} and cook for 5 more minutes.",
+        "Reserve the \\textbf{oil}.",
+        "Add a little bit of \\textbf{oil}.",
+        "Add \\textbf{potatoes} and season with \\textbf{salt}.",
+        "Add \\textbf{eggs} (After you whisk in a bowl).",
+        "Cook like a omelet, make sure to turn it around."
       ],
       "notes": []
     }
