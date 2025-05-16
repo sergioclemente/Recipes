@@ -523,6 +523,21 @@
         "You can add some sesame oil on the pan, just when it gets done."
       ]
     },
+    "Picanha Tartaruga": {
+        "ingredients": [
+          "1 top sirloin cap",
+          "Brazilian rock salt"
+        ],
+        "steps": [
+          "On the fat side, cut a grid where each line is separated 1 inch apart.",
+          "The cut should go until the meat, but barely touching.",
+          "Season generously with \\textbf{salt}, within the cuts, etc.",
+          "Have the BBQ at 250-300F.",
+          "Cook until its internal temp is 120F.",
+          "To finish sear the \\textbf{top sirloin cap} on the cast iron, both sides."
+        ],
+        "notes": []
+      },
     "Leozin\u2019s Meat Marinade": {
       "ingredients": [
         "2 lb of meat",
@@ -1698,6 +1713,84 @@
       },
       "notes": []
     },
+    "Creamy Garlic Squid Pasta": {
+      "ingredients": [
+        "2 tbsp olive oil",
+        "2lb calamari tubes / squid heads",
+        "2 tbsp butter",
+        "4 garlic cloves crushed",
+        "1/2 tsp chilli flakes",
+        "1/2 cup white wine",
+        "1-2 tsp lemon juice",
+        "1 cup cream",
+        "salt and pepper to taste",
+        "1/2 cup parsley finely chopped",
+        "500 g (1lb) pasta cooked + 1 cup cooking water reserved"
+      ],
+      "steps": [
+        "In a large pan, add a splash of \\textbf{oil} and allow to heat up.",
+        "Season the \\textbf{squid} with \\textbf{salt} and \\textbf{pepper} then cook in batches until golden brown.",
+        "The \\textbf{calamari} will take only a few minutes to cook.",
+        "Take care not to overcook the \\textbf{squid} as they will go tough and rubbery.",
+        "Rather undercook slightly as it will cook a little more while being tossed with the \\textbf{sauce} and \\textbf{pasta}.",
+        "Remove the \\textbf{squid} from the pan and set aside.",
+        "In the same pan, melt the \\textbf{butter} and add the \\textbf{garlic} and \\textbf{chilli flakes}.",
+        "Cook until fragrant then pour in the \\textbf{lemon juice} and \\textbf{wine}.",
+        "Bring to a simmer and allow to reduce by half.",
+        "Pour in the \\textbf{cream} and allow to come to a simmer.",
+        "Allow to cook for 5 minutes or until the \\textbf{sauce} coats the back of a spoon.",
+        "Add the \\textbf{squid} (and any of its resting juices) and \\textbf{parsley} and stir to combine.",
+        "Toss the \\textbf{sauce} with cooked \\textbf{pasta} and a splash of the \\textbf{pasta cooking water} and toss to coat the \\textbf{pasta}.",
+        "Serve sprinkled with \\textbf{parsley}."
+      ],
+      "notes": []
+    },
+    "Chilled calamari with lemon and parsley": {
+      "ingredients": [
+        "2 lemons, juiced",
+        "1 cloves garlic, peeled and minced",
+        "1 sprig fresh parsley, chopped",
+        "salt and pepper to taste",
+        "3 pounds squid, cleaned and sliced into rounds",
+        "4 stalks celery, chopped",
+        "1/4 cup red onion (minced)"
+      ],
+      "steps": [
+        "Rinse \\textbf{squid} and slice tubes into 1/2 inch rings.",
+        "Leave the tentacles whole and set aside.",
+        "Prepare a bowl of \\textbf{water} with \\textbf{ice}.",
+        "In a medium bowl combine \\textbf{onion}, \\textbf{garlic}, \\textbf{celery}, \\textbf{parsley}, \\textbf{olive oil} \\textbf{lemon juice}, \\textbf{vinegar}, \\textbf{salt} and \\textbf{fresh pepper}.",
+        "Bring a medium pot filled with \\textbf{water} and a pinch of \\textbf{salt} to a boil.",
+        "Add \\textbf{calamari} all at once and cook until tender yet cooked, (I test it by tasting a ring) about 45-60 seconds.",
+        "Quickly drain when cooked and add to the \\textbf{ice} bath until cool, 45 minutes.",
+        "Combine \\textbf{squid} with the salad and toss well.",
+        "Taste for \\textbf{salt} and add additional seasoning and \\textbf{lemon juice} if needed.",
+        "Cover and refrigerate at least an hour or overnight for best results."
+      ],
+      "notes": []
+    },
+    "Fish and Chips": {
+      "ingredients": [
+        "5 tablespoons all-purpose flour, divided",
+        "7 tablespoons cornstarch",
+        "1 teaspoon baking powder",
+        "Fine salt, to taste",
+        "Freshly ground black pepper, to taste",
+        "1/3 cup cold dark beer",
+        "1/3 cup cold sparkling water"
+      ],
+      "steps": [
+        "In a large, roomy bowl, mix the \\textbf{all-purpose flour} with the \\textbf{cornstarch} and \\textbf{baking powder}.",
+        "Season lightly with a tiny pinch of \\textbf{fine salt} and \\textbf{freshly ground black pepper}.",
+        "Using a fork to whisk continuously, add the \\textbf{cold dark beer} and \\textbf{cold sparkling water} to the \\textbf{flour mixture} and continue mixing until you have a thick, smooth batter.",
+        "Place the batter in the fridge to rest for 30 minutes to 1 hour.",
+        "Meanwhile, lay 4 (7-ounce) thick, white \\textbf{fish fillets} on a paper towel and pat dry.",
+        "Place some additional \\textbf{flour} and season with \\textbf{salt} in a plate.",
+        "Toss each \\textbf{fish fillet} in the \\textbf{flour mixture} and shake off any excess.",
+        "Dip into the batter, coating the entire fillet."
+      ],
+      "notes": []
+    },
     "Moqueca": {
       "ingredients": [
         "1 onion",
@@ -2004,6 +2097,31 @@
         "PS3: Another variation is using balsamic vinegar."
       ]
     },
+    "Crispy Baked Chicken Wings": {
+        "ingredients": [
+          "4 pounds chicken wings, halved at joints, wingtips discarded",
+          "2 Tablespoons baking powder*, aluminum free",
+          "3/4 teaspoon salt",
+          "1/2 teaspoon cracker black pepper",
+          "1 teaspoon paprika",
+          "1 teaspoon garlic powder"
+        ],
+        "steps": [
+          "Adjust your oven rack to the upper-middle position. Preheat oven to 425 degrees F.",
+          "Line a baking sheet with aluminum foil and place a wire rack (I use a cooling rack) on top.",
+          "Spray the rack with non-stick spray.",
+          "Use paper towels to pat the \\textbf{wings} dry and place them in a large bowl.",
+          "It's important to dry them REALLY well! ",
+          "Combine the \\textbf{salt}, \\textbf{pepper}, \\textbf{garlic powder}, \\textbf{paprika}, and \\textbf{baking powder} in a small bowl.",
+          "Then sprinkle the seasoning over the \\textbf{wings}, tossing to evenly coat.",
+          "Arrange \\textbf{wings}, skin side up, in single layer on prepared wire rack.",
+          "Bake on the upper middle oven rack, turning every 20 minutes until \\textbf{wings} are crispy and browned.",
+          "The total cook time will depend on the size of the \\textbf{wings} but may take up to 1 hour.",
+          "Remove from oven and let stand for 5 minutes.",
+          "Transfer \\textbf{wings} to bowl and toss with \\textbf{sauce}."
+        ],
+        "notes": []
+      },
     "Caponata (Sergio)": {
       "ingredients": [
         "1 eggplant",
